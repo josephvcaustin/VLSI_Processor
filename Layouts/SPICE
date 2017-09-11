@@ -1,0 +1,31 @@
+VSelect Select gnd 5V
+VSubtract Subtract gnd 0V *pwl 0ns 0V 149ns 0V 150ns 5V 
+
+VALU_PC ALU_PC gnd pulse 0 5V 1ns 0ps 0ps 4ns 5ns
+VALU_DS ALU_DS gnd pulse 0 5V 0ns 0ps 0ps 5ns 10ns
+VALU_AS ALU_AS gnd pulse 5 0V 0ns 0ps 0ps 5ns 10ns
+ 
+VREG_PC REG_PC gnd pulse 0 5V 1ns 0ps 0ps 4ns 5ns
+VREG_DS REG_DS gnd pulse 5 0V 0ns 0ps 0ps 5ns 10ns
+VREG_AS REG_AS gnd pulse 0 5V 0ns 0ps 0ps 5ns 10ns
+
+VA2 A2 gnd 0V
+VA1 A1 gnd 0V
+VA0 A0 gnd 0V
+
+VD2 D2 gnd 5V
+VD1 D1 gnd 0V
+VD0 D0 gnd 0V *pwl 0ns 0V 9ns 0V 10ns 5V
+
+VI7 I7 gnd 0V
+VI6 I6 gnd 0V
+VI5 I5 gnd 0V
+VI4 I4 gnd 0V
+VI3 I3 gnd 0V
+VI2 I2 gnd 0V
+VI1 I1 gnd pwl 0ns 0V 9ns 0V 10ns 5V
+VI0 I0 gnd pwl 0ns 5V 9ns 5V 10ns 0V
+
+.print DC V(Select) V(Subtract) V(ALU_PC) V(ALU_DS) V(ALU_AS) V(REG_PC) V(REG_DS) V(REG_AS) V(A2) V(A1) V(A0) V(D2) V(D1) V(D0) V(I7) V(I6) V(I5) V(I4) V(I3) V(I2) V(I1) V(I0) V(Ad7) V(Ad6) V(Ad5) V(Ad4) V(Ad3) V(Ad2) V(Ad1) V(Ad0) V(O7) V(O6) V(O5) V(O4) V(O3) V(O2) V(O1) V(O0) V(S7) V(S6) V(S5) V(S4) V(S3) V(S2) V(S1) V(S0) V(En0) V(En1) V(En2) V(En3) V(En4) V(En5) V(En6) V(En7) 
+.print tran V(Select) V(Subtract) V(ALU_PC) V(ALU_DS) V(ALU_AS) V(REG_PC) V(REG_DS) V(REG_AS) V(A2) V(A1) V(A0) V(D2) V(D1) V(D0) V(I7) V(I6) V(I5) V(I4) V(I3) V(I2) V(I1) V(I0) V(Ad7) V(Ad6) V(Ad5) V(Ad4) V(Ad3) V(Ad2) V(Ad1) V(Ad0) V(O7) V(O6) V(O5) V(O4) V(O3) V(O2) V(O1) V(O0) V(S7) V(S6) V(S5) V(S4) V(S3) V(S2) V(S1) V(S0) V(En0) V(En1) V(En2) V(En3) V(En4) V(En5) V(En6) V(En7) 
+.probe V(Select) V(Subtract) V(ALU_PC) V(ALU_DS) V(ALU_AS) V(REG_PC) V(REG_DS) V(REG_AS) V(A2) V(A1) V(A0) V(D2) V(D1) V(D0) V(I7) V(I6) V(I5) V(I4) V(I3) V(I2) V(I1) V(I0) V(Ad7) V(Ad6) V(Ad5) V(Ad4) V(Ad3) V(Ad2) V(Ad1) V(Ad0) V(O7) V(O6) V(O5) V(O4) V(O3) V(O2) V(O1) V(O0) V(S7) V(S6) V(S5) V(S4) V(S3) V(S2) V(S1) V(S0) V(En0) V(En1) V(En2) V(En3) V(En4) V(En5) V(En6) V(En7) 

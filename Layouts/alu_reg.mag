@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1480882330
+use reg_bit1  reg_bit1_0
+timestamp 1480882247
+transform 1 0 3 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_1
+timestamp 1480882247
+transform 1 0 50 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_2
+timestamp 1480882247
+transform 1 0 97 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_3
+timestamp 1480882247
+transform 1 0 144 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_4
+timestamp 1480882247
+transform 1 0 191 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_5
+timestamp 1480882247
+transform 1 0 239 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_6
+timestamp 1480882247
+transform 1 0 287 0 1 210
+box -7 -247 46 128
+use reg_bit1  reg_bit1_7
+timestamp 1480882247
+transform 1 0 335 0 1 210
+box -7 -247 46 128
+<< end >>

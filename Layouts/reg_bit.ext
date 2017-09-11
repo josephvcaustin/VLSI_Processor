@@ -1,0 +1,115 @@
+timestamp 1481263689
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use precharge precharge_0 1 0 19 0 1 514
+use sram sram_7 1 0 6 0 1 481
+use sram sram_6 1 0 6 0 -1 387
+use sram sram_5 1 0 6 0 1 359
+use sram sram_3 1 0 6 0 -1 265
+use sram sram_2 1 0 6 0 1 237
+use sram sram_1 1 0 6 0 -1 143
+use sram sram_0 1 0 6 0 1 115
+use sram sram_4 1 0 6 0 -1 21
+use write_driver write_driver_0 1 0 2 0 1 -16
+use isolation isolation_0 1 0 20 0 1 -159
+use diffamp diffamp_0 1 0 -79 0 1 -210
+node "Ds" 0 344.1 -4 -67 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22
+node "A_" 0 435.6 36 -166 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0
+node "A" 0 435.6 0 -166 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0
+node "Bl_" 0 349.92 34 -110 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bl" 0 349.92 2 -110 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Gnd" 0 615.6 -4 -247 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "Vdd" 0 514.8 -4 -156 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "iso_sel" 2 6665.64 7 -235 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 64 48 804 280
+equiv "iso_sel" "As"
+node "Vdd" 0 615.6 -4 -99 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "Gnd" 1 3783.6 -5 -56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 110 0 0 0 0
+node "w_36_n166#" 1447 93.24 36 -166 nw 0 0 0 0 28 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_0_n166#" 1447 93.24 0 -166 nw 0 0 0 0 28 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n4_n156#" 1447 93.24 -4 -156 nw 0 0 0 0 28 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "A" "w_0_n166#" 57.96
+cap "A_" "w_36_n166#" 57.96
+cap "w_n4_n156#" "Vdd" 100.8
+cap "As" "Vdd" 222.12
+cap "Vdd" "A" 59.4
+cap "Vdd" "A_" 59.4
+cap "diffamp_0/a_92_n2#" "As" 39.24
+cap "As" "A" 193.86
+cap "As" "A_" 179.28
+cap "Gnd" "Ds" 87.48
+cap "Gnd" "write_driver_0/a_0_n21#" 9.72
+cap "Vdd" "iso_sel" 6.75
+cap "Ds" "write_driver_0/a_7_n15#" -7.92
+cap "Gnd" "Bl" 42.84
+cap "Vdd" "isolation_0/Bl" 51.66
+cap "Gnd" "write_driver_0/a_7_n15#" 12.24
+cap "Gnd" "write_driver_0/Dd" 9.72
+cap "iso_sel" "isolation_0/Bl" 137.16
+cap "iso_sel" "Bl" 106.56
+cap "Bl_" "Gnd" 2.84217e-14
+cap "isolation_0/Bl_" "Vdd" 51.66
+cap "sram_4/Bl_" "sram_4/Vdd" -5.68434e-14
+cap "sram_4/Vdd" "sram_4/Bl" 5.68434e-14
+cap "sram_1/Vdd" "sram_1/Bl_" 1.42109e-14
+cap "sram_1/Vdd" "sram_1/Bl" 1.42109e-14
+cap "sram_0/Gnd" "sram_1/Bl_" 1.42109e-14
+cap "sram_0/Gnd" "sram_1/Bl" 1.42109e-14
+cap "sram_3/Bl_" "sram_3/Vdd" 1.77636e-14
+cap "sram_3/Bl" "sram_3/Vdd" 1.77636e-14
+cap "sram_2/Gnd" "sram_3/Bl_" 1.42109e-14
+cap "sram_2/Gnd" "sram_3/Bl" 1.42109e-14
+cap "sram_5/Gnd" "sram_3/Bl_" 1.42109e-14
+cap "sram_5/Gnd" "sram_3/Bl" 1.42109e-14
+cap "sram_7/Gnd" "sram_6/Bl_" 1.42109e-14
+cap "sram_7/Gnd" "sram_6/Bl" 1.42109e-14
+cap "precharge_0/Bl_" "precharge_0/w_n25_n17#" 16.56
+cap "precharge_0/w_n25_n17#" "precharge_0/Bl" 16.56
+merge "isolation_0/As" "iso_sel" -488.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "write_driver_0/Ds" "Ds" -344.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -22
+merge "diffamp_0/a_90_n17#" "isolation_0/Bl_" -972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -40 0 0
+merge "isolation_0/Bl_" "A_"
+merge "write_driver_0/Gnd" "diffamp_0/Gnd" -3286.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -150 -114 0 0 0 0
+merge "diffamp_0/Gnd" "Gnd"
+merge "sram_2/Vdd" "sram_3/Vdd" -2580.12 0 0 0 0 -204 -161 0 0 0 0 0 0 0 0 0 0 96 -96 0 0 0 0
+merge "sram_6/Gnd" "sram_7/Gnd" -2246.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "isolation_0/B" "Bl" -222.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0
+merge "Bl" "write_driver_0/a_12_n30#"
+merge "write_driver_0/a_12_n30#" "sram_4/Bl"
+merge "sram_4/Bl" "sram_0/Bl"
+merge "sram_0/Bl" "sram_1/Bl"
+merge "sram_1/Bl" "sram_2/Bl"
+merge "sram_2/Bl" "sram_3/Bl"
+merge "sram_3/Bl" "sram_5/Bl"
+merge "sram_5/Bl" "sram_6/Bl"
+merge "sram_6/Bl" "sram_7/Bl"
+merge "sram_7/Bl" "precharge_0/Bl"
+merge "isolation_0/B_" "Bl_" -222.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0
+merge "Bl_" "write_driver_0/Bl_"
+merge "write_driver_0/Bl_" "sram_4/Bl_"
+merge "sram_4/Bl_" "sram_0/Bl_"
+merge "sram_0/Bl_" "sram_1/Bl_"
+merge "sram_1/Bl_" "sram_2/Bl_"
+merge "sram_2/Bl_" "sram_3/Bl_"
+merge "sram_3/Bl_" "sram_5/Bl_"
+merge "sram_5/Bl_" "sram_6/Bl_"
+merge "sram_6/Bl_" "sram_7/Bl_"
+merge "sram_7/Bl_" "precharge_0/Bl_"
+merge "diffamp_0/Ad" "diffamp_0/A" -972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -40 0 0
+merge "diffamp_0/A" "isolation_0/Bl"
+merge "isolation_0/Bl" "A"
+merge "sram_0/Vdd" "sram_1/Vdd" -2925.72 0 0 0 0 -204 -110 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "sram_7/Vdd" "precharge_0/w_n25_n17#" 4.54747e-13 0 0 0 0 0 -100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_3/Gnd" "sram_5/Gnd" -2246.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "diffamp_0/As" "As" -792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "write_driver_0/Vdd" "diffamp_0/Vdd" -2592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "diffamp_0/Vdd" "w_n4_n156#"
+merge "w_n4_n156#" "w_0_n166#"
+merge "w_0_n166#" "w_36_n166#"
+merge "w_36_n166#" "Vdd"
+merge "Vdd" "sram_4/Vdd"
+merge "sram_4/Gnd" "sram_0/Gnd" -2246.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "sram_5/Vdd" "sram_6/Vdd" -2925.72 0 0 0 0 -204 -110 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0
+merge "sram_1/Gnd" "sram_2/Gnd" -2246.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0

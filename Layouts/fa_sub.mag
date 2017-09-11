@@ -1,0 +1,63 @@
+magic
+tech scmos
+timestamp 1480717475
+<< metal1 >>
+rect -2 262 129 269
+rect 68 223 76 227
+rect -1 149 129 167
+<< m2contact >>
+rect 33 255 37 259
+rect 49 255 53 259
+rect 121 227 125 231
+rect 64 223 68 227
+rect 65 207 69 211
+rect 99 210 103 214
+rect 17 112 21 116
+rect 98 105 102 109
+<< metal2 >>
+rect 17 116 21 273
+rect 33 259 37 273
+rect 49 259 53 273
+rect 41 231 68 235
+rect 41 224 45 231
+rect 64 227 68 231
+rect 103 210 106 214
+rect 102 105 106 210
+rect 117 56 121 102
+<< m3contact >>
+rect 121 223 125 227
+rect 65 203 69 207
+<< metal3 >>
+rect -1 227 128 228
+rect -1 223 121 227
+rect 125 223 128 227
+rect -1 222 128 223
+rect -1 207 128 208
+rect -1 203 65 207
+rect 69 203 128 207
+rect -1 202 128 203
+use mux21  mux21_0
+timestamp 1480717170
+transform 1 0 41 0 -1 200
+box -12 -69 32 41
+use xor2  xor2_0
+timestamp 1480475974
+transform 1 0 56 0 -1 264
+box 13 -5 73 105
+use fa  fa_0
+timestamp 1480714837
+transform 1 0 21 0 1 53
+box -21 7 108 104
+<< labels >>
+rlabel metal3 126 225 126 225 0 Subtract
+rlabel space 2 67 2 67 0 Co
+rlabel metal1 64 158 64 158 0 VDD
+rlabel space 64 64 64 64 0 GND
+rlabel metal2 35 271 35 271 1 B_im
+rlabel metal2 19 271 19 271 1 A
+rlabel space 127 107 127 107 3 Cin
+rlabel space 2 107 2 107 7 Cout
+rlabel metal2 119 58 119 58 5 S
+rlabel metal2 51 271 51 271 1 B_reg
+rlabel metal3 126 205 126 205 3 Im_sel
+<< end >>

@@ -1,0 +1,203 @@
+timestamp 1480799581
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use decoder decoder_0 1 0 49 0 1 35
+use decoder decoder_1 1 0 420 0 1 34
+use andor andor_7 0 1 -3 -1 0 -42
+use andor andor_0 0 -1 187 -1 0 -42
+use andor andor_1 0 1 177 -1 0 -42
+use andor andor_2 0 -1 367 -1 0 -42
+use andor andor_3 0 1 357 -1 0 -42
+use andor andor_4 0 -1 547 -1 0 -42
+use andor andor_5 0 1 537 -1 0 -42
+use andor andor_6 0 -1 727 -1 0 -42
+node "m2_352_3#" 9 8941.23 352 3 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1584 800 0 0
+node "m2_314_n4#" 8 9860.4 314 -4 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1444 730 0 0
+node "m2_276_n11#" 7 13133.9 276 -11 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1168 592 0 0
+node "m2_238_n18#" 6 11553.8 238 -18 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1036 526 0 0
+node "m2_200_n25#" 4 8345.88 200 -25 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 752 384 0 0
+node "m2_162_n32#" 3 6670.08 162 -32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 612 314 0 0
+node "Clk" 9 26445.4 27 -43 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 128 4308 1448
+node "m2_124_31#" 2 3849.3 124 31 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332 174 0 0
+node "m2_54_n44#" 3 4478.76 54 -44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 456 236 0 0
+node "m1_674_n42#" 3 8042.76 674 -42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 476 246 44 30 0 0
+node "m1_586_n41#" 4 10993.7 586 -41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 672 344 40 28 0 0
+node "m1_494_n45#" 5 14591.2 494 -45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 904 460 44 30 0 0
+node "m1_406_n42#" 6 17467.6 406 -42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1092 554 44 30 0 0
+node "m1_314_n42#" 8 20868.1 314 -42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1308 662 52 34 0 0
+node "m1_226_n39#" 9 23600.9 226 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1496 756 40 28 0 0
+node "m1_134_n39#" 10 27049.3 134 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1712 864 52 34 0 0
+node "Clk_" 13 35616.7 39 -44 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 520 324 256 192 4458 1478
+node "m1_46_n42#" 9 31718.9 46 -42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2308 978 40 28 0 0
+node "m1_653_32#" 0 432 653 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_358_35#" 1 4510.8 358 35 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330 142 0 0 0 0
+node "m1_358_92#" 1 4629.6 358 92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 350 144 0 0 0 0
+cap "m1_494_n45#" "m2_314_n4#" 3483.36
+cap "m1_226_n39#" "m2_162_n32#" 303.36
+cap "m2_276_n11#" "m1_226_n39#" 303.36
+cap "m1_46_n42#" "m2_238_n18#" 347.4
+cap "m2_238_n18#" "Clk_" 385.44
+cap "m2_276_n11#" "m1_46_n42#" 347.4
+cap "m1_46_n42#" "m2_162_n32#" 347.4
+cap "m2_276_n11#" "Clk_" 385.44
+cap "m2_162_n32#" "Clk_" 2849.28
+cap "Clk" "m2_200_n25#" 342
+cap "m1_406_n42#" "Clk_" 272.88
+cap "m1_406_n42#" "m2_352_3#" 6758.76
+cap "m1_314_n42#" "Clk_" 272.88
+cap "m1_314_n42#" "m2_352_3#" 7937.7
+cap "m2_238_n18#" "Clk" 342
+cap "m1_494_n45#" "Clk_" 272.88
+cap "m1_494_n45#" "m2_352_3#" 303.36
+cap "m1_46_n42#" "m2_54_n44#" 1247.88
+cap "m1_226_n39#" "m2_314_n4#" 303.36
+cap "m2_54_n44#" "Clk_" 385.44
+cap "m2_276_n11#" "Clk" 342
+cap "Clk" "m2_162_n32#" 342
+cap "m2_314_n4#" "m1_586_n41#" 303.36
+cap "m1_46_n42#" "m2_314_n4#" 347.4
+cap "m2_314_n4#" "Clk_" 385.44
+cap "m1_406_n42#" "Clk" 213.12
+cap "m1_314_n42#" "Clk" 213.12
+cap "m1_494_n45#" "Clk" 272.88
+cap "m2_54_n44#" "Clk" 323.04
+cap "m1_226_n39#" "Clk_" 153.36
+cap "m1_226_n39#" "m2_352_3#" 303.36
+cap "m2_314_n4#" "Clk" 342
+cap "Clk_" "m1_586_n41#" 272.88
+cap "m2_352_3#" "m1_586_n41#" 303.36
+cap "m1_46_n42#" "Clk_" 272.88
+cap "m1_46_n42#" "m2_352_3#" 347.4
+cap "m2_352_3#" "Clk_" 385.44
+cap "m1_134_n39#" "m2_200_n25#" 303.36
+cap "m1_226_n39#" "Clk" 123.48
+cap "Clk" "m1_586_n41#" 183.24
+cap "m1_46_n42#" "Clk" 213.12
+cap "m1_134_n39#" "m2_238_n18#" 303.36
+cap "Clk" "m2_352_3#" 342
+cap "Clk" "Clk_" 1706.04
+cap "m1_134_n39#" "m2_162_n32#" 303.36
+cap "m2_276_n11#" "m1_134_n39#" 303.36
+cap "m1_46_n42#" "m2_124_31#" 417.12
+cap "Clk_" "m2_124_31#" 385.44
+cap "Clk" "m2_124_31#" 342
+cap "m1_134_n39#" "m2_314_n4#" 303.36
+cap "m1_406_n42#" "m2_238_n18#" 303.36
+cap "m2_238_n18#" "m1_314_n42#" 303.36
+cap "m1_674_n42#" "Clk_" 272.88
+cap "m2_276_n11#" "m1_406_n42#" 303.36
+cap "m2_276_n11#" "m1_314_n42#" 303.36
+cap "m1_134_n39#" "Clk_" 272.88
+cap "m1_134_n39#" "m2_352_3#" 303.36
+cap "m1_226_n39#" "m2_200_n25#" 303.36
+cap "m1_674_n42#" "Clk" 213.12
+cap "m1_46_n42#" "m2_200_n25#" 347.4
+cap "m1_406_n42#" "m2_314_n4#" 6857.04
+cap "m2_200_n25#" "Clk_" 1248
+cap "m2_314_n4#" "m1_314_n42#" 425.76
+cap "m1_226_n39#" "m2_238_n18#" 303.36
+cap "m1_134_n39#" "Clk" 123.48
+cap "andor_7/A" "Clk" 12.96
+cap "andor_7/VDD" "Clk" 45.36
+cap "andor_7/A" "Clk_" 7.10543e-15
+cap "Clk" "Clk_" -1.42109e-14
+cap "andor_0/Clk_" "andor_0/A" 7.10543e-15
+cap "andor_0/Clk" "andor_0/A" 32.4
+cap "andor_0/Clk" "andor_0/Clk_" -1.42109e-14
+cap "andor_0/Clk" "andor_0/GND" 58.32
+cap "andor_0/Clk" "andor_0/D" 12.24
+cap "andor_7/m1_0_94#" "andor_0/Clk" 12.96
+cap "andor_1/Clk" "andor_1/D" 12.24
+cap "andor_1/VDD" "andor_1/Clk" 58.32
+cap "andor_1/A" "andor_1/Clk" 32.4
+cap "andor_1/Clk_" "andor_1/Clk" -1.42109e-14
+cap "andor_2/Clk_" "andor_2/A" 7.10543e-15
+cap "andor_2/Clk" "andor_2/A" 12.96
+cap "andor_2/Clk" "andor_2/Clk_" -1.42109e-14
+cap "andor_2/Clk" "andor_2/GND" 58.32
+cap "andor_2/Clk" "andor_2/D" 12.24
+cap "andor_3/Clk_" "andor_4/A" 3.55271e-15
+cap "andor_3/Clk_" "andor_3/A" 7.10543e-15
+cap "andor_3/Clk" "andor_3/VDD" 58.32
+cap "andor_3/Clk" "andor_3/A" 12.96
+cap "andor_3/Clk" "andor_4/D" 12.24
+cap "andor_3/Clk" "andor_3/D" 12.24
+cap "andor_4/Clk_" "andor_5/A" 7.10543e-15
+cap "andor_4/Clk_" "andor_4/A" 1.77636e-15
+cap "andor_4/Clk" "andor_5/A" 19.44
+cap "andor_4/Clk" "andor_4/Clk_" -1.42109e-14
+cap "andor_4/Clk" "andor_4/GND" 58.32
+cap "andor_4/Clk" "andor_5/D" 9.18
+cap "andor_5/D" "andor_6/Clk" 3.06
+cap "andor_6/A" "andor_6/Clk" 12.96
+cap "andor_6/Clk_" "andor_6/Clk" 32.4
+cap "andor_5/VDD" "andor_6/Clk" 58.32
+cap "andor_6/Clk_" "andor_6/A" 7.10543e-15
+cap "andor_6/D" "andor_6/Clk" 12.24
+cap "andor_6/nand_0/a_n19_n60#" "andor_6/Clk" 29.16
+cap "decoder_1/inv_0/Vdd" "decoder_0/3nor_7/C" 5.94
+merge "decoder_1/d4" "andor_2/A" -21112.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1268 -646 -100 -66 0 0
+merge "andor_2/A" "m1_314_n42#"
+merge "decoder_1/3nor_0/GND" "decoder_0/3nor_6/GND" -597.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -24 0 0 0 0
+merge "decoder_0/3nor_6/GND" "m1_358_35#"
+merge "andor_4/VDD" "andor_3/VDD" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "decoder_1/d5" "andor_1/A" -23845 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1456 -740 -88 -60 0 0
+merge "andor_1/A" "m1_226_n39#"
+merge "decoder_1/d6" "andor_0/A" -20486.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1264 -644 -56 -40 0 0
+merge "andor_0/A" "m1_134_n39#"
+merge "decoder_1/d0" "andor_6/A" -8191.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -436 -230 -84 -58 0 0
+merge "andor_6/A" "m1_674_n42#"
+merge "decoder_0/d4" "andor_2/D" -1488.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -66 0 0
+merge "andor_2/D" "m2_200_n25#"
+merge "decoder_1/d7" "andor_7/A" -26868.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1991 -829 -12 -14 0 0
+merge "andor_7/A" "m1_46_n42#"
+merge "andor_6/Clk_" "andor_5/Clk_" -17525.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -98 -192 -8 -72 842 -931
+merge "andor_5/Clk_" "andor_4/Clk_"
+merge "andor_4/Clk_" "andor_3/Clk_"
+merge "andor_3/Clk_" "andor_2/Clk_"
+merge "andor_2/Clk_" "andor_1/Clk_"
+merge "andor_1/Clk_" "andor_0/Clk_"
+merge "andor_0/Clk_" "andor_7/Clk_"
+merge "andor_7/Clk_" "Clk_"
+merge "andor_6/Clk" "andor_5/Clk" -2025.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 0 0
+merge "andor_5/Clk" "andor_4/Clk"
+merge "andor_4/Clk" "andor_3/Clk"
+merge "andor_3/Clk" "andor_2/Clk"
+merge "andor_2/Clk" "andor_1/Clk"
+merge "andor_1/Clk" "andor_0/Clk"
+merge "andor_0/Clk" "andor_7/Clk"
+merge "andor_7/Clk" "Clk"
+merge "decoder_1/VDD" "decoder_1/inv_0/Vdd" -3927.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -260 -126 0 0 0 0
+merge "decoder_1/inv_0/Vdd" "decoder_0/3nor_7/VDD"
+merge "decoder_0/3nor_7/VDD" "m1_358_92#"
+merge "decoder_0/d0" "andor_6/D" -14835.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1252 -642 0 0
+merge "andor_6/D" "m2_352_3#"
+merge "andor_0/VDD" "andor_7/VDD" 1566 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 435 0 0 0 0 0
+merge "andor_7/VDD" "andor_7/m1_0_94#"
+merge "decoder_0/d1" "andor_5/D" -10984.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -932 -482 0 0
+merge "andor_5/D" "m2_314_n4#"
+merge "andor_3/GND" "andor_2/GND" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "decoder_0/d2" "andor_4/D" -10359.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -694 -454 0 0
+merge "andor_4/D" "m2_276_n11#"
+merge "decoder_0/d3" "andor_3/D" -7001.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -564 -298 0 0
+merge "andor_3/D" "m2_238_n18#"
+merge "decoder_0/d5" "andor_1/D" -1527.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -57 -72 0 0
+merge "andor_1/D" "m2_162_n32#"
+merge "decoder_1/d1" "andor_5/A" -9217.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -176 -328 76 -58 0 0
+merge "andor_5/A" "m1_586_n41#"
+merge "decoder_0/d6" "andor_0/D" -651.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "andor_0/D" "m2_124_31#"
+merge "andor_1/GND" "andor_0/GND" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "decoder_0/d7" "andor_7/D" -5246.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296 -252 0 0
+merge "andor_7/D" "m2_54_n44#"
+merge "andor_2/VDD" "andor_1/VDD" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "andor_5/GND" "andor_4/GND" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "decoder_1/d2" "andor_4/A" -14787.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -864 -444 -88 -60 0 0
+merge "andor_4/A" "m1_494_n45#"
+merge "decoder_1/3nor_4/GND" "m1_653_32#" -309.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "andor_6/VDD" "andor_5/VDD" -4071.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -174 0 0 0 0
+merge "decoder_1/d3" "andor_3/A" -17663.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1052 -538 -88 -60 0 0
+merge "andor_3/A" "m1_406_n42#"

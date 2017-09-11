@@ -1,0 +1,148 @@
+timestamp 1480782994
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use fa_sub fa_sub_0 1 0 3 0 1 0
+use fa_sub fa_sub_1 1 0 128 0 1 0
+use fa_sub fa_sub_2 1 0 253 0 1 0
+use fa_sub fa_sub_3 1 0 378 0 1 0
+use fa_sub fa_sub_4 1 0 503 0 1 0
+use fa_sub fa_sub_5 1 0 628 0 1 0
+use fa_sub fa_sub_6 1 0 753 0 1 0
+use fa_sub fa_sub_7 1 0 878 0 1 0
+node "Select" 0 344.1 1001 202 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22
+node "Subtract" 0 308.4 1002 222 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "S0" 0 349.92 995 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S1" 0 349.92 870 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S2" 0 349.92 745 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S3" 0 349.92 620 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S4" 0 349.92 495 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S5" 0 349.92 370 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S6" 0 349.92 245 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S7" 0 349.92 120 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Co" 0 349.92 7 101 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg0" 0 349.92 927 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A0" 0 349.92 895 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg1" 0 349.92 802 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim1" 0 349.92 786 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A1" 0 349.92 770 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg2" 0 349.92 677 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim2" 0 349.92 661 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A2" 0 349.92 645 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg3" 0 349.92 552 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim3" 0 349.92 536 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A3" 0 349.92 520 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg4" 0 349.92 427 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim4" 0 349.92 411 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A4" 0 349.92 395 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg5" 0 349.92 302 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim5" 0 349.92 286 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A5" 0 349.92 270 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg6" 0 349.92 177 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim6" 0 349.92 161 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A6" 0 349.92 145 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Breg7" 0 349.92 52 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Bim7" 0 349.92 36 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "A7" 0 349.92 20 269 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "Ci" 0 432 1003 105 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VDD" 0 687.6 2 157 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0
+node "GND" 0 831.6 1 262 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 28 0 0 0 0
+cap "fa_sub_0/Subtract" "fa_sub_1/mux21_0/OUT" 1.42109e-14
+cap "fa_sub_1/Subtract" "fa_sub_2/mux21_0/S" -1.77636e-15
+cap "fa_sub_1/Subtract" "fa_sub_2/mux21_0/OUT" 1.42109e-14
+cap "fa_sub_2/VDD" "fa_sub_3/A" -2.84217e-14
+cap "fa_sub_3/Subtract" "fa_sub_4/mux21_0/OUT" 1.42109e-14
+cap "fa_sub_4/Subtract" "fa_sub_5/mux21_0/OUT" 1.42109e-14
+cap "fa_sub_5/Subtract" "fa_sub_6/mux21_0/OUT" 1.42109e-14
+cap "fa_sub_5/Subtract" "fa_sub_6/mux21_0/S" -1.77636e-15
+cap "fa_sub_6/VDD" "fa_sub_7/A" -2.84217e-14
+cap "fa_sub_2/mux21_0/GND" "A4" -1.42109e-14
+cap "fa_sub_6/mux21_0/GND" "A0" -1.42109e-14
+merge "fa_sub_0/fa_0/Co" "Co" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_7/fa_0/Co" "fa_sub_6/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_7/fa_0/GND" "fa_sub_6/fa_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "fa_sub_6/fa_0/GND" "fa_sub_5/fa_0/GND"
+merge "fa_sub_5/fa_0/GND" "fa_sub_4/fa_0/GND"
+merge "fa_sub_4/fa_0/GND" "fa_sub_3/fa_0/GND"
+merge "fa_sub_3/fa_0/GND" "fa_sub_2/fa_0/GND"
+merge "fa_sub_2/fa_0/GND" "fa_sub_1/fa_0/GND"
+merge "fa_sub_1/fa_0/GND" "fa_sub_0/fa_0/GND"
+merge "fa_sub_7/Subtract" "fa_sub_6/Subtract" -300.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -20
+merge "fa_sub_6/Subtract" "fa_sub_5/Subtract"
+merge "fa_sub_5/Subtract" "fa_sub_4/Subtract"
+merge "fa_sub_4/Subtract" "fa_sub_3/Subtract"
+merge "fa_sub_3/Subtract" "fa_sub_2/Subtract"
+merge "fa_sub_2/Subtract" "fa_sub_1/Subtract"
+merge "fa_sub_1/Subtract" "fa_sub_0/Subtract"
+merge "fa_sub_0/Subtract" "Subtract"
+merge "fa_sub_2/A" "A5" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_0/B_im" "Bim7" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_4/m1_n2_262#" "fa_sub_3/mux21_0/GND" -1423.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -59 0 0 0 0
+merge "fa_sub_3/mux21_0/GND" "fa_sub_2/mux21_0/GND"
+merge "fa_sub_2/mux21_0/GND" "fa_sub_1/xor2_0/GND"
+merge "fa_sub_5/mux21_0/VDD" "fa_sub_5/fa_0/VDD" -1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -46 0 0 0 0
+merge "fa_sub_5/fa_0/VDD" "fa_sub_4/VDD"
+merge "fa_sub_2/mux21_0/VDD" "fa_sub_2/fa_0/VDD" -1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -46 0 0 0 0
+merge "fa_sub_2/fa_0/VDD" "fa_sub_1/VDD"
+merge "fa_sub_4/S" "S3" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_6/fa_0/Co" "fa_sub_5/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_6/B_im" "Bim1" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_6/A" "A1" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_5/B_im" "Bim2" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_6/mux21_0/VDD" "fa_sub_6/fa_0/VDD" -1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -46 0 0 0 0
+merge "fa_sub_6/fa_0/VDD" "fa_sub_5/VDD"
+merge "fa_sub_4/B_im" "Bim3" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_7/Im_sel" "fa_sub_6/Im_sel" -426.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -28
+merge "fa_sub_6/Im_sel" "fa_sub_5/Im_sel"
+merge "fa_sub_5/Im_sel" "fa_sub_4/Im_sel"
+merge "fa_sub_4/Im_sel" "fa_sub_3/Im_sel"
+merge "fa_sub_3/Im_sel" "fa_sub_2/Im_sel"
+merge "fa_sub_2/Im_sel" "fa_sub_1/Im_sel"
+merge "fa_sub_1/Im_sel" "fa_sub_0/Im_sel"
+merge "fa_sub_0/Im_sel" "Select"
+merge "fa_sub_3/B_im" "Bim4" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_5/fa_0/Co" "fa_sub_4/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_4/mux21_0/GND" "fa_sub_3/xor2_0/GND" -630 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -26 0 0 0 0
+merge "fa_sub_2/B_im" "Bim5" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_7/fa_0/VDD" "fa_sub_6/VDD" -1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -46 0 0 0 0
+merge "fa_sub_1/B_im" "Bim6" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_1/A" "A6" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_7/B_reg" "Breg0" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_4/fa_0/Co" "fa_sub_3/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_5/mux21_0/GND" "fa_sub_4/xor2_0/GND" -630 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -26 0 0 0 0
+merge "fa_sub_4/B_reg" "Breg3" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_1/mux21_0/VDD" "fa_sub_0/mux21_0/VDD" -2084.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -124 -70 0 0 0 0
+merge "fa_sub_0/mux21_0/VDD" "fa_sub_1/fa_0/VDD"
+merge "fa_sub_1/fa_0/VDD" "fa_sub_0/VDD"
+merge "fa_sub_0/VDD" "VDD"
+merge "fa_sub_3/S" "S4" -333.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "fa_sub_1/B_reg" "Breg6" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_5/A" "A2" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_3/fa_0/VDD" "fa_sub_2/VDD" -1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -46 0 0 0 0
+merge "fa_sub_7/mux21_0/GND" "fa_sub_6/mux21_0/GND" -1260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -52 0 0 0 0
+merge "fa_sub_6/mux21_0/GND" "fa_sub_5/xor2_0/GND"
+merge "fa_sub_3/fa_0/Co" "fa_sub_2/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_7/S" "S0" -333.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "fa_sub_2/fa_0/Co" "fa_sub_1/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_1/mux21_0/GND" "fa_sub_0/xor2_0/GND" -630 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -26 0 0 0 0
+merge "fa_sub_6/B_reg" "Breg1" -341.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0
+merge "fa_sub_0/A" "A7" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_5/B_reg" "Breg2" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_2/S" "S5" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_1/fa_0/Co" "fa_sub_0/fa_0/Ci" -432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "fa_sub_3/B_reg" "Breg4" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_4/A" "A3" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_2/B_reg" "Breg5" -341.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0
+merge "fa_sub_6/S" "S1" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_4/mux21_0/VDD" "fa_sub_4/fa_0/VDD" -1378.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -84 -46 0 0 0 0
+merge "fa_sub_4/fa_0/VDD" "fa_sub_3/VDD"
+merge "fa_sub_0/mux21_0/GND" "GND" -680.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7 -28 0 0 0 0
+merge "fa_sub_0/B_reg" "Breg7" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_7/A" "A0" -333.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "fa_sub_5/S" "S2" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_1/S" "S6" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fa_sub_3/A" "A4" -333.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "fa_sub_7/fa_0/Ci" "Ci" -403.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0 0 0
+merge "fa_sub_0/S" "S7" -349.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0

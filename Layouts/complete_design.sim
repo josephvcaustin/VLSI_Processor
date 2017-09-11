@@ -1,0 +1,2294 @@
+| units: 30 tech: scmos format: MIT
+p alu_reg_0/reg_bit1_7/A_ O7 vdd 2 8 674 -29
+p O7 vdd alu_reg_0/reg_bit1_7/A_ 2 8 658 -29
+n alu_reg_0/reg_bit1_7/A_ O7 alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2# 2 4 674 16
+n O7 alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_7/A_ 2 4 658 16
+n ALU_As gnd alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2# 2 4 667 36
+p ALU_As alu_reg_0/reg_bit1_7/Bl O7 2 32 674 -54
+p ALU_As alu_reg_0/reg_bit1_7/A_ alu_reg_0/reg_bit1_7/Bl_ 2 32 658 -54
+p alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_7/write_driver_0/a_7_n4# 2 16 678 -176
+p alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_7/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_7/Bl 2 16 673 -176
+p alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_7/Bl_ alu_reg_0/reg_bit1_7/write_driver_0/a_28_n4# 2 16 657 -176
+p S7 alu_reg_0/reg_bit1_7/write_driver_0/a_28_n4# vdd 2 16 652 -176
+n alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_7/write_driver_0/a_7_n30# 2 8 678 -150
+n ALU_Ds alu_reg_0/reg_bit1_7/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_7/Bl 2 8 673 -150
+n ALU_Ds alu_reg_0/reg_bit1_7/Bl_ alu_reg_0/reg_bit1_7/write_driver_0/a_28_n30# 2 8 657 -150
+n S7 alu_reg_0/reg_bit1_7/write_driver_0/a_28_n30# gnd 2 8 652 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# 2 4 668 -133
+n S7 alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# gnd 2 4 652 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# 2 8 668 -107
+p S7 alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# vdd 2 8 652 -107
+p alu_reg_0/reg_bit1_7/sram_4/a_5_n27# alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# vdd 2 4 674 -216
+p alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_7/sram_4/a_5_n27# 2 4 658 -216
+n alu_reg_0/reg_bit1_7/sram_4/a_5_n27# alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# gnd 2 8 674 -241
+n alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_7/sram_4/a_5_n27# 2 8 658 -241
+n vdd alu_reg_0/reg_bit1_7/Bl alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# 2 6 681 -248
+n vdd alu_reg_0/reg_bit1_7/Bl_ alu_reg_0/reg_bit1_7/sram_4/a_5_n27# 2 6 655 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_7/Bl 2 32 674 -274
+p ALU_Pc alu_reg_0/reg_bit1_7/Bl alu_reg_0/reg_bit1_7/Bl_ 2 32 666 -274
+p ALU_Pc alu_reg_0/reg_bit1_7/Bl_ vdd 2 32 658 -274
+p alu_reg_0/reg_bit1_6/A_ O6 vdd 2 8 722 -29
+p O6 vdd alu_reg_0/reg_bit1_6/A_ 2 8 706 -29
+n alu_reg_0/reg_bit1_6/A_ O6 alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2# 2 4 722 16
+n O6 alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_6/A_ 2 4 706 16
+n ALU_As gnd alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2# 2 4 715 36
+p ALU_As alu_reg_0/reg_bit1_6/Bl O6 2 32 722 -54
+p ALU_As alu_reg_0/reg_bit1_6/A_ alu_reg_0/reg_bit1_6/Bl_ 2 32 706 -54
+p alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_6/write_driver_0/a_7_n4# 2 16 726 -176
+p alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_6/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_6/Bl 2 16 721 -176
+p alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_6/Bl_ alu_reg_0/reg_bit1_6/write_driver_0/a_28_n4# 2 16 705 -176
+p S6 alu_reg_0/reg_bit1_6/write_driver_0/a_28_n4# vdd 2 16 700 -176
+n alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_6/write_driver_0/a_7_n30# 2 8 726 -150
+n ALU_Ds alu_reg_0/reg_bit1_6/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_6/Bl 2 8 721 -150
+n ALU_Ds alu_reg_0/reg_bit1_6/Bl_ alu_reg_0/reg_bit1_6/write_driver_0/a_28_n30# 2 8 705 -150
+n S6 alu_reg_0/reg_bit1_6/write_driver_0/a_28_n30# gnd 2 8 700 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# 2 4 716 -133
+n S6 alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# gnd 2 4 700 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# 2 8 716 -107
+p S6 alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# vdd 2 8 700 -107
+p alu_reg_0/reg_bit1_6/sram_4/a_5_n27# alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# vdd 2 4 722 -216
+p alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_6/sram_4/a_5_n27# 2 4 706 -216
+n alu_reg_0/reg_bit1_6/sram_4/a_5_n27# alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# gnd 2 8 722 -241
+n alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_6/sram_4/a_5_n27# 2 8 706 -241
+n vdd alu_reg_0/reg_bit1_6/Bl alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# 2 6 729 -248
+n vdd alu_reg_0/reg_bit1_6/Bl_ alu_reg_0/reg_bit1_6/sram_4/a_5_n27# 2 6 703 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_6/Bl 2 32 722 -274
+p ALU_Pc alu_reg_0/reg_bit1_6/Bl alu_reg_0/reg_bit1_6/Bl_ 2 32 714 -274
+p ALU_Pc alu_reg_0/reg_bit1_6/Bl_ vdd 2 32 706 -274
+p alu_reg_0/reg_bit1_5/A_ O5 vdd 2 8 770 -29
+p O5 vdd alu_reg_0/reg_bit1_5/A_ 2 8 754 -29
+n alu_reg_0/reg_bit1_5/A_ O5 alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2# 2 4 770 16
+n O5 alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_5/A_ 2 4 754 16
+n ALU_As gnd alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2# 2 4 763 36
+p ALU_As alu_reg_0/reg_bit1_5/Bl O5 2 32 770 -54
+p ALU_As alu_reg_0/reg_bit1_5/A_ alu_reg_0/reg_bit1_5/Bl_ 2 32 754 -54
+p alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_5/write_driver_0/a_7_n4# 2 16 774 -176
+p alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_5/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_5/Bl 2 16 769 -176
+p alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_5/Bl_ alu_reg_0/reg_bit1_5/write_driver_0/a_28_n4# 2 16 753 -176
+p S5 alu_reg_0/reg_bit1_5/write_driver_0/a_28_n4# vdd 2 16 748 -176
+n alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_5/write_driver_0/a_7_n30# 2 8 774 -150
+n ALU_Ds alu_reg_0/reg_bit1_5/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_5/Bl 2 8 769 -150
+n ALU_Ds alu_reg_0/reg_bit1_5/Bl_ alu_reg_0/reg_bit1_5/write_driver_0/a_28_n30# 2 8 753 -150
+n S5 alu_reg_0/reg_bit1_5/write_driver_0/a_28_n30# gnd 2 8 748 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# 2 4 764 -133
+n S5 alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# gnd 2 4 748 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# 2 8 764 -107
+p S5 alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# vdd 2 8 748 -107
+p alu_reg_0/reg_bit1_5/sram_4/a_5_n27# alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# vdd 2 4 770 -216
+p alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_5/sram_4/a_5_n27# 2 4 754 -216
+n alu_reg_0/reg_bit1_5/sram_4/a_5_n27# alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# gnd 2 8 770 -241
+n alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_5/sram_4/a_5_n27# 2 8 754 -241
+n vdd alu_reg_0/reg_bit1_5/Bl alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# 2 6 777 -248
+n vdd alu_reg_0/reg_bit1_5/Bl_ alu_reg_0/reg_bit1_5/sram_4/a_5_n27# 2 6 751 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_5/Bl 2 32 770 -274
+p ALU_Pc alu_reg_0/reg_bit1_5/Bl alu_reg_0/reg_bit1_5/Bl_ 2 32 762 -274
+p ALU_Pc alu_reg_0/reg_bit1_5/Bl_ vdd 2 32 754 -274
+p alu_reg_0/reg_bit1_4/A_ O4 vdd 2 8 818 -29
+p O4 vdd alu_reg_0/reg_bit1_4/A_ 2 8 802 -29
+n alu_reg_0/reg_bit1_4/A_ O4 alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2# 2 4 818 16
+n O4 alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_4/A_ 2 4 802 16
+n ALU_As gnd alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2# 2 4 811 36
+p ALU_As alu_reg_0/reg_bit1_4/Bl O4 2 32 818 -54
+p ALU_As alu_reg_0/reg_bit1_4/A_ alu_reg_0/reg_bit1_4/Bl_ 2 32 802 -54
+p alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_4/write_driver_0/a_7_n4# 2 16 822 -176
+p alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_4/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_4/Bl 2 16 817 -176
+p alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_4/Bl_ alu_reg_0/reg_bit1_4/write_driver_0/a_28_n4# 2 16 801 -176
+p S4 alu_reg_0/reg_bit1_4/write_driver_0/a_28_n4# vdd 2 16 796 -176
+n alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_4/write_driver_0/a_7_n30# 2 8 822 -150
+n ALU_Ds alu_reg_0/reg_bit1_4/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_4/Bl 2 8 817 -150
+n ALU_Ds alu_reg_0/reg_bit1_4/Bl_ alu_reg_0/reg_bit1_4/write_driver_0/a_28_n30# 2 8 801 -150
+n S4 alu_reg_0/reg_bit1_4/write_driver_0/a_28_n30# gnd 2 8 796 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# 2 4 812 -133
+n S4 alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# gnd 2 4 796 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# 2 8 812 -107
+p S4 alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# vdd 2 8 796 -107
+p alu_reg_0/reg_bit1_4/sram_4/a_5_n27# alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# vdd 2 4 818 -216
+p alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_4/sram_4/a_5_n27# 2 4 802 -216
+n alu_reg_0/reg_bit1_4/sram_4/a_5_n27# alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# gnd 2 8 818 -241
+n alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_4/sram_4/a_5_n27# 2 8 802 -241
+n vdd alu_reg_0/reg_bit1_4/Bl alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# 2 6 825 -248
+n vdd alu_reg_0/reg_bit1_4/Bl_ alu_reg_0/reg_bit1_4/sram_4/a_5_n27# 2 6 799 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_4/Bl 2 32 818 -274
+p ALU_Pc alu_reg_0/reg_bit1_4/Bl alu_reg_0/reg_bit1_4/Bl_ 2 32 810 -274
+p ALU_Pc alu_reg_0/reg_bit1_4/Bl_ vdd 2 32 802 -274
+p alu_reg_0/reg_bit1_3/A_ O3 vdd 2 8 865 -29
+p O3 vdd alu_reg_0/reg_bit1_3/A_ 2 8 849 -29
+n alu_reg_0/reg_bit1_3/A_ O3 alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2# 2 4 865 16
+n O3 alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_3/A_ 2 4 849 16
+n ALU_As gnd alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2# 2 4 858 36
+p ALU_As alu_reg_0/reg_bit1_3/Bl O3 2 32 865 -54
+p ALU_As alu_reg_0/reg_bit1_3/A_ alu_reg_0/reg_bit1_3/Bl_ 2 32 849 -54
+p alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_3/write_driver_0/a_7_n4# 2 16 869 -176
+p alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_3/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_3/Bl 2 16 864 -176
+p alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_3/Bl_ alu_reg_0/reg_bit1_3/write_driver_0/a_28_n4# 2 16 848 -176
+p S3 alu_reg_0/reg_bit1_3/write_driver_0/a_28_n4# vdd 2 16 843 -176
+n alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_3/write_driver_0/a_7_n30# 2 8 869 -150
+n ALU_Ds alu_reg_0/reg_bit1_3/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_3/Bl 2 8 864 -150
+n ALU_Ds alu_reg_0/reg_bit1_3/Bl_ alu_reg_0/reg_bit1_3/write_driver_0/a_28_n30# 2 8 848 -150
+n S3 alu_reg_0/reg_bit1_3/write_driver_0/a_28_n30# gnd 2 8 843 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# 2 4 859 -133
+n S3 alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# gnd 2 4 843 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# 2 8 859 -107
+p S3 alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# vdd 2 8 843 -107
+p alu_reg_0/reg_bit1_3/sram_4/a_5_n27# alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# vdd 2 4 865 -216
+p alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_3/sram_4/a_5_n27# 2 4 849 -216
+n alu_reg_0/reg_bit1_3/sram_4/a_5_n27# alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# gnd 2 8 865 -241
+n alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_3/sram_4/a_5_n27# 2 8 849 -241
+n vdd alu_reg_0/reg_bit1_3/Bl alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# 2 6 872 -248
+n vdd alu_reg_0/reg_bit1_3/Bl_ alu_reg_0/reg_bit1_3/sram_4/a_5_n27# 2 6 846 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_3/Bl 2 32 865 -274
+p ALU_Pc alu_reg_0/reg_bit1_3/Bl alu_reg_0/reg_bit1_3/Bl_ 2 32 857 -274
+p ALU_Pc alu_reg_0/reg_bit1_3/Bl_ vdd 2 32 849 -274
+p alu_reg_0/reg_bit1_2/A_ O2 vdd 2 8 912 -29
+p O2 vdd alu_reg_0/reg_bit1_2/A_ 2 8 896 -29
+n alu_reg_0/reg_bit1_2/A_ O2 alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2# 2 4 912 16
+n O2 alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_2/A_ 2 4 896 16
+n ALU_As gnd alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2# 2 4 905 36
+p ALU_As alu_reg_0/reg_bit1_2/Bl O2 2 32 912 -54
+p ALU_As alu_reg_0/reg_bit1_2/A_ alu_reg_0/reg_bit1_2/Bl_ 2 32 896 -54
+p alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_2/write_driver_0/a_7_n4# 2 16 916 -176
+p alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_2/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_2/Bl 2 16 911 -176
+p alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_2/Bl_ alu_reg_0/reg_bit1_2/write_driver_0/a_28_n4# 2 16 895 -176
+p S2 alu_reg_0/reg_bit1_2/write_driver_0/a_28_n4# vdd 2 16 890 -176
+n alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_2/write_driver_0/a_7_n30# 2 8 916 -150
+n ALU_Ds alu_reg_0/reg_bit1_2/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_2/Bl 2 8 911 -150
+n ALU_Ds alu_reg_0/reg_bit1_2/Bl_ alu_reg_0/reg_bit1_2/write_driver_0/a_28_n30# 2 8 895 -150
+n S2 alu_reg_0/reg_bit1_2/write_driver_0/a_28_n30# gnd 2 8 890 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# 2 4 906 -133
+n S2 alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# gnd 2 4 890 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# 2 8 906 -107
+p S2 alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# vdd 2 8 890 -107
+p alu_reg_0/reg_bit1_2/sram_4/a_5_n27# alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# vdd 2 4 912 -216
+p alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_2/sram_4/a_5_n27# 2 4 896 -216
+n alu_reg_0/reg_bit1_2/sram_4/a_5_n27# alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# gnd 2 8 912 -241
+n alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_2/sram_4/a_5_n27# 2 8 896 -241
+n vdd alu_reg_0/reg_bit1_2/Bl alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# 2 6 919 -248
+n vdd alu_reg_0/reg_bit1_2/Bl_ alu_reg_0/reg_bit1_2/sram_4/a_5_n27# 2 6 893 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_2/Bl 2 32 912 -274
+p ALU_Pc alu_reg_0/reg_bit1_2/Bl alu_reg_0/reg_bit1_2/Bl_ 2 32 904 -274
+p ALU_Pc alu_reg_0/reg_bit1_2/Bl_ vdd 2 32 896 -274
+p alu_reg_0/reg_bit1_1/A_ O1 vdd 2 8 959 -29
+p O1 vdd alu_reg_0/reg_bit1_1/A_ 2 8 943 -29
+n alu_reg_0/reg_bit1_1/A_ O1 alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2# 2 4 959 16
+n O1 alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_1/A_ 2 4 943 16
+n ALU_As gnd alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2# 2 4 952 36
+p ALU_As alu_reg_0/reg_bit1_1/Bl O1 2 32 959 -54
+p ALU_As alu_reg_0/reg_bit1_1/A_ alu_reg_0/reg_bit1_1/Bl_ 2 32 943 -54
+p alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_1/write_driver_0/a_7_n4# 2 16 963 -176
+p alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_1/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_1/Bl 2 16 958 -176
+p alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_1/Bl_ alu_reg_0/reg_bit1_1/write_driver_0/a_28_n4# 2 16 942 -176
+p S1 alu_reg_0/reg_bit1_1/write_driver_0/a_28_n4# vdd 2 16 937 -176
+n alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_1/write_driver_0/a_7_n30# 2 8 963 -150
+n ALU_Ds alu_reg_0/reg_bit1_1/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_1/Bl 2 8 958 -150
+n ALU_Ds alu_reg_0/reg_bit1_1/Bl_ alu_reg_0/reg_bit1_1/write_driver_0/a_28_n30# 2 8 942 -150
+n S1 alu_reg_0/reg_bit1_1/write_driver_0/a_28_n30# gnd 2 8 937 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# 2 4 953 -133
+n S1 alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# gnd 2 4 937 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# 2 8 953 -107
+p S1 alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# vdd 2 8 937 -107
+p alu_reg_0/reg_bit1_1/sram_4/a_5_n27# alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# vdd 2 4 959 -216
+p alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_1/sram_4/a_5_n27# 2 4 943 -216
+n alu_reg_0/reg_bit1_1/sram_4/a_5_n27# alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# gnd 2 8 959 -241
+n alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_1/sram_4/a_5_n27# 2 8 943 -241
+n vdd alu_reg_0/reg_bit1_1/Bl alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# 2 6 966 -248
+n vdd alu_reg_0/reg_bit1_1/Bl_ alu_reg_0/reg_bit1_1/sram_4/a_5_n27# 2 6 940 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_1/Bl 2 32 959 -274
+p ALU_Pc alu_reg_0/reg_bit1_1/Bl alu_reg_0/reg_bit1_1/Bl_ 2 32 951 -274
+p ALU_Pc alu_reg_0/reg_bit1_1/Bl_ vdd 2 32 943 -274
+p alu_reg_0/reg_bit1_0/A_ O0 vdd 2 8 1006 -29
+p O0 vdd alu_reg_0/reg_bit1_0/A_ 2 8 990 -29
+n alu_reg_0/reg_bit1_0/A_ O0 alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2# 2 4 1006 16
+n O0 alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2# alu_reg_0/reg_bit1_0/A_ 2 4 990 16
+n ALU_As gnd alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2# 2 4 999 36
+p ALU_As alu_reg_0/reg_bit1_0/Bl O0 2 32 1006 -54
+p ALU_As alu_reg_0/reg_bit1_0/A_ alu_reg_0/reg_bit1_0/Bl_ 2 32 990 -54
+p alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# vdd alu_reg_0/reg_bit1_0/write_driver_0/a_7_n4# 2 16 1010 -176
+p alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_0/write_driver_0/a_7_n4# alu_reg_0/reg_bit1_0/Bl 2 16 1005 -176
+p alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# alu_reg_0/reg_bit1_0/Bl_ alu_reg_0/reg_bit1_0/write_driver_0/a_28_n4# 2 16 989 -176
+p S0 alu_reg_0/reg_bit1_0/write_driver_0/a_28_n4# vdd 2 16 984 -176
+n alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# gnd alu_reg_0/reg_bit1_0/write_driver_0/a_7_n30# 2 8 1010 -150
+n ALU_Ds alu_reg_0/reg_bit1_0/write_driver_0/a_7_n30# alu_reg_0/reg_bit1_0/Bl 2 8 1005 -150
+n ALU_Ds alu_reg_0/reg_bit1_0/Bl_ alu_reg_0/reg_bit1_0/write_driver_0/a_28_n30# 2 8 989 -150
+n S0 alu_reg_0/reg_bit1_0/write_driver_0/a_28_n30# gnd 2 8 984 -150
+n ALU_Ds gnd alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# 2 4 1000 -133
+n S0 alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# gnd 2 4 984 -133
+p ALU_Ds vdd alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# 2 8 1000 -107
+p S0 alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# vdd 2 8 984 -107
+p alu_reg_0/reg_bit1_0/sram_4/a_5_n27# alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# vdd 2 4 1006 -216
+p alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# vdd alu_reg_0/reg_bit1_0/sram_4/a_5_n27# 2 4 990 -216
+n alu_reg_0/reg_bit1_0/sram_4/a_5_n27# alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# gnd 2 8 1006 -241
+n alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# gnd alu_reg_0/reg_bit1_0/sram_4/a_5_n27# 2 8 990 -241
+n vdd alu_reg_0/reg_bit1_0/Bl alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# 2 6 1013 -248
+n vdd alu_reg_0/reg_bit1_0/Bl_ alu_reg_0/reg_bit1_0/sram_4/a_5_n27# 2 6 987 -248
+p ALU_Pc vdd alu_reg_0/reg_bit1_0/Bl 2 32 1006 -274
+p ALU_Pc alu_reg_0/reg_bit1_0/Bl alu_reg_0/reg_bit1_0/Bl_ 2 32 998 -274
+p ALU_Pc alu_reg_0/reg_bit1_0/Bl_ vdd 2 32 990 -274
+p alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/Ci vdd 2 20 866 176
+p I0 vdd alu_0/fa_sub_7/fa_0/a_n2_72# 2 20 874 176
+p alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_n2_72# alu_0/fa_sub_7/fa_0/a_n14_38# 2 20 879 176
+p Subtract alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_7/fa_0/a_11_72# 2 20 887 176
+p I0 alu_0/fa_sub_7/fa_0/a_11_72# vdd 2 20 895 176
+p alu_0/fa_sub_7/fa_0/B vdd alu_0/fa_sub_7/fa_0/a_11_72# 2 20 903 176
+p I0 vdd alu_0/fa_sub_7/fa_0/a_43_72# 2 20 919 176
+p alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_43_72# vdd 2 20 927 176
+p Subtract vdd alu_0/fa_sub_7/fa_0/a_43_72# 2 20 935 176
+p alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_7/fa_0/a_43_72# alu_0/fa_sub_7/fa_0/a_67_19# 2 20 943 176
+p Subtract alu_0/fa_sub_7/fa_0/a_67_19# alu_0/fa_sub_7/fa_0/a_81_72# 2 20 957 176
+p alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_81_72# alu_0/fa_sub_7/fa_0/a_86_72# 2 20 962 176
+p I0 alu_0/fa_sub_7/fa_0/a_86_72# vdd 2 20 967 176
+p alu_0/fa_sub_7/fa_0/a_67_19# vdd S0 2 20 975 176
+n alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/Ci gnd 2 10 866 123
+n I0 gnd alu_0/fa_sub_7/fa_0/a_n2_19# 2 10 874 123
+n alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_n2_19# alu_0/fa_sub_7/fa_0/a_n14_38# 2 10 879 123
+n Subtract alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_7/fa_0/a_11_19# 2 10 887 123
+n I0 alu_0/fa_sub_7/fa_0/a_11_19# gnd 2 10 895 123
+n alu_0/fa_sub_7/fa_0/B gnd alu_0/fa_sub_7/fa_0/a_11_19# 2 10 903 123
+n I0 gnd alu_0/fa_sub_7/fa_0/a_43_19# 2 10 919 123
+n alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_43_19# gnd 2 10 927 123
+n Subtract gnd alu_0/fa_sub_7/fa_0/a_43_19# 2 10 935 123
+n alu_0/fa_sub_7/fa_0/a_n14_38# alu_0/fa_sub_7/fa_0/a_43_19# alu_0/fa_sub_7/fa_0/a_67_19# 2 10 943 123
+n Subtract alu_0/fa_sub_7/fa_0/a_67_19# alu_0/fa_sub_7/fa_0/a_81_19# 2 10 957 123
+n alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/fa_0/a_81_19# alu_0/fa_sub_7/fa_0/a_86_19# 2 10 962 123
+n I0 alu_0/fa_sub_7/fa_0/a_86_19# gnd 2 10 967 123
+n alu_0/fa_sub_7/fa_0/a_67_19# gnd S0 2 10 975 123
+p alu_0/fa_sub_7/xor2_0/A alu_0/fa_sub_7/xor2_0/a_17_6# vdd 2 40 935 260
+p alu_0/fa_sub_7/xor2_0/a_28_44# vdd alu_0/fa_sub_7/xor2_0/a_33_54# 2 40 944 260
+p alu_0/fa_sub_7/xor2_0/A alu_0/fa_sub_7/xor2_0/a_33_54# alu_0/fa_sub_7/fa_0/B 2 40 949 260
+p alu_0/fa_sub_7/xor2_0/a_17_6# alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/xor2_0/a_50_54# 2 40 961 260
+p Subtract alu_0/fa_sub_7/xor2_0/a_50_54# vdd 2 40 966 260
+p Subtract vdd alu_0/fa_sub_7/xor2_0/a_28_44# 2 40 975 260
+n alu_0/fa_sub_7/xor2_0/A alu_0/fa_sub_7/xor2_0/a_17_6# gnd 2 20 935 308
+n alu_0/fa_sub_7/xor2_0/a_28_44# gnd alu_0/fa_sub_7/xor2_0/a_33_6# 2 20 944 308
+n alu_0/fa_sub_7/xor2_0/a_17_6# alu_0/fa_sub_7/xor2_0/a_33_6# alu_0/fa_sub_7/fa_0/B 2 20 949 308
+n alu_0/fa_sub_7/xor2_0/A alu_0/fa_sub_7/fa_0/B alu_0/fa_sub_7/xor2_0/a_50_6# 2 20 961 308
+n Subtract alu_0/fa_sub_7/xor2_0/a_50_6# gnd 2 20 966 308
+n Subtract gnd alu_0/fa_sub_7/xor2_0/a_28_44# 2 20 975 308
+p Select gnd alu_0/fa_sub_7/xor2_0/A 2 30 895 250
+p alu_0/fa_sub_7/mux21_0/a_n3_n57# alu_0/fa_sub_7/xor2_0/A Ad0 2 30 903 250
+p Select alu_0/fa_sub_7/mux21_0/a_n3_n57# vdd 2 20 919 240
+n alu_0/fa_sub_7/mux21_0/a_n3_n57# gnd alu_0/fa_sub_7/xor2_0/A 2 30 895 305
+n Select alu_0/fa_sub_7/xor2_0/A Ad0 2 30 903 305
+n Select alu_0/fa_sub_7/mux21_0/a_n3_n57# gnd 2 10 919 305
+p alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/Ci vdd 2 20 741 176
+p I1 vdd alu_0/fa_sub_6/fa_0/a_n2_72# 2 20 749 176
+p alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_n2_72# alu_0/fa_sub_6/fa_0/a_n14_38# 2 20 754 176
+p alu_0/fa_sub_6/fa_0/Ci alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/a_11_72# 2 20 762 176
+p I1 alu_0/fa_sub_6/fa_0/a_11_72# vdd 2 20 770 176
+p alu_0/fa_sub_6/fa_0/B vdd alu_0/fa_sub_6/fa_0/a_11_72# 2 20 778 176
+p I1 vdd alu_0/fa_sub_6/fa_0/a_43_72# 2 20 794 176
+p alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_43_72# vdd 2 20 802 176
+p alu_0/fa_sub_6/fa_0/Ci vdd alu_0/fa_sub_6/fa_0/a_43_72# 2 20 810 176
+p alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/a_43_72# alu_0/fa_sub_6/fa_0/a_67_19# 2 20 818 176
+p alu_0/fa_sub_6/fa_0/Ci alu_0/fa_sub_6/fa_0/a_67_19# alu_0/fa_sub_6/fa_0/a_81_72# 2 20 832 176
+p alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_81_72# alu_0/fa_sub_6/fa_0/a_86_72# 2 20 837 176
+p I1 alu_0/fa_sub_6/fa_0/a_86_72# vdd 2 20 842 176
+p alu_0/fa_sub_6/fa_0/a_67_19# vdd S1 2 20 850 176
+n alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/Ci gnd 2 10 741 123
+n I1 gnd alu_0/fa_sub_6/fa_0/a_n2_19# 2 10 749 123
+n alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_n2_19# alu_0/fa_sub_6/fa_0/a_n14_38# 2 10 754 123
+n alu_0/fa_sub_6/fa_0/Ci alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/a_11_19# 2 10 762 123
+n I1 alu_0/fa_sub_6/fa_0/a_11_19# gnd 2 10 770 123
+n alu_0/fa_sub_6/fa_0/B gnd alu_0/fa_sub_6/fa_0/a_11_19# 2 10 778 123
+n I1 gnd alu_0/fa_sub_6/fa_0/a_43_19# 2 10 794 123
+n alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_43_19# gnd 2 10 802 123
+n alu_0/fa_sub_6/fa_0/Ci gnd alu_0/fa_sub_6/fa_0/a_43_19# 2 10 810 123
+n alu_0/fa_sub_6/fa_0/a_n14_38# alu_0/fa_sub_6/fa_0/a_43_19# alu_0/fa_sub_6/fa_0/a_67_19# 2 10 818 123
+n alu_0/fa_sub_6/fa_0/Ci alu_0/fa_sub_6/fa_0/a_67_19# alu_0/fa_sub_6/fa_0/a_81_19# 2 10 832 123
+n alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/fa_0/a_81_19# alu_0/fa_sub_6/fa_0/a_86_19# 2 10 837 123
+n I1 alu_0/fa_sub_6/fa_0/a_86_19# gnd 2 10 842 123
+n alu_0/fa_sub_6/fa_0/a_67_19# gnd S1 2 10 850 123
+p alu_0/fa_sub_6/xor2_0/A alu_0/fa_sub_6/xor2_0/a_17_6# vdd 2 40 810 260
+p alu_0/fa_sub_6/xor2_0/a_28_44# vdd alu_0/fa_sub_6/xor2_0/a_33_54# 2 40 819 260
+p alu_0/fa_sub_6/xor2_0/A alu_0/fa_sub_6/xor2_0/a_33_54# alu_0/fa_sub_6/fa_0/B 2 40 824 260
+p alu_0/fa_sub_6/xor2_0/a_17_6# alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/xor2_0/a_50_54# 2 40 836 260
+p Subtract alu_0/fa_sub_6/xor2_0/a_50_54# vdd 2 40 841 260
+p Subtract vdd alu_0/fa_sub_6/xor2_0/a_28_44# 2 40 850 260
+n alu_0/fa_sub_6/xor2_0/A alu_0/fa_sub_6/xor2_0/a_17_6# gnd 2 20 810 308
+n alu_0/fa_sub_6/xor2_0/a_28_44# gnd alu_0/fa_sub_6/xor2_0/a_33_6# 2 20 819 308
+n alu_0/fa_sub_6/xor2_0/a_17_6# alu_0/fa_sub_6/xor2_0/a_33_6# alu_0/fa_sub_6/fa_0/B 2 20 824 308
+n alu_0/fa_sub_6/xor2_0/A alu_0/fa_sub_6/fa_0/B alu_0/fa_sub_6/xor2_0/a_50_6# 2 20 836 308
+n Subtract alu_0/fa_sub_6/xor2_0/a_50_6# gnd 2 20 841 308
+n Subtract gnd alu_0/fa_sub_6/xor2_0/a_28_44# 2 20 850 308
+p Select gnd alu_0/fa_sub_6/xor2_0/A 2 30 770 250
+p alu_0/fa_sub_6/mux21_0/a_n3_n57# alu_0/fa_sub_6/xor2_0/A Ad1 2 30 778 250
+p Select alu_0/fa_sub_6/mux21_0/a_n3_n57# vdd 2 20 794 240
+n alu_0/fa_sub_6/mux21_0/a_n3_n57# gnd alu_0/fa_sub_6/xor2_0/A 2 30 770 305
+n Select alu_0/fa_sub_6/xor2_0/A Ad1 2 30 778 305
+n Select alu_0/fa_sub_6/mux21_0/a_n3_n57# gnd 2 10 794 305
+p alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/Ci vdd 2 20 616 176
+p I2 vdd alu_0/fa_sub_5/fa_0/a_n2_72# 2 20 624 176
+p alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_n2_72# alu_0/fa_sub_5/fa_0/a_n14_38# 2 20 629 176
+p alu_0/fa_sub_5/fa_0/Ci alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/a_11_72# 2 20 637 176
+p I2 alu_0/fa_sub_5/fa_0/a_11_72# vdd 2 20 645 176
+p alu_0/fa_sub_5/fa_0/B vdd alu_0/fa_sub_5/fa_0/a_11_72# 2 20 653 176
+p I2 vdd alu_0/fa_sub_5/fa_0/a_43_72# 2 20 669 176
+p alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_43_72# vdd 2 20 677 176
+p alu_0/fa_sub_5/fa_0/Ci vdd alu_0/fa_sub_5/fa_0/a_43_72# 2 20 685 176
+p alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/a_43_72# alu_0/fa_sub_5/fa_0/a_67_19# 2 20 693 176
+p alu_0/fa_sub_5/fa_0/Ci alu_0/fa_sub_5/fa_0/a_67_19# alu_0/fa_sub_5/fa_0/a_81_72# 2 20 707 176
+p alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_81_72# alu_0/fa_sub_5/fa_0/a_86_72# 2 20 712 176
+p I2 alu_0/fa_sub_5/fa_0/a_86_72# vdd 2 20 717 176
+p alu_0/fa_sub_5/fa_0/a_67_19# vdd S2 2 20 725 176
+n alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/Ci gnd 2 10 616 123
+n I2 gnd alu_0/fa_sub_5/fa_0/a_n2_19# 2 10 624 123
+n alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_n2_19# alu_0/fa_sub_5/fa_0/a_n14_38# 2 10 629 123
+n alu_0/fa_sub_5/fa_0/Ci alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/a_11_19# 2 10 637 123
+n I2 alu_0/fa_sub_5/fa_0/a_11_19# gnd 2 10 645 123
+n alu_0/fa_sub_5/fa_0/B gnd alu_0/fa_sub_5/fa_0/a_11_19# 2 10 653 123
+n I2 gnd alu_0/fa_sub_5/fa_0/a_43_19# 2 10 669 123
+n alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_43_19# gnd 2 10 677 123
+n alu_0/fa_sub_5/fa_0/Ci gnd alu_0/fa_sub_5/fa_0/a_43_19# 2 10 685 123
+n alu_0/fa_sub_5/fa_0/a_n14_38# alu_0/fa_sub_5/fa_0/a_43_19# alu_0/fa_sub_5/fa_0/a_67_19# 2 10 693 123
+n alu_0/fa_sub_5/fa_0/Ci alu_0/fa_sub_5/fa_0/a_67_19# alu_0/fa_sub_5/fa_0/a_81_19# 2 10 707 123
+n alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/fa_0/a_81_19# alu_0/fa_sub_5/fa_0/a_86_19# 2 10 712 123
+n I2 alu_0/fa_sub_5/fa_0/a_86_19# gnd 2 10 717 123
+n alu_0/fa_sub_5/fa_0/a_67_19# gnd S2 2 10 725 123
+p alu_0/fa_sub_5/xor2_0/A alu_0/fa_sub_5/xor2_0/a_17_6# vdd 2 40 685 260
+p alu_0/fa_sub_5/xor2_0/a_28_44# vdd alu_0/fa_sub_5/xor2_0/a_33_54# 2 40 694 260
+p alu_0/fa_sub_5/xor2_0/A alu_0/fa_sub_5/xor2_0/a_33_54# alu_0/fa_sub_5/fa_0/B 2 40 699 260
+p alu_0/fa_sub_5/xor2_0/a_17_6# alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/xor2_0/a_50_54# 2 40 711 260
+p Subtract alu_0/fa_sub_5/xor2_0/a_50_54# vdd 2 40 716 260
+p Subtract vdd alu_0/fa_sub_5/xor2_0/a_28_44# 2 40 725 260
+n alu_0/fa_sub_5/xor2_0/A alu_0/fa_sub_5/xor2_0/a_17_6# gnd 2 20 685 308
+n alu_0/fa_sub_5/xor2_0/a_28_44# gnd alu_0/fa_sub_5/xor2_0/a_33_6# 2 20 694 308
+n alu_0/fa_sub_5/xor2_0/a_17_6# alu_0/fa_sub_5/xor2_0/a_33_6# alu_0/fa_sub_5/fa_0/B 2 20 699 308
+n alu_0/fa_sub_5/xor2_0/A alu_0/fa_sub_5/fa_0/B alu_0/fa_sub_5/xor2_0/a_50_6# 2 20 711 308
+n Subtract alu_0/fa_sub_5/xor2_0/a_50_6# gnd 2 20 716 308
+n Subtract gnd alu_0/fa_sub_5/xor2_0/a_28_44# 2 20 725 308
+p Select gnd alu_0/fa_sub_5/xor2_0/A 2 30 645 250
+p alu_0/fa_sub_5/mux21_0/a_n3_n57# alu_0/fa_sub_5/xor2_0/A Ad2 2 30 653 250
+p Select alu_0/fa_sub_5/mux21_0/a_n3_n57# vdd 2 20 669 240
+n alu_0/fa_sub_5/mux21_0/a_n3_n57# gnd alu_0/fa_sub_5/xor2_0/A 2 30 645 305
+n Select alu_0/fa_sub_5/xor2_0/A Ad2 2 30 653 305
+n Select alu_0/fa_sub_5/mux21_0/a_n3_n57# gnd 2 10 669 305
+p alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/Ci vdd 2 20 491 176
+p I3 vdd alu_0/fa_sub_4/fa_0/a_n2_72# 2 20 499 176
+p alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_n2_72# alu_0/fa_sub_4/fa_0/a_n14_38# 2 20 504 176
+p alu_0/fa_sub_4/fa_0/Ci alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/a_11_72# 2 20 512 176
+p I3 alu_0/fa_sub_4/fa_0/a_11_72# vdd 2 20 520 176
+p alu_0/fa_sub_4/fa_0/B vdd alu_0/fa_sub_4/fa_0/a_11_72# 2 20 528 176
+p I3 vdd alu_0/fa_sub_4/fa_0/a_43_72# 2 20 544 176
+p alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_43_72# vdd 2 20 552 176
+p alu_0/fa_sub_4/fa_0/Ci vdd alu_0/fa_sub_4/fa_0/a_43_72# 2 20 560 176
+p alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/a_43_72# alu_0/fa_sub_4/fa_0/a_67_19# 2 20 568 176
+p alu_0/fa_sub_4/fa_0/Ci alu_0/fa_sub_4/fa_0/a_67_19# alu_0/fa_sub_4/fa_0/a_81_72# 2 20 582 176
+p alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_81_72# alu_0/fa_sub_4/fa_0/a_86_72# 2 20 587 176
+p I3 alu_0/fa_sub_4/fa_0/a_86_72# vdd 2 20 592 176
+p alu_0/fa_sub_4/fa_0/a_67_19# vdd S3 2 20 600 176
+n alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/Ci gnd 2 10 491 123
+n I3 gnd alu_0/fa_sub_4/fa_0/a_n2_19# 2 10 499 123
+n alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_n2_19# alu_0/fa_sub_4/fa_0/a_n14_38# 2 10 504 123
+n alu_0/fa_sub_4/fa_0/Ci alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/a_11_19# 2 10 512 123
+n I3 alu_0/fa_sub_4/fa_0/a_11_19# gnd 2 10 520 123
+n alu_0/fa_sub_4/fa_0/B gnd alu_0/fa_sub_4/fa_0/a_11_19# 2 10 528 123
+n I3 gnd alu_0/fa_sub_4/fa_0/a_43_19# 2 10 544 123
+n alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_43_19# gnd 2 10 552 123
+n alu_0/fa_sub_4/fa_0/Ci gnd alu_0/fa_sub_4/fa_0/a_43_19# 2 10 560 123
+n alu_0/fa_sub_4/fa_0/a_n14_38# alu_0/fa_sub_4/fa_0/a_43_19# alu_0/fa_sub_4/fa_0/a_67_19# 2 10 568 123
+n alu_0/fa_sub_4/fa_0/Ci alu_0/fa_sub_4/fa_0/a_67_19# alu_0/fa_sub_4/fa_0/a_81_19# 2 10 582 123
+n alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/fa_0/a_81_19# alu_0/fa_sub_4/fa_0/a_86_19# 2 10 587 123
+n I3 alu_0/fa_sub_4/fa_0/a_86_19# gnd 2 10 592 123
+n alu_0/fa_sub_4/fa_0/a_67_19# gnd S3 2 10 600 123
+p alu_0/fa_sub_4/xor2_0/A alu_0/fa_sub_4/xor2_0/a_17_6# vdd 2 40 560 260
+p alu_0/fa_sub_4/xor2_0/a_28_44# vdd alu_0/fa_sub_4/xor2_0/a_33_54# 2 40 569 260
+p alu_0/fa_sub_4/xor2_0/A alu_0/fa_sub_4/xor2_0/a_33_54# alu_0/fa_sub_4/fa_0/B 2 40 574 260
+p alu_0/fa_sub_4/xor2_0/a_17_6# alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/xor2_0/a_50_54# 2 40 586 260
+p Subtract alu_0/fa_sub_4/xor2_0/a_50_54# vdd 2 40 591 260
+p Subtract vdd alu_0/fa_sub_4/xor2_0/a_28_44# 2 40 600 260
+n alu_0/fa_sub_4/xor2_0/A alu_0/fa_sub_4/xor2_0/a_17_6# gnd 2 20 560 308
+n alu_0/fa_sub_4/xor2_0/a_28_44# gnd alu_0/fa_sub_4/xor2_0/a_33_6# 2 20 569 308
+n alu_0/fa_sub_4/xor2_0/a_17_6# alu_0/fa_sub_4/xor2_0/a_33_6# alu_0/fa_sub_4/fa_0/B 2 20 574 308
+n alu_0/fa_sub_4/xor2_0/A alu_0/fa_sub_4/fa_0/B alu_0/fa_sub_4/xor2_0/a_50_6# 2 20 586 308
+n Subtract alu_0/fa_sub_4/xor2_0/a_50_6# gnd 2 20 591 308
+n Subtract gnd alu_0/fa_sub_4/xor2_0/a_28_44# 2 20 600 308
+p Select gnd alu_0/fa_sub_4/xor2_0/A 2 30 520 250
+p alu_0/fa_sub_4/mux21_0/a_n3_n57# alu_0/fa_sub_4/xor2_0/A Ad3 2 30 528 250
+p Select alu_0/fa_sub_4/mux21_0/a_n3_n57# vdd 2 20 544 240
+n alu_0/fa_sub_4/mux21_0/a_n3_n57# gnd alu_0/fa_sub_4/xor2_0/A 2 30 520 305
+n Select alu_0/fa_sub_4/xor2_0/A Ad3 2 30 528 305
+n Select alu_0/fa_sub_4/mux21_0/a_n3_n57# gnd 2 10 544 305
+p alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/Ci vdd 2 20 366 176
+p I4 vdd alu_0/fa_sub_3/fa_0/a_n2_72# 2 20 374 176
+p alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_n2_72# alu_0/fa_sub_3/fa_0/a_n14_38# 2 20 379 176
+p alu_0/fa_sub_3/fa_0/Ci alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/a_11_72# 2 20 387 176
+p I4 alu_0/fa_sub_3/fa_0/a_11_72# vdd 2 20 395 176
+p alu_0/fa_sub_3/fa_0/B vdd alu_0/fa_sub_3/fa_0/a_11_72# 2 20 403 176
+p I4 vdd alu_0/fa_sub_3/fa_0/a_43_72# 2 20 419 176
+p alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_43_72# vdd 2 20 427 176
+p alu_0/fa_sub_3/fa_0/Ci vdd alu_0/fa_sub_3/fa_0/a_43_72# 2 20 435 176
+p alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/a_43_72# alu_0/fa_sub_3/fa_0/a_67_19# 2 20 443 176
+p alu_0/fa_sub_3/fa_0/Ci alu_0/fa_sub_3/fa_0/a_67_19# alu_0/fa_sub_3/fa_0/a_81_72# 2 20 457 176
+p alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_81_72# alu_0/fa_sub_3/fa_0/a_86_72# 2 20 462 176
+p I4 alu_0/fa_sub_3/fa_0/a_86_72# vdd 2 20 467 176
+p alu_0/fa_sub_3/fa_0/a_67_19# vdd S4 2 20 475 176
+n alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/Ci gnd 2 10 366 123
+n I4 gnd alu_0/fa_sub_3/fa_0/a_n2_19# 2 10 374 123
+n alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_n2_19# alu_0/fa_sub_3/fa_0/a_n14_38# 2 10 379 123
+n alu_0/fa_sub_3/fa_0/Ci alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/a_11_19# 2 10 387 123
+n I4 alu_0/fa_sub_3/fa_0/a_11_19# gnd 2 10 395 123
+n alu_0/fa_sub_3/fa_0/B gnd alu_0/fa_sub_3/fa_0/a_11_19# 2 10 403 123
+n I4 gnd alu_0/fa_sub_3/fa_0/a_43_19# 2 10 419 123
+n alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_43_19# gnd 2 10 427 123
+n alu_0/fa_sub_3/fa_0/Ci gnd alu_0/fa_sub_3/fa_0/a_43_19# 2 10 435 123
+n alu_0/fa_sub_3/fa_0/a_n14_38# alu_0/fa_sub_3/fa_0/a_43_19# alu_0/fa_sub_3/fa_0/a_67_19# 2 10 443 123
+n alu_0/fa_sub_3/fa_0/Ci alu_0/fa_sub_3/fa_0/a_67_19# alu_0/fa_sub_3/fa_0/a_81_19# 2 10 457 123
+n alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/fa_0/a_81_19# alu_0/fa_sub_3/fa_0/a_86_19# 2 10 462 123
+n I4 alu_0/fa_sub_3/fa_0/a_86_19# gnd 2 10 467 123
+n alu_0/fa_sub_3/fa_0/a_67_19# gnd S4 2 10 475 123
+p alu_0/fa_sub_3/xor2_0/A alu_0/fa_sub_3/xor2_0/a_17_6# vdd 2 40 435 260
+p alu_0/fa_sub_3/xor2_0/a_28_44# vdd alu_0/fa_sub_3/xor2_0/a_33_54# 2 40 444 260
+p alu_0/fa_sub_3/xor2_0/A alu_0/fa_sub_3/xor2_0/a_33_54# alu_0/fa_sub_3/fa_0/B 2 40 449 260
+p alu_0/fa_sub_3/xor2_0/a_17_6# alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/xor2_0/a_50_54# 2 40 461 260
+p Subtract alu_0/fa_sub_3/xor2_0/a_50_54# vdd 2 40 466 260
+p Subtract vdd alu_0/fa_sub_3/xor2_0/a_28_44# 2 40 475 260
+n alu_0/fa_sub_3/xor2_0/A alu_0/fa_sub_3/xor2_0/a_17_6# gnd 2 20 435 308
+n alu_0/fa_sub_3/xor2_0/a_28_44# gnd alu_0/fa_sub_3/xor2_0/a_33_6# 2 20 444 308
+n alu_0/fa_sub_3/xor2_0/a_17_6# alu_0/fa_sub_3/xor2_0/a_33_6# alu_0/fa_sub_3/fa_0/B 2 20 449 308
+n alu_0/fa_sub_3/xor2_0/A alu_0/fa_sub_3/fa_0/B alu_0/fa_sub_3/xor2_0/a_50_6# 2 20 461 308
+n Subtract alu_0/fa_sub_3/xor2_0/a_50_6# gnd 2 20 466 308
+n Subtract gnd alu_0/fa_sub_3/xor2_0/a_28_44# 2 20 475 308
+p Select gnd alu_0/fa_sub_3/xor2_0/A 2 30 395 250
+p alu_0/fa_sub_3/mux21_0/a_n3_n57# alu_0/fa_sub_3/xor2_0/A Ad4 2 30 403 250
+p Select alu_0/fa_sub_3/mux21_0/a_n3_n57# vdd 2 20 419 240
+n alu_0/fa_sub_3/mux21_0/a_n3_n57# gnd alu_0/fa_sub_3/xor2_0/A 2 30 395 305
+n Select alu_0/fa_sub_3/xor2_0/A Ad4 2 30 403 305
+n Select alu_0/fa_sub_3/mux21_0/a_n3_n57# gnd 2 10 419 305
+p alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/Ci vdd 2 20 241 176
+p I5 vdd alu_0/fa_sub_2/fa_0/a_n2_72# 2 20 249 176
+p alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_n2_72# alu_0/fa_sub_2/fa_0/a_n14_38# 2 20 254 176
+p alu_0/fa_sub_2/fa_0/Ci alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/a_11_72# 2 20 262 176
+p I5 alu_0/fa_sub_2/fa_0/a_11_72# vdd 2 20 270 176
+p alu_0/fa_sub_2/fa_0/B vdd alu_0/fa_sub_2/fa_0/a_11_72# 2 20 278 176
+p I5 vdd alu_0/fa_sub_2/fa_0/a_43_72# 2 20 294 176
+p alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_43_72# vdd 2 20 302 176
+p alu_0/fa_sub_2/fa_0/Ci vdd alu_0/fa_sub_2/fa_0/a_43_72# 2 20 310 176
+p alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/a_43_72# alu_0/fa_sub_2/fa_0/a_67_19# 2 20 318 176
+p alu_0/fa_sub_2/fa_0/Ci alu_0/fa_sub_2/fa_0/a_67_19# alu_0/fa_sub_2/fa_0/a_81_72# 2 20 332 176
+p alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_81_72# alu_0/fa_sub_2/fa_0/a_86_72# 2 20 337 176
+p I5 alu_0/fa_sub_2/fa_0/a_86_72# vdd 2 20 342 176
+p alu_0/fa_sub_2/fa_0/a_67_19# vdd S5 2 20 350 176
+n alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/Ci gnd 2 10 241 123
+n I5 gnd alu_0/fa_sub_2/fa_0/a_n2_19# 2 10 249 123
+n alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_n2_19# alu_0/fa_sub_2/fa_0/a_n14_38# 2 10 254 123
+n alu_0/fa_sub_2/fa_0/Ci alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/a_11_19# 2 10 262 123
+n I5 alu_0/fa_sub_2/fa_0/a_11_19# gnd 2 10 270 123
+n alu_0/fa_sub_2/fa_0/B gnd alu_0/fa_sub_2/fa_0/a_11_19# 2 10 278 123
+n I5 gnd alu_0/fa_sub_2/fa_0/a_43_19# 2 10 294 123
+n alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_43_19# gnd 2 10 302 123
+n alu_0/fa_sub_2/fa_0/Ci gnd alu_0/fa_sub_2/fa_0/a_43_19# 2 10 310 123
+n alu_0/fa_sub_2/fa_0/a_n14_38# alu_0/fa_sub_2/fa_0/a_43_19# alu_0/fa_sub_2/fa_0/a_67_19# 2 10 318 123
+n alu_0/fa_sub_2/fa_0/Ci alu_0/fa_sub_2/fa_0/a_67_19# alu_0/fa_sub_2/fa_0/a_81_19# 2 10 332 123
+n alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/fa_0/a_81_19# alu_0/fa_sub_2/fa_0/a_86_19# 2 10 337 123
+n I5 alu_0/fa_sub_2/fa_0/a_86_19# gnd 2 10 342 123
+n alu_0/fa_sub_2/fa_0/a_67_19# gnd S5 2 10 350 123
+p alu_0/fa_sub_2/xor2_0/A alu_0/fa_sub_2/xor2_0/a_17_6# vdd 2 40 310 260
+p alu_0/fa_sub_2/xor2_0/a_28_44# vdd alu_0/fa_sub_2/xor2_0/a_33_54# 2 40 319 260
+p alu_0/fa_sub_2/xor2_0/A alu_0/fa_sub_2/xor2_0/a_33_54# alu_0/fa_sub_2/fa_0/B 2 40 324 260
+p alu_0/fa_sub_2/xor2_0/a_17_6# alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/xor2_0/a_50_54# 2 40 336 260
+p Subtract alu_0/fa_sub_2/xor2_0/a_50_54# vdd 2 40 341 260
+p Subtract vdd alu_0/fa_sub_2/xor2_0/a_28_44# 2 40 350 260
+n alu_0/fa_sub_2/xor2_0/A alu_0/fa_sub_2/xor2_0/a_17_6# gnd 2 20 310 308
+n alu_0/fa_sub_2/xor2_0/a_28_44# gnd alu_0/fa_sub_2/xor2_0/a_33_6# 2 20 319 308
+n alu_0/fa_sub_2/xor2_0/a_17_6# alu_0/fa_sub_2/xor2_0/a_33_6# alu_0/fa_sub_2/fa_0/B 2 20 324 308
+n alu_0/fa_sub_2/xor2_0/A alu_0/fa_sub_2/fa_0/B alu_0/fa_sub_2/xor2_0/a_50_6# 2 20 336 308
+n Subtract alu_0/fa_sub_2/xor2_0/a_50_6# gnd 2 20 341 308
+n Subtract gnd alu_0/fa_sub_2/xor2_0/a_28_44# 2 20 350 308
+p Select gnd alu_0/fa_sub_2/xor2_0/A 2 30 270 250
+p alu_0/fa_sub_2/mux21_0/a_n3_n57# alu_0/fa_sub_2/xor2_0/A Ad5 2 30 278 250
+p Select alu_0/fa_sub_2/mux21_0/a_n3_n57# vdd 2 20 294 240
+n alu_0/fa_sub_2/mux21_0/a_n3_n57# gnd alu_0/fa_sub_2/xor2_0/A 2 30 270 305
+n Select alu_0/fa_sub_2/xor2_0/A Ad5 2 30 278 305
+n Select alu_0/fa_sub_2/mux21_0/a_n3_n57# gnd 2 10 294 305
+p alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/Ci vdd 2 20 116 176
+p I6 vdd alu_0/fa_sub_1/fa_0/a_n2_72# 2 20 124 176
+p alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_n2_72# alu_0/fa_sub_1/fa_0/a_n14_38# 2 20 129 176
+p alu_0/fa_sub_1/fa_0/Ci alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/a_11_72# 2 20 137 176
+p I6 alu_0/fa_sub_1/fa_0/a_11_72# vdd 2 20 145 176
+p alu_0/fa_sub_1/fa_0/B vdd alu_0/fa_sub_1/fa_0/a_11_72# 2 20 153 176
+p I6 vdd alu_0/fa_sub_1/fa_0/a_43_72# 2 20 169 176
+p alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_43_72# vdd 2 20 177 176
+p alu_0/fa_sub_1/fa_0/Ci vdd alu_0/fa_sub_1/fa_0/a_43_72# 2 20 185 176
+p alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/a_43_72# alu_0/fa_sub_1/fa_0/a_67_19# 2 20 193 176
+p alu_0/fa_sub_1/fa_0/Ci alu_0/fa_sub_1/fa_0/a_67_19# alu_0/fa_sub_1/fa_0/a_81_72# 2 20 207 176
+p alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_81_72# alu_0/fa_sub_1/fa_0/a_86_72# 2 20 212 176
+p I6 alu_0/fa_sub_1/fa_0/a_86_72# vdd 2 20 217 176
+p alu_0/fa_sub_1/fa_0/a_67_19# vdd S6 2 20 225 176
+n alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/Ci gnd 2 10 116 123
+n I6 gnd alu_0/fa_sub_1/fa_0/a_n2_19# 2 10 124 123
+n alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_n2_19# alu_0/fa_sub_1/fa_0/a_n14_38# 2 10 129 123
+n alu_0/fa_sub_1/fa_0/Ci alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/a_11_19# 2 10 137 123
+n I6 alu_0/fa_sub_1/fa_0/a_11_19# gnd 2 10 145 123
+n alu_0/fa_sub_1/fa_0/B gnd alu_0/fa_sub_1/fa_0/a_11_19# 2 10 153 123
+n I6 gnd alu_0/fa_sub_1/fa_0/a_43_19# 2 10 169 123
+n alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_43_19# gnd 2 10 177 123
+n alu_0/fa_sub_1/fa_0/Ci gnd alu_0/fa_sub_1/fa_0/a_43_19# 2 10 185 123
+n alu_0/fa_sub_1/fa_0/a_n14_38# alu_0/fa_sub_1/fa_0/a_43_19# alu_0/fa_sub_1/fa_0/a_67_19# 2 10 193 123
+n alu_0/fa_sub_1/fa_0/Ci alu_0/fa_sub_1/fa_0/a_67_19# alu_0/fa_sub_1/fa_0/a_81_19# 2 10 207 123
+n alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/fa_0/a_81_19# alu_0/fa_sub_1/fa_0/a_86_19# 2 10 212 123
+n I6 alu_0/fa_sub_1/fa_0/a_86_19# gnd 2 10 217 123
+n alu_0/fa_sub_1/fa_0/a_67_19# gnd S6 2 10 225 123
+p alu_0/fa_sub_1/xor2_0/A alu_0/fa_sub_1/xor2_0/a_17_6# vdd 2 40 185 260
+p alu_0/fa_sub_1/xor2_0/a_28_44# vdd alu_0/fa_sub_1/xor2_0/a_33_54# 2 40 194 260
+p alu_0/fa_sub_1/xor2_0/A alu_0/fa_sub_1/xor2_0/a_33_54# alu_0/fa_sub_1/fa_0/B 2 40 199 260
+p alu_0/fa_sub_1/xor2_0/a_17_6# alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/xor2_0/a_50_54# 2 40 211 260
+p Subtract alu_0/fa_sub_1/xor2_0/a_50_54# vdd 2 40 216 260
+p Subtract vdd alu_0/fa_sub_1/xor2_0/a_28_44# 2 40 225 260
+n alu_0/fa_sub_1/xor2_0/A alu_0/fa_sub_1/xor2_0/a_17_6# gnd 2 20 185 308
+n alu_0/fa_sub_1/xor2_0/a_28_44# gnd alu_0/fa_sub_1/xor2_0/a_33_6# 2 20 194 308
+n alu_0/fa_sub_1/xor2_0/a_17_6# alu_0/fa_sub_1/xor2_0/a_33_6# alu_0/fa_sub_1/fa_0/B 2 20 199 308
+n alu_0/fa_sub_1/xor2_0/A alu_0/fa_sub_1/fa_0/B alu_0/fa_sub_1/xor2_0/a_50_6# 2 20 211 308
+n Subtract alu_0/fa_sub_1/xor2_0/a_50_6# gnd 2 20 216 308
+n Subtract gnd alu_0/fa_sub_1/xor2_0/a_28_44# 2 20 225 308
+p Select gnd alu_0/fa_sub_1/xor2_0/A 2 30 145 250
+p alu_0/fa_sub_1/mux21_0/a_n3_n57# alu_0/fa_sub_1/xor2_0/A Ad6 2 30 153 250
+p Select alu_0/fa_sub_1/mux21_0/a_n3_n57# vdd 2 20 169 240
+n alu_0/fa_sub_1/mux21_0/a_n3_n57# gnd alu_0/fa_sub_1/xor2_0/A 2 30 145 305
+n Select alu_0/fa_sub_1/xor2_0/A Ad6 2 30 153 305
+n Select alu_0/fa_sub_1/mux21_0/a_n3_n57# gnd 2 10 169 305
+p alu_0/fa_sub_0/fa_0/a_n14_38# S8 vdd 2 20 -9 176
+p I7 vdd alu_0/fa_sub_0/fa_0/a_n2_72# 2 20 -1 176
+p alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_n2_72# alu_0/fa_sub_0/fa_0/a_n14_38# 2 20 4 176
+p alu_0/fa_sub_0/fa_0/Ci alu_0/fa_sub_0/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/a_11_72# 2 20 12 176
+p I7 alu_0/fa_sub_0/fa_0/a_11_72# vdd 2 20 20 176
+p alu_0/fa_sub_0/fa_0/B vdd alu_0/fa_sub_0/fa_0/a_11_72# 2 20 28 176
+p I7 vdd alu_0/fa_sub_0/fa_0/a_43_72# 2 20 44 176
+p alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_43_72# vdd 2 20 52 176
+p alu_0/fa_sub_0/fa_0/Ci vdd alu_0/fa_sub_0/fa_0/a_43_72# 2 20 60 176
+p alu_0/fa_sub_0/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/a_43_72# alu_0/fa_sub_0/fa_0/a_67_19# 2 20 68 176
+p alu_0/fa_sub_0/fa_0/Ci alu_0/fa_sub_0/fa_0/a_67_19# alu_0/fa_sub_0/fa_0/a_81_72# 2 20 82 176
+p alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_81_72# alu_0/fa_sub_0/fa_0/a_86_72# 2 20 87 176
+p I7 alu_0/fa_sub_0/fa_0/a_86_72# vdd 2 20 92 176
+p alu_0/fa_sub_0/fa_0/a_67_19# vdd S7 2 20 100 176
+n alu_0/fa_sub_0/fa_0/a_n14_38# S8 gnd 2 10 -9 123
+n I7 gnd alu_0/fa_sub_0/fa_0/a_n2_19# 2 10 -1 123
+n alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_n2_19# alu_0/fa_sub_0/fa_0/a_n14_38# 2 10 4 123
+n alu_0/fa_sub_0/fa_0/Ci alu_0/fa_sub_0/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/a_11_19# 2 10 12 123
+n I7 alu_0/fa_sub_0/fa_0/a_11_19# gnd 2 10 20 123
+n alu_0/fa_sub_0/fa_0/B gnd alu_0/fa_sub_0/fa_0/a_11_19# 2 10 28 123
+n I7 gnd alu_0/fa_sub_0/fa_0/a_43_19# 2 10 44 123
+n alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_43_19# gnd 2 10 52 123
+n alu_0/fa_sub_0/fa_0/Ci gnd alu_0/fa_sub_0/fa_0/a_43_19# 2 10 60 123
+n alu_0/fa_sub_0/fa_0/a_n14_38# alu_0/fa_sub_0/fa_0/a_43_19# alu_0/fa_sub_0/fa_0/a_67_19# 2 10 68 123
+n alu_0/fa_sub_0/fa_0/Ci alu_0/fa_sub_0/fa_0/a_67_19# alu_0/fa_sub_0/fa_0/a_81_19# 2 10 82 123
+n alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/fa_0/a_81_19# alu_0/fa_sub_0/fa_0/a_86_19# 2 10 87 123
+n I7 alu_0/fa_sub_0/fa_0/a_86_19# gnd 2 10 92 123
+n alu_0/fa_sub_0/fa_0/a_67_19# gnd S7 2 10 100 123
+p alu_0/fa_sub_0/xor2_0/A alu_0/fa_sub_0/xor2_0/a_17_6# vdd 2 40 60 260
+p alu_0/fa_sub_0/xor2_0/a_28_44# vdd alu_0/fa_sub_0/xor2_0/a_33_54# 2 40 69 260
+p alu_0/fa_sub_0/xor2_0/A alu_0/fa_sub_0/xor2_0/a_33_54# alu_0/fa_sub_0/fa_0/B 2 40 74 260
+p alu_0/fa_sub_0/xor2_0/a_17_6# alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/xor2_0/a_50_54# 2 40 86 260
+p Subtract alu_0/fa_sub_0/xor2_0/a_50_54# vdd 2 40 91 260
+p Subtract vdd alu_0/fa_sub_0/xor2_0/a_28_44# 2 40 100 260
+n alu_0/fa_sub_0/xor2_0/A alu_0/fa_sub_0/xor2_0/a_17_6# gnd 2 20 60 308
+n alu_0/fa_sub_0/xor2_0/a_28_44# gnd alu_0/fa_sub_0/xor2_0/a_33_6# 2 20 69 308
+n alu_0/fa_sub_0/xor2_0/a_17_6# alu_0/fa_sub_0/xor2_0/a_33_6# alu_0/fa_sub_0/fa_0/B 2 20 74 308
+n alu_0/fa_sub_0/xor2_0/A alu_0/fa_sub_0/fa_0/B alu_0/fa_sub_0/xor2_0/a_50_6# 2 20 86 308
+n Subtract alu_0/fa_sub_0/xor2_0/a_50_6# gnd 2 20 91 308
+n Subtract gnd alu_0/fa_sub_0/xor2_0/a_28_44# 2 20 100 308
+p Select gnd alu_0/fa_sub_0/xor2_0/A 2 30 20 250
+p alu_0/fa_sub_0/mux21_0/a_n3_n57# alu_0/fa_sub_0/xor2_0/A Ad7 2 30 28 250
+p Select alu_0/fa_sub_0/mux21_0/a_n3_n57# vdd 2 20 44 240
+n alu_0/fa_sub_0/mux21_0/a_n3_n57# gnd alu_0/fa_sub_0/xor2_0/A 2 30 20 305
+n Select alu_0/fa_sub_0/xor2_0/A Ad7 2 30 28 305
+n Select alu_0/fa_sub_0/mux21_0/a_n3_n57# gnd 2 10 44 305
+p rf_dec_0/register_file_0/reg_bit_7/A_ Ad0 vdd 2 8 897 467
+p Ad0 vdd rf_dec_0/register_file_0/reg_bit_7/A_ 2 8 913 467
+n rf_dec_0/register_file_0/reg_bit_7/A_ Ad0 rf_dec_0/register_file_0/reg_bit_7/diffamp_0/a_92_n2# 2 4 897 422
+n Ad0 rf_dec_0/register_file_0/reg_bit_7/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_7/A_ 2 4 913 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_7/diffamp_0/a_92_n2# 2 4 904 402
+p REG_As rf_dec_0/Bl Ad0 2 32 897 492
+p REG_As rf_dec_0/register_file_0/reg_bit_7/A_ rf_dec_0/register_file_0/reg_bit_7/Bl_ 2 32 913 492
+p rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n4# 2 16 893 614
+p rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n4# rf_dec_0/Bl 2 16 898 614
+p rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n4# 2 16 914 614
+p O0 rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n4# vdd 2 16 919 614
+n rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n30# 2 8 893 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n30# rf_dec_0/Bl 2 8 898 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n30# 2 8 914 588
+n O0 rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n30# gnd 2 8 919 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# 2 4 903 571
+n O0 rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# gnd 2 4 919 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# 2 8 903 545
+p O0 rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# vdd 2 8 919 545
+p rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# vdd 2 4 897 654
+p rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# 2 4 913 654
+n rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# gnd 2 8 897 679
+n rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# 2 8 913 679
+n En7 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# 2 6 890 686
+n En7 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# 2 6 916 686
+p rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# vdd 2 4 897 749
+p rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# 2 4 913 749
+n rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# gnd 2 8 897 724
+n rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# 2 8 913 724
+n En6 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# 2 6 890 717
+n En6 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# 2 6 916 717
+p rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# vdd 2 4 897 776
+p rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# 2 4 913 776
+n rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# gnd 2 8 897 801
+n rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# 2 8 913 801
+n En5 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# 2 6 890 808
+n En5 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# 2 6 916 808
+p rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# vdd 2 4 897 871
+p rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# 2 4 913 871
+n rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# gnd 2 8 897 846
+n rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# 2 8 913 846
+n En4 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# 2 6 890 839
+n En4 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# 2 6 916 839
+p rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# vdd 2 4 897 898
+p rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# 2 4 913 898
+n rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# gnd 2 8 897 923
+n rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# 2 8 913 923
+n En3 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# 2 6 890 930
+n En3 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# 2 6 916 930
+p rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# vdd 2 4 897 993
+p rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# 2 4 913 993
+n rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# gnd 2 8 897 968
+n rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# 2 8 913 968
+n En2 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# 2 6 890 961
+n En2 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# 2 6 916 961
+p rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# vdd 2 4 897 1020
+p rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# 2 4 913 1020
+n rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# gnd 2 8 897 1045
+n rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# 2 8 913 1045
+n En1 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# 2 6 890 1052
+n En1 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# 2 6 916 1052
+p rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# vdd 2 4 897 1115
+p rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# 2 4 913 1115
+n rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# gnd 2 8 897 1090
+n rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# 2 8 913 1090
+n En0 rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# 2 6 890 1083
+n En0 rf_dec_0/register_file_0/reg_bit_7/Bl_ rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# 2 6 916 1083
+p REG_Pc vdd rf_dec_0/Bl 2 32 897 1139
+p REG_Pc rf_dec_0/Bl rf_dec_0/register_file_0/reg_bit_7/Bl_ 2 32 905 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_7/Bl_ vdd 2 32 913 1139
+p rf_dec_0/register_file_0/reg_bit_6/A_ Ad1 vdd 2 8 850 467
+p Ad1 vdd rf_dec_0/register_file_0/reg_bit_6/A_ 2 8 866 467
+n rf_dec_0/register_file_0/reg_bit_6/A_ Ad1 rf_dec_0/register_file_0/reg_bit_6/diffamp_0/a_92_n2# 2 4 850 422
+n Ad1 rf_dec_0/register_file_0/reg_bit_6/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_6/A_ 2 4 866 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_6/diffamp_0/a_92_n2# 2 4 857 402
+p REG_As rf_dec_0/register_file_0/reg_bit_6/Bl Ad1 2 32 850 492
+p REG_As rf_dec_0/register_file_0/reg_bit_6/A_ rf_dec_0/register_file_0/reg_bit_6/Bl_ 2 32 866 492
+p rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n4# 2 16 846 614
+p rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_6/Bl 2 16 851 614
+p rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n4# 2 16 867 614
+p O1 rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n4# vdd 2 16 872 614
+n rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n30# 2 8 846 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_6/Bl 2 8 851 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n30# 2 8 867 588
+n O1 rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n30# gnd 2 8 872 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# 2 4 856 571
+n O1 rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# gnd 2 4 872 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# 2 8 856 545
+p O1 rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# vdd 2 8 872 545
+p rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# vdd 2 4 850 654
+p rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# 2 4 866 654
+n rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# gnd 2 8 850 679
+n rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# 2 8 866 679
+n En7 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# 2 6 843 686
+n En7 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# 2 6 869 686
+p rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# vdd 2 4 850 749
+p rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# 2 4 866 749
+n rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# gnd 2 8 850 724
+n rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# 2 8 866 724
+n En6 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# 2 6 843 717
+n En6 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# 2 6 869 717
+p rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# vdd 2 4 850 776
+p rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# 2 4 866 776
+n rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# gnd 2 8 850 801
+n rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# 2 8 866 801
+n En5 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# 2 6 843 808
+n En5 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# 2 6 869 808
+p rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# vdd 2 4 850 871
+p rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# 2 4 866 871
+n rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# gnd 2 8 850 846
+n rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# 2 8 866 846
+n En4 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# 2 6 843 839
+n En4 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# 2 6 869 839
+p rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# vdd 2 4 850 898
+p rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# 2 4 866 898
+n rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# gnd 2 8 850 923
+n rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# 2 8 866 923
+n En3 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# 2 6 843 930
+n En3 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# 2 6 869 930
+p rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# vdd 2 4 850 993
+p rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# 2 4 866 993
+n rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# gnd 2 8 850 968
+n rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# 2 8 866 968
+n En2 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# 2 6 843 961
+n En2 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# 2 6 869 961
+p rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# vdd 2 4 850 1020
+p rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# 2 4 866 1020
+n rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# gnd 2 8 850 1045
+n rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# 2 8 866 1045
+n En1 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# 2 6 843 1052
+n En1 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# 2 6 869 1052
+p rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# vdd 2 4 850 1115
+p rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# 2 4 866 1115
+n rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# gnd 2 8 850 1090
+n rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# 2 8 866 1090
+n En0 rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# 2 6 843 1083
+n En0 rf_dec_0/register_file_0/reg_bit_6/Bl_ rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# 2 6 869 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_6/Bl 2 32 850 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_6/Bl rf_dec_0/register_file_0/reg_bit_6/Bl_ 2 32 858 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_6/Bl_ vdd 2 32 866 1139
+p rf_dec_0/register_file_0/reg_bit_5/A_ Ad2 vdd 2 8 803 467
+p Ad2 vdd rf_dec_0/register_file_0/reg_bit_5/A_ 2 8 819 467
+n rf_dec_0/register_file_0/reg_bit_5/A_ Ad2 rf_dec_0/register_file_0/reg_bit_5/diffamp_0/a_92_n2# 2 4 803 422
+n Ad2 rf_dec_0/register_file_0/reg_bit_5/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_5/A_ 2 4 819 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_5/diffamp_0/a_92_n2# 2 4 810 402
+p REG_As rf_dec_0/register_file_0/reg_bit_5/Bl Ad2 2 32 803 492
+p REG_As rf_dec_0/register_file_0/reg_bit_5/A_ rf_dec_0/register_file_0/reg_bit_5/Bl_ 2 32 819 492
+p rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n4# 2 16 799 614
+p rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_5/Bl 2 16 804 614
+p rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n4# 2 16 820 614
+p O2 rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n4# vdd 2 16 825 614
+n rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n30# 2 8 799 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_5/Bl 2 8 804 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n30# 2 8 820 588
+n O2 rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n30# gnd 2 8 825 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# 2 4 809 571
+n O2 rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# gnd 2 4 825 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# 2 8 809 545
+p O2 rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# vdd 2 8 825 545
+p rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# vdd 2 4 803 654
+p rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# 2 4 819 654
+n rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# gnd 2 8 803 679
+n rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# 2 8 819 679
+n En7 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# 2 6 796 686
+n En7 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# 2 6 822 686
+p rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# vdd 2 4 803 749
+p rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# 2 4 819 749
+n rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# gnd 2 8 803 724
+n rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# 2 8 819 724
+n En6 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# 2 6 796 717
+n En6 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# 2 6 822 717
+p rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# vdd 2 4 803 776
+p rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# 2 4 819 776
+n rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# gnd 2 8 803 801
+n rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# 2 8 819 801
+n En5 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# 2 6 796 808
+n En5 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# 2 6 822 808
+p rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# vdd 2 4 803 871
+p rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# 2 4 819 871
+n rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# gnd 2 8 803 846
+n rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# 2 8 819 846
+n En4 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# 2 6 796 839
+n En4 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# 2 6 822 839
+p rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# vdd 2 4 803 898
+p rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# 2 4 819 898
+n rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# gnd 2 8 803 923
+n rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# 2 8 819 923
+n En3 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# 2 6 796 930
+n En3 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# 2 6 822 930
+p rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# vdd 2 4 803 993
+p rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# 2 4 819 993
+n rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# gnd 2 8 803 968
+n rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# 2 8 819 968
+n En2 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# 2 6 796 961
+n En2 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# 2 6 822 961
+p rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# vdd 2 4 803 1020
+p rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# 2 4 819 1020
+n rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# gnd 2 8 803 1045
+n rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# 2 8 819 1045
+n En1 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# 2 6 796 1052
+n En1 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# 2 6 822 1052
+p rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# vdd 2 4 803 1115
+p rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# 2 4 819 1115
+n rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# gnd 2 8 803 1090
+n rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# 2 8 819 1090
+n En0 rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# 2 6 796 1083
+n En0 rf_dec_0/register_file_0/reg_bit_5/Bl_ rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# 2 6 822 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_5/Bl 2 32 803 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_5/Bl rf_dec_0/register_file_0/reg_bit_5/Bl_ 2 32 811 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_5/Bl_ vdd 2 32 819 1139
+p rf_dec_0/register_file_0/reg_bit_4/A_ Ad3 vdd 2 8 756 467
+p Ad3 vdd rf_dec_0/register_file_0/reg_bit_4/A_ 2 8 772 467
+n rf_dec_0/register_file_0/reg_bit_4/A_ Ad3 rf_dec_0/register_file_0/reg_bit_4/diffamp_0/a_92_n2# 2 4 756 422
+n Ad3 rf_dec_0/register_file_0/reg_bit_4/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_4/A_ 2 4 772 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_4/diffamp_0/a_92_n2# 2 4 763 402
+p REG_As rf_dec_0/register_file_0/reg_bit_4/Bl Ad3 2 32 756 492
+p REG_As rf_dec_0/register_file_0/reg_bit_4/A_ rf_dec_0/register_file_0/reg_bit_4/Bl_ 2 32 772 492
+p rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n4# 2 16 752 614
+p rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_4/Bl 2 16 757 614
+p rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n4# 2 16 773 614
+p O3 rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n4# vdd 2 16 778 614
+n rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n30# 2 8 752 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_4/Bl 2 8 757 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n30# 2 8 773 588
+n O3 rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n30# gnd 2 8 778 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# 2 4 762 571
+n O3 rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# gnd 2 4 778 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# 2 8 762 545
+p O3 rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# vdd 2 8 778 545
+p rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# vdd 2 4 756 654
+p rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# 2 4 772 654
+n rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# gnd 2 8 756 679
+n rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# 2 8 772 679
+n En7 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# 2 6 749 686
+n En7 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# 2 6 775 686
+p rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# vdd 2 4 756 749
+p rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# 2 4 772 749
+n rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# gnd 2 8 756 724
+n rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# 2 8 772 724
+n En6 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# 2 6 749 717
+n En6 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# 2 6 775 717
+p rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# vdd 2 4 756 776
+p rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# 2 4 772 776
+n rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# gnd 2 8 756 801
+n rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# 2 8 772 801
+n En5 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# 2 6 749 808
+n En5 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# 2 6 775 808
+p rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# vdd 2 4 756 871
+p rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# 2 4 772 871
+n rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# gnd 2 8 756 846
+n rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# 2 8 772 846
+n En4 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# 2 6 749 839
+n En4 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# 2 6 775 839
+p rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# vdd 2 4 756 898
+p rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# 2 4 772 898
+n rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# gnd 2 8 756 923
+n rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# 2 8 772 923
+n En3 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# 2 6 749 930
+n En3 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# 2 6 775 930
+p rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# vdd 2 4 756 993
+p rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# 2 4 772 993
+n rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# gnd 2 8 756 968
+n rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# 2 8 772 968
+n En2 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# 2 6 749 961
+n En2 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# 2 6 775 961
+p rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# vdd 2 4 756 1020
+p rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# 2 4 772 1020
+n rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# gnd 2 8 756 1045
+n rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# 2 8 772 1045
+n En1 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# 2 6 749 1052
+n En1 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# 2 6 775 1052
+p rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# vdd 2 4 756 1115
+p rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# 2 4 772 1115
+n rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# gnd 2 8 756 1090
+n rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# 2 8 772 1090
+n En0 rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# 2 6 749 1083
+n En0 rf_dec_0/register_file_0/reg_bit_4/Bl_ rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# 2 6 775 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_4/Bl 2 32 756 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_4/Bl rf_dec_0/register_file_0/reg_bit_4/Bl_ 2 32 764 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_4/Bl_ vdd 2 32 772 1139
+p rf_dec_0/register_file_0/reg_bit_3/A_ Ad4 vdd 2 8 709 467
+p Ad4 vdd rf_dec_0/register_file_0/reg_bit_3/A_ 2 8 725 467
+n rf_dec_0/register_file_0/reg_bit_3/A_ Ad4 rf_dec_0/register_file_0/reg_bit_3/diffamp_0/a_92_n2# 2 4 709 422
+n Ad4 rf_dec_0/register_file_0/reg_bit_3/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_3/A_ 2 4 725 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_3/diffamp_0/a_92_n2# 2 4 716 402
+p REG_As rf_dec_0/register_file_0/reg_bit_3/Bl Ad4 2 32 709 492
+p REG_As rf_dec_0/register_file_0/reg_bit_3/A_ rf_dec_0/register_file_0/reg_bit_3/Bl_ 2 32 725 492
+p rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n4# 2 16 705 614
+p rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_3/Bl 2 16 710 614
+p rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n4# 2 16 726 614
+p O4 rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n4# vdd 2 16 731 614
+n rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n30# 2 8 705 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_3/Bl 2 8 710 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n30# 2 8 726 588
+n O4 rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n30# gnd 2 8 731 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# 2 4 715 571
+n O4 rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# gnd 2 4 731 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# 2 8 715 545
+p O4 rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# vdd 2 8 731 545
+p rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# vdd 2 4 709 654
+p rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# 2 4 725 654
+n rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# gnd 2 8 709 679
+n rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# 2 8 725 679
+n En7 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# 2 6 702 686
+n En7 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# 2 6 728 686
+p rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# vdd 2 4 709 749
+p rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# 2 4 725 749
+n rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# gnd 2 8 709 724
+n rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# 2 8 725 724
+n En6 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# 2 6 702 717
+n En6 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# 2 6 728 717
+p rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# vdd 2 4 709 776
+p rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# 2 4 725 776
+n rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# gnd 2 8 709 801
+n rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# 2 8 725 801
+n En5 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# 2 6 702 808
+n En5 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# 2 6 728 808
+p rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# vdd 2 4 709 871
+p rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# 2 4 725 871
+n rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# gnd 2 8 709 846
+n rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# 2 8 725 846
+n En4 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# 2 6 702 839
+n En4 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# 2 6 728 839
+p rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# vdd 2 4 709 898
+p rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# 2 4 725 898
+n rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# gnd 2 8 709 923
+n rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# 2 8 725 923
+n En3 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# 2 6 702 930
+n En3 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# 2 6 728 930
+p rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# vdd 2 4 709 993
+p rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# 2 4 725 993
+n rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# gnd 2 8 709 968
+n rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# 2 8 725 968
+n En2 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# 2 6 702 961
+n En2 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# 2 6 728 961
+p rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# vdd 2 4 709 1020
+p rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# 2 4 725 1020
+n rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# gnd 2 8 709 1045
+n rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# 2 8 725 1045
+n En1 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# 2 6 702 1052
+n En1 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# 2 6 728 1052
+p rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# vdd 2 4 709 1115
+p rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# 2 4 725 1115
+n rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# gnd 2 8 709 1090
+n rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# 2 8 725 1090
+n En0 rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# 2 6 702 1083
+n En0 rf_dec_0/register_file_0/reg_bit_3/Bl_ rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# 2 6 728 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_3/Bl 2 32 709 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_3/Bl rf_dec_0/register_file_0/reg_bit_3/Bl_ 2 32 717 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_3/Bl_ vdd 2 32 725 1139
+p rf_dec_0/register_file_0/reg_bit_2/A_ Ad5 vdd 2 8 662 467
+p Ad5 vdd rf_dec_0/register_file_0/reg_bit_2/A_ 2 8 678 467
+n rf_dec_0/register_file_0/reg_bit_2/A_ Ad5 rf_dec_0/register_file_0/reg_bit_2/diffamp_0/a_92_n2# 2 4 662 422
+n Ad5 rf_dec_0/register_file_0/reg_bit_2/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_2/A_ 2 4 678 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_2/diffamp_0/a_92_n2# 2 4 669 402
+p REG_As rf_dec_0/register_file_0/reg_bit_2/Bl Ad5 2 32 662 492
+p REG_As rf_dec_0/register_file_0/reg_bit_2/A_ rf_dec_0/register_file_0/reg_bit_2/Bl_ 2 32 678 492
+p rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n4# 2 16 658 614
+p rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_2/Bl 2 16 663 614
+p rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n4# 2 16 679 614
+p O5 rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n4# vdd 2 16 684 614
+n rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n30# 2 8 658 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_2/Bl 2 8 663 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n30# 2 8 679 588
+n O5 rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n30# gnd 2 8 684 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# 2 4 668 571
+n O5 rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# gnd 2 4 684 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# 2 8 668 545
+p O5 rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# vdd 2 8 684 545
+p rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# vdd 2 4 662 654
+p rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# 2 4 678 654
+n rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# gnd 2 8 662 679
+n rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# 2 8 678 679
+n En7 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# 2 6 655 686
+n En7 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# 2 6 681 686
+p rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# vdd 2 4 662 749
+p rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# 2 4 678 749
+n rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# gnd 2 8 662 724
+n rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# 2 8 678 724
+n En6 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# 2 6 655 717
+n En6 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# 2 6 681 717
+p rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# vdd 2 4 662 776
+p rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# 2 4 678 776
+n rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# gnd 2 8 662 801
+n rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# 2 8 678 801
+n En5 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# 2 6 655 808
+n En5 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# 2 6 681 808
+p rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# vdd 2 4 662 871
+p rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# 2 4 678 871
+n rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# gnd 2 8 662 846
+n rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# 2 8 678 846
+n En4 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# 2 6 655 839
+n En4 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# 2 6 681 839
+p rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# vdd 2 4 662 898
+p rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# 2 4 678 898
+n rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# gnd 2 8 662 923
+n rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# 2 8 678 923
+n En3 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# 2 6 655 930
+n En3 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# 2 6 681 930
+p rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# vdd 2 4 662 993
+p rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# 2 4 678 993
+n rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# gnd 2 8 662 968
+n rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# 2 8 678 968
+n En2 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# 2 6 655 961
+n En2 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# 2 6 681 961
+p rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# vdd 2 4 662 1020
+p rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# 2 4 678 1020
+n rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# gnd 2 8 662 1045
+n rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# 2 8 678 1045
+n En1 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# 2 6 655 1052
+n En1 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# 2 6 681 1052
+p rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# vdd 2 4 662 1115
+p rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# 2 4 678 1115
+n rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# gnd 2 8 662 1090
+n rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# 2 8 678 1090
+n En0 rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# 2 6 655 1083
+n En0 rf_dec_0/register_file_0/reg_bit_2/Bl_ rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# 2 6 681 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_2/Bl 2 32 662 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_2/Bl rf_dec_0/register_file_0/reg_bit_2/Bl_ 2 32 670 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_2/Bl_ vdd 2 32 678 1139
+p rf_dec_0/register_file_0/reg_bit_1/A_ Ad6 vdd 2 8 615 467
+p Ad6 vdd rf_dec_0/register_file_0/reg_bit_1/A_ 2 8 631 467
+n rf_dec_0/register_file_0/reg_bit_1/A_ Ad6 rf_dec_0/register_file_0/reg_bit_1/diffamp_0/a_92_n2# 2 4 615 422
+n Ad6 rf_dec_0/register_file_0/reg_bit_1/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_1/A_ 2 4 631 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_1/diffamp_0/a_92_n2# 2 4 622 402
+p REG_As rf_dec_0/register_file_0/reg_bit_1/Bl Ad6 2 32 615 492
+p REG_As rf_dec_0/register_file_0/reg_bit_1/A_ rf_dec_0/register_file_0/reg_bit_1/Bl_ 2 32 631 492
+p rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n4# 2 16 611 614
+p rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_1/Bl 2 16 616 614
+p rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n4# 2 16 632 614
+p O6 rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n4# vdd 2 16 637 614
+n rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n30# 2 8 611 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_1/Bl 2 8 616 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n30# 2 8 632 588
+n O6 rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n30# gnd 2 8 637 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# 2 4 621 571
+n O6 rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# gnd 2 4 637 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# 2 8 621 545
+p O6 rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# vdd 2 8 637 545
+p rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# vdd 2 4 615 654
+p rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# 2 4 631 654
+n rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# gnd 2 8 615 679
+n rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# 2 8 631 679
+n En7 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# 2 6 608 686
+n En7 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# 2 6 634 686
+p rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# vdd 2 4 615 749
+p rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# 2 4 631 749
+n rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# gnd 2 8 615 724
+n rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# 2 8 631 724
+n En6 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# 2 6 608 717
+n En6 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# 2 6 634 717
+p rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# vdd 2 4 615 776
+p rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# 2 4 631 776
+n rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# gnd 2 8 615 801
+n rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# 2 8 631 801
+n En5 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# 2 6 608 808
+n En5 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# 2 6 634 808
+p rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# vdd 2 4 615 871
+p rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# 2 4 631 871
+n rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# gnd 2 8 615 846
+n rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# 2 8 631 846
+n En4 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# 2 6 608 839
+n En4 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# 2 6 634 839
+p rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# vdd 2 4 615 898
+p rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# 2 4 631 898
+n rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# gnd 2 8 615 923
+n rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# 2 8 631 923
+n En3 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# 2 6 608 930
+n En3 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# 2 6 634 930
+p rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# vdd 2 4 615 993
+p rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# 2 4 631 993
+n rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# gnd 2 8 615 968
+n rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# 2 8 631 968
+n En2 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# 2 6 608 961
+n En2 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# 2 6 634 961
+p rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# vdd 2 4 615 1020
+p rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# 2 4 631 1020
+n rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# gnd 2 8 615 1045
+n rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# 2 8 631 1045
+n En1 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# 2 6 608 1052
+n En1 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# 2 6 634 1052
+p rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# vdd 2 4 615 1115
+p rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# 2 4 631 1115
+n rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# gnd 2 8 615 1090
+n rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# 2 8 631 1090
+n En0 rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# 2 6 608 1083
+n En0 rf_dec_0/register_file_0/reg_bit_1/Bl_ rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# 2 6 634 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_1/Bl 2 32 615 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_1/Bl rf_dec_0/register_file_0/reg_bit_1/Bl_ 2 32 623 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_1/Bl_ vdd 2 32 631 1139
+p rf_dec_0/register_file_0/reg_bit_0/A_ Ad7 vdd 2 8 568 467
+p Ad7 vdd rf_dec_0/register_file_0/reg_bit_0/A_ 2 8 584 467
+n rf_dec_0/register_file_0/reg_bit_0/A_ Ad7 rf_dec_0/register_file_0/reg_bit_0/diffamp_0/a_92_n2# 2 4 568 422
+n Ad7 rf_dec_0/register_file_0/reg_bit_0/diffamp_0/a_92_n2# rf_dec_0/register_file_0/reg_bit_0/A_ 2 4 584 422
+n REG_As gnd rf_dec_0/register_file_0/reg_bit_0/diffamp_0/a_92_n2# 2 4 575 402
+p REG_As rf_dec_0/register_file_0/reg_bit_0/Bl Ad7 2 32 568 492
+p REG_As rf_dec_0/register_file_0/reg_bit_0/A_ rf_dec_0/register_file_0/reg_bit_0/Bl_ 2 32 584 492
+p rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# vdd rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n4# 2 16 564 614
+p rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n4# rf_dec_0/register_file_0/reg_bit_0/Bl 2 16 569 614
+p rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n4# 2 16 585 614
+p O7 rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n4# vdd 2 16 590 614
+n rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# gnd rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n30# 2 8 564 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n30# rf_dec_0/register_file_0/reg_bit_0/Bl 2 8 569 588
+n REG_Ds rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n30# 2 8 585 588
+n O7 rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n30# gnd 2 8 590 588
+n REG_Ds gnd rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# 2 4 574 571
+n O7 rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# gnd 2 4 590 571
+p REG_Ds vdd rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# 2 8 574 545
+p O7 rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# vdd 2 8 590 545
+p rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# vdd 2 4 568 654
+p rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# 2 4 584 654
+n rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# gnd 2 8 568 679
+n rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# 2 8 584 679
+n En7 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# 2 6 561 686
+n En7 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# 2 6 587 686
+p rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# vdd 2 4 568 749
+p rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# 2 4 584 749
+n rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# gnd 2 8 568 724
+n rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# 2 8 584 724
+n En6 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# 2 6 561 717
+n En6 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# 2 6 587 717
+p rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# vdd 2 4 568 776
+p rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# 2 4 584 776
+n rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# gnd 2 8 568 801
+n rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# 2 8 584 801
+n En5 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# 2 6 561 808
+n En5 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# 2 6 587 808
+p rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# vdd 2 4 568 871
+p rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# 2 4 584 871
+n rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# gnd 2 8 568 846
+n rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# 2 8 584 846
+n En4 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# 2 6 561 839
+n En4 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# 2 6 587 839
+p rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# vdd 2 4 568 898
+p rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# 2 4 584 898
+n rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# gnd 2 8 568 923
+n rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# 2 8 584 923
+n En3 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# 2 6 561 930
+n En3 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# 2 6 587 930
+p rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# vdd 2 4 568 993
+p rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# 2 4 584 993
+n rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# gnd 2 8 568 968
+n rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# 2 8 584 968
+n En2 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# 2 6 561 961
+n En2 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# 2 6 587 961
+p rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# vdd 2 4 568 1020
+p rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# 2 4 584 1020
+n rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# gnd 2 8 568 1045
+n rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# 2 8 584 1045
+n En1 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# 2 6 561 1052
+n En1 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# 2 6 587 1052
+p rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# vdd 2 4 568 1115
+p rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# vdd rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# 2 4 584 1115
+n rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# gnd 2 8 568 1090
+n rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# gnd rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# 2 8 584 1090
+n En0 rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# 2 6 561 1083
+n En0 rf_dec_0/register_file_0/reg_bit_0/Bl_ rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# 2 6 587 1083
+p REG_Pc vdd rf_dec_0/register_file_0/reg_bit_0/Bl 2 32 568 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_0/Bl rf_dec_0/register_file_0/reg_bit_0/Bl_ 2 32 576 1139
+p REG_Pc rf_dec_0/register_file_0/reg_bit_0/Bl_ vdd 2 32 584 1139
+p rf_dec_0/decoder_full_0/andor_6/nand_2/A En0 vdd 2 20 480 1120
+p rf_dec_0/decoder_full_0/andor_6/nand_2/B vdd En0 2 20 488 1120
+n rf_dec_0/decoder_full_0/andor_6/nand_2/A gnd rf_dec_0/decoder_full_0/andor_6/nand_2/a_n12_n50# 2 22 480 1166
+n rf_dec_0/decoder_full_0/andor_6/nand_2/B rf_dec_0/decoder_full_0/andor_6/nand_2/a_n12_n50# En0 2 22 488 1166
+p REG_Ds rf_dec_0/decoder_full_0/andor_6/nand_2/B vdd 2 20 452 1120
+p rf_dec_0/decoder_full_0/andor_6/D vdd rf_dec_0/decoder_full_0/andor_6/nand_2/B 2 20 460 1120
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_6/nand_1/a_n12_n50# 2 22 452 1166
+n rf_dec_0/decoder_full_0/andor_6/D rf_dec_0/decoder_full_0/andor_6/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_6/nand_2/B 2 22 460 1166
+p REG_As rf_dec_0/decoder_full_0/andor_6/nand_2/A vdd 2 20 424 1120
+p rf_dec_0/decoder_full_0/andor_6/A vdd rf_dec_0/decoder_full_0/andor_6/nand_2/A 2 20 432 1120
+n REG_As gnd rf_dec_0/decoder_full_0/andor_6/nand_0/a_n12_n50# 2 22 424 1166
+n rf_dec_0/decoder_full_0/andor_6/A rf_dec_0/decoder_full_0/andor_6/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_6/nand_2/A 2 22 432 1166
+p rf_dec_0/decoder_full_0/andor_5/nand_2/A En1 vdd 2 20 480 1057
+p rf_dec_0/decoder_full_0/andor_5/nand_2/B vdd En1 2 20 488 1057
+n rf_dec_0/decoder_full_0/andor_5/nand_2/A gnd rf_dec_0/decoder_full_0/andor_5/nand_2/a_n12_n50# 2 22 480 1011
+n rf_dec_0/decoder_full_0/andor_5/nand_2/B rf_dec_0/decoder_full_0/andor_5/nand_2/a_n12_n50# En1 2 22 488 1011
+p REG_Ds rf_dec_0/decoder_full_0/andor_5/nand_2/B vdd 2 20 452 1057
+p rf_dec_0/decoder_full_0/andor_5/D vdd rf_dec_0/decoder_full_0/andor_5/nand_2/B 2 20 460 1057
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_5/nand_1/a_n12_n50# 2 22 452 1011
+n rf_dec_0/decoder_full_0/andor_5/D rf_dec_0/decoder_full_0/andor_5/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_5/nand_2/B 2 22 460 1011
+p REG_As rf_dec_0/decoder_full_0/andor_5/nand_2/A vdd 2 20 424 1057
+p rf_dec_0/decoder_full_0/andor_5/A vdd rf_dec_0/decoder_full_0/andor_5/nand_2/A 2 20 432 1057
+n REG_As gnd rf_dec_0/decoder_full_0/andor_5/nand_0/a_n12_n50# 2 22 424 1011
+n rf_dec_0/decoder_full_0/andor_5/A rf_dec_0/decoder_full_0/andor_5/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_5/nand_2/A 2 22 432 1011
+p rf_dec_0/decoder_full_0/andor_4/nand_2/A En2 vdd 2 20 480 940
+p rf_dec_0/decoder_full_0/andor_4/nand_2/B vdd En2 2 20 488 940
+n rf_dec_0/decoder_full_0/andor_4/nand_2/A gnd rf_dec_0/decoder_full_0/andor_4/nand_2/a_n12_n50# 2 22 480 986
+n rf_dec_0/decoder_full_0/andor_4/nand_2/B rf_dec_0/decoder_full_0/andor_4/nand_2/a_n12_n50# En2 2 22 488 986
+p REG_Ds rf_dec_0/decoder_full_0/andor_4/nand_2/B vdd 2 20 452 940
+p rf_dec_0/decoder_full_0/andor_4/D vdd rf_dec_0/decoder_full_0/andor_4/nand_2/B 2 20 460 940
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_4/nand_1/a_n12_n50# 2 22 452 986
+n rf_dec_0/decoder_full_0/andor_4/D rf_dec_0/decoder_full_0/andor_4/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_4/nand_2/B 2 22 460 986
+p REG_As rf_dec_0/decoder_full_0/andor_4/nand_2/A vdd 2 20 424 940
+p rf_dec_0/decoder_full_0/andor_4/A vdd rf_dec_0/decoder_full_0/andor_4/nand_2/A 2 20 432 940
+n REG_As gnd rf_dec_0/decoder_full_0/andor_4/nand_0/a_n12_n50# 2 22 424 986
+n rf_dec_0/decoder_full_0/andor_4/A rf_dec_0/decoder_full_0/andor_4/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_4/nand_2/A 2 22 432 986
+p rf_dec_0/decoder_full_0/andor_3/nand_2/A En3 vdd 2 20 480 877
+p rf_dec_0/decoder_full_0/andor_3/nand_2/B vdd En3 2 20 488 877
+n rf_dec_0/decoder_full_0/andor_3/nand_2/A gnd rf_dec_0/decoder_full_0/andor_3/nand_2/a_n12_n50# 2 22 480 831
+n rf_dec_0/decoder_full_0/andor_3/nand_2/B rf_dec_0/decoder_full_0/andor_3/nand_2/a_n12_n50# En3 2 22 488 831
+p REG_Ds rf_dec_0/decoder_full_0/andor_3/nand_2/B vdd 2 20 452 877
+p rf_dec_0/decoder_full_0/andor_3/D vdd rf_dec_0/decoder_full_0/andor_3/nand_2/B 2 20 460 877
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_3/nand_1/a_n12_n50# 2 22 452 831
+n rf_dec_0/decoder_full_0/andor_3/D rf_dec_0/decoder_full_0/andor_3/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_3/nand_2/B 2 22 460 831
+p REG_As rf_dec_0/decoder_full_0/andor_3/nand_2/A vdd 2 20 424 877
+p rf_dec_0/decoder_full_0/andor_3/A vdd rf_dec_0/decoder_full_0/andor_3/nand_2/A 2 20 432 877
+n REG_As gnd rf_dec_0/decoder_full_0/andor_3/nand_0/a_n12_n50# 2 22 424 831
+n rf_dec_0/decoder_full_0/andor_3/A rf_dec_0/decoder_full_0/andor_3/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_3/nand_2/A 2 22 432 831
+p rf_dec_0/decoder_full_0/andor_2/nand_2/A En4 vdd 2 20 480 760
+p rf_dec_0/decoder_full_0/andor_2/nand_2/B vdd En4 2 20 488 760
+n rf_dec_0/decoder_full_0/andor_2/nand_2/A gnd rf_dec_0/decoder_full_0/andor_2/nand_2/a_n12_n50# 2 22 480 806
+n rf_dec_0/decoder_full_0/andor_2/nand_2/B rf_dec_0/decoder_full_0/andor_2/nand_2/a_n12_n50# En4 2 22 488 806
+p REG_Ds rf_dec_0/decoder_full_0/andor_2/nand_2/B vdd 2 20 452 760
+p rf_dec_0/decoder_full_0/andor_2/D vdd rf_dec_0/decoder_full_0/andor_2/nand_2/B 2 20 460 760
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_2/nand_1/a_n12_n50# 2 22 452 806
+n rf_dec_0/decoder_full_0/andor_2/D rf_dec_0/decoder_full_0/andor_2/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_2/nand_2/B 2 22 460 806
+p REG_As rf_dec_0/decoder_full_0/andor_2/nand_2/A vdd 2 20 424 760
+p rf_dec_0/decoder_full_0/andor_2/A vdd rf_dec_0/decoder_full_0/andor_2/nand_2/A 2 20 432 760
+n REG_As gnd rf_dec_0/decoder_full_0/andor_2/nand_0/a_n12_n50# 2 22 424 806
+n rf_dec_0/decoder_full_0/andor_2/A rf_dec_0/decoder_full_0/andor_2/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_2/nand_2/A 2 22 432 806
+p rf_dec_0/decoder_full_0/andor_1/nand_2/A En5 vdd 2 20 480 697
+p rf_dec_0/decoder_full_0/andor_1/nand_2/B vdd En5 2 20 488 697
+n rf_dec_0/decoder_full_0/andor_1/nand_2/A gnd rf_dec_0/decoder_full_0/andor_1/nand_2/a_n12_n50# 2 22 480 651
+n rf_dec_0/decoder_full_0/andor_1/nand_2/B rf_dec_0/decoder_full_0/andor_1/nand_2/a_n12_n50# En5 2 22 488 651
+p REG_Ds rf_dec_0/decoder_full_0/andor_1/nand_2/B vdd 2 20 452 697
+p rf_dec_0/decoder_full_0/andor_1/D vdd rf_dec_0/decoder_full_0/andor_1/nand_2/B 2 20 460 697
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_1/nand_1/a_n12_n50# 2 22 452 651
+n rf_dec_0/decoder_full_0/andor_1/D rf_dec_0/decoder_full_0/andor_1/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_1/nand_2/B 2 22 460 651
+p REG_As rf_dec_0/decoder_full_0/andor_1/nand_2/A vdd 2 20 424 697
+p rf_dec_0/decoder_full_0/andor_1/A vdd rf_dec_0/decoder_full_0/andor_1/nand_2/A 2 20 432 697
+n REG_As gnd rf_dec_0/decoder_full_0/andor_1/nand_0/a_n12_n50# 2 22 424 651
+n rf_dec_0/decoder_full_0/andor_1/A rf_dec_0/decoder_full_0/andor_1/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_1/nand_2/A 2 22 432 651
+p rf_dec_0/decoder_full_0/andor_0/nand_2/A En6 vdd 2 20 480 580
+p rf_dec_0/decoder_full_0/andor_0/nand_2/B vdd En6 2 20 488 580
+n rf_dec_0/decoder_full_0/andor_0/nand_2/A gnd rf_dec_0/decoder_full_0/andor_0/nand_2/a_n12_n50# 2 22 480 626
+n rf_dec_0/decoder_full_0/andor_0/nand_2/B rf_dec_0/decoder_full_0/andor_0/nand_2/a_n12_n50# En6 2 22 488 626
+p REG_Ds rf_dec_0/decoder_full_0/andor_0/nand_2/B vdd 2 20 452 580
+p rf_dec_0/decoder_full_0/andor_0/D vdd rf_dec_0/decoder_full_0/andor_0/nand_2/B 2 20 460 580
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_0/nand_1/a_n12_n50# 2 22 452 626
+n rf_dec_0/decoder_full_0/andor_0/D rf_dec_0/decoder_full_0/andor_0/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_0/nand_2/B 2 22 460 626
+p REG_As rf_dec_0/decoder_full_0/andor_0/nand_2/A vdd 2 20 424 580
+p rf_dec_0/decoder_full_0/andor_0/A vdd rf_dec_0/decoder_full_0/andor_0/nand_2/A 2 20 432 580
+n REG_As gnd rf_dec_0/decoder_full_0/andor_0/nand_0/a_n12_n50# 2 22 424 626
+n rf_dec_0/decoder_full_0/andor_0/A rf_dec_0/decoder_full_0/andor_0/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_0/nand_2/A 2 22 432 626
+p rf_dec_0/decoder_full_0/andor_7/nand_2/A En7 vdd 2 20 480 517
+p rf_dec_0/decoder_full_0/andor_7/nand_2/B vdd En7 2 20 488 517
+n rf_dec_0/decoder_full_0/andor_7/nand_2/A gnd rf_dec_0/decoder_full_0/andor_7/nand_2/a_n12_n50# 2 22 480 471
+n rf_dec_0/decoder_full_0/andor_7/nand_2/B rf_dec_0/decoder_full_0/andor_7/nand_2/a_n12_n50# En7 2 22 488 471
+p REG_Ds rf_dec_0/decoder_full_0/andor_7/nand_2/B vdd 2 20 452 517
+p rf_dec_0/decoder_full_0/andor_7/D vdd rf_dec_0/decoder_full_0/andor_7/nand_2/B 2 20 460 517
+n REG_Ds gnd rf_dec_0/decoder_full_0/andor_7/nand_1/a_n12_n50# 2 22 452 471
+n rf_dec_0/decoder_full_0/andor_7/D rf_dec_0/decoder_full_0/andor_7/nand_1/a_n12_n50# rf_dec_0/decoder_full_0/andor_7/nand_2/B 2 22 460 471
+p REG_As rf_dec_0/decoder_full_0/andor_7/nand_2/A vdd 2 20 424 517
+p rf_dec_0/decoder_full_0/andor_7/A vdd rf_dec_0/decoder_full_0/andor_7/nand_2/A 2 20 432 517
+n REG_As gnd rf_dec_0/decoder_full_0/andor_7/nand_0/a_n12_n50# 2 22 424 471
+n rf_dec_0/decoder_full_0/andor_7/A rf_dec_0/decoder_full_0/andor_7/nand_0/a_n12_n50# rf_dec_0/decoder_full_0/andor_7/nand_2/A 2 22 432 471
+p A0 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_7_0# 2 24 308 1157
+p A1 rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_15_0# 2 24 308 1165
+p A2 rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_15_0# rf_dec_0/decoder_full_0/andor_6/A 2 24 308 1173
+n A0 gnd rf_dec_0/decoder_full_0/andor_6/A 2 7 329 1157
+n A1 rf_dec_0/decoder_full_0/andor_6/A gnd 2 7 329 1165
+n A2 gnd rf_dec_0/decoder_full_0/andor_6/A 2 7 329 1173
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_7_0# 2 24 308 1119
+p A1 rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_15_0# 2 24 308 1127
+p A2 rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_15_0# rf_dec_0/decoder_full_0/andor_5/A 2 24 308 1135
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_5/A 2 7 329 1119
+n A1 rf_dec_0/decoder_full_0/andor_5/A gnd 2 7 329 1127
+n A2 gnd rf_dec_0/decoder_full_0/andor_5/A 2 7 329 1135
+p A0 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_7_0# 2 24 308 1081
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_15_0# 2 24 308 1089
+p A2 rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_15_0# rf_dec_0/decoder_full_0/andor_4/A 2 24 308 1097
+n A0 gnd rf_dec_0/decoder_full_0/andor_4/A 2 7 329 1081
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/andor_4/A gnd 2 7 329 1089
+n A2 gnd rf_dec_0/decoder_full_0/andor_4/A 2 7 329 1097
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_7_0# 2 24 308 1043
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_15_0# 2 24 308 1051
+p A2 rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_15_0# rf_dec_0/decoder_full_0/andor_3/A 2 24 308 1059
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_3/A 2 7 329 1043
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/andor_3/A gnd 2 7 329 1051
+n A2 gnd rf_dec_0/decoder_full_0/andor_3/A 2 7 329 1059
+p A0 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_7_0# 2 24 308 1005
+p A1 rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_15_0# 2 24 308 1013
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/C rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_15_0# rf_dec_0/decoder_full_0/andor_2/A 2 24 308 1021
+n A0 gnd rf_dec_0/decoder_full_0/andor_2/A 2 7 329 1005
+n A1 rf_dec_0/decoder_full_0/andor_2/A gnd 2 7 329 1013
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_2/A 2 7 329 1021
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_7_0# 2 24 308 967
+p A1 rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_15_0# 2 24 308 975
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/C rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_15_0# rf_dec_0/decoder_full_0/andor_1/A 2 24 308 983
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_1/A 2 7 329 967
+n A1 rf_dec_0/decoder_full_0/andor_1/A gnd 2 7 329 975
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_1/A 2 7 329 983
+p A0 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_7_0# 2 24 308 929
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_15_0# 2 24 308 937
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/C rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_15_0# rf_dec_0/decoder_full_0/andor_0/A 2 24 308 945
+n A0 gnd rf_dec_0/decoder_full_0/andor_0/A 2 7 329 929
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/andor_0/A gnd 2 7 329 937
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_0/A 2 7 329 945
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_7_0# 2 24 308 891
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_7_0# rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_15_0# 2 24 308 899
+p rf_dec_0/decoder_full_0/decoder_1/3nor_0/C rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_15_0# rf_dec_0/decoder_full_0/andor_7/A 2 24 308 907
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_7/A 2 7 329 891
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/B rf_dec_0/decoder_full_0/andor_7/A gnd 2 7 329 899
+n rf_dec_0/decoder_full_0/decoder_1/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_7/A 2 7 329 907
+p A1 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_0/B 2 9 255 875
+n A1 gnd rf_dec_0/decoder_full_0/decoder_1/3nor_0/B 2 4 237 875
+p A0 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_0/A 2 9 255 856
+n A0 gnd rf_dec_0/decoder_full_0/decoder_1/3nor_0/A 2 4 237 856
+p A2 vdd rf_dec_0/decoder_full_0/decoder_1/3nor_0/C 2 9 255 838
+n A2 gnd rf_dec_0/decoder_full_0/decoder_1/3nor_0/C 2 4 237 838
+p D0 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_7_0# 2 24 307 786
+p D1 rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_15_0# 2 24 307 794
+p D2 rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_15_0# rf_dec_0/decoder_full_0/andor_6/D 2 24 307 802
+n D0 gnd rf_dec_0/decoder_full_0/andor_6/D 2 7 328 786
+n D1 rf_dec_0/decoder_full_0/andor_6/D gnd 2 7 328 794
+n D2 gnd rf_dec_0/decoder_full_0/andor_6/D 2 7 328 802
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_7_0# 2 24 307 748
+p D1 rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_15_0# 2 24 307 756
+p D2 rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_15_0# rf_dec_0/decoder_full_0/andor_5/D 2 24 307 764
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_5/D 2 7 328 748
+n D1 rf_dec_0/decoder_full_0/andor_5/D gnd 2 7 328 756
+n D2 gnd rf_dec_0/decoder_full_0/andor_5/D 2 7 328 764
+p D0 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_7_0# 2 24 307 710
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_15_0# 2 24 307 718
+p D2 rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_15_0# rf_dec_0/decoder_full_0/andor_4/D 2 24 307 726
+n D0 gnd rf_dec_0/decoder_full_0/andor_4/D 2 7 328 710
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/andor_4/D gnd 2 7 328 718
+n D2 gnd rf_dec_0/decoder_full_0/andor_4/D 2 7 328 726
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_7_0# 2 24 307 672
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_15_0# 2 24 307 680
+p D2 rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_15_0# rf_dec_0/decoder_full_0/andor_3/D 2 24 307 688
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_3/D 2 7 328 672
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/andor_3/D gnd 2 7 328 680
+n D2 gnd rf_dec_0/decoder_full_0/andor_3/D 2 7 328 688
+p D0 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_7_0# 2 24 307 634
+p D1 rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_15_0# 2 24 307 642
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/C rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_15_0# rf_dec_0/decoder_full_0/andor_2/D 2 24 307 650
+n D0 gnd rf_dec_0/decoder_full_0/andor_2/D 2 7 328 634
+n D1 rf_dec_0/decoder_full_0/andor_2/D gnd 2 7 328 642
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_2/D 2 7 328 650
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_7_0# 2 24 307 596
+p D1 rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_15_0# 2 24 307 604
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/C rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_15_0# rf_dec_0/decoder_full_0/andor_1/D 2 24 307 612
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_1/D 2 7 328 596
+n D1 rf_dec_0/decoder_full_0/andor_1/D gnd 2 7 328 604
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_1/D 2 7 328 612
+p D0 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_7_0# 2 24 307 558
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_15_0# 2 24 307 566
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/C rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_15_0# rf_dec_0/decoder_full_0/andor_0/D 2 24 307 574
+n D0 gnd rf_dec_0/decoder_full_0/andor_0/D 2 7 328 558
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/andor_0/D gnd 2 7 328 566
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_0/D 2 7 328 574
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/A vdd rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_7_0# 2 24 307 520
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_7_0# rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_15_0# 2 24 307 528
+p rf_dec_0/decoder_full_0/decoder_0/3nor_0/C rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_15_0# rf_dec_0/decoder_full_0/andor_7/D 2 24 307 536
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/A gnd rf_dec_0/decoder_full_0/andor_7/D 2 7 328 520
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/B rf_dec_0/decoder_full_0/andor_7/D gnd 2 7 328 528
+n rf_dec_0/decoder_full_0/decoder_0/3nor_0/C gnd rf_dec_0/decoder_full_0/andor_7/D 2 7 328 536
+p D1 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_0/B 2 9 254 504
+n D1 gnd rf_dec_0/decoder_full_0/decoder_0/3nor_0/B 2 4 236 504
+p D0 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_0/A 2 9 254 485
+n D0 gnd rf_dec_0/decoder_full_0/decoder_0/3nor_0/A 2 4 236 485
+p D2 vdd rf_dec_0/decoder_full_0/decoder_0/3nor_0/C 2 9 254 467
+n D2 gnd rf_dec_0/decoder_full_0/decoder_0/3nor_0/C 2 4 236 467
+C S3 O6 4.214760
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/A vdd 4.514940
+C rf_dec_0/register_file_0/reg_bit_2/Bl_ gnd 3.754919
+C alu_reg_0/reg_bit1_5/Bl vdd 5.206560
+C rf_dec_0/register_file_0/reg_bit_1/Bl gnd 3.764040
+C alu_reg_0/reg_bit1_2/Bl vdd 5.206560
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/A vdd 4.514940
+C rf_dec_0/register_file_0/reg_bit_2/Bl_ vdd 13.453560
+C rf_dec_0/register_file_0/reg_bit_1/Bl vdd 13.401120
+C rf_dec_0/Bl gnd 3.764040
+C gnd vdd 130.689578
+C rf_dec_0/register_file_0/reg_bit_4/A_ vdd 5.819940
+C rf_dec_0/register_file_0/reg_bit_7/A_ vdd 5.819940
+C REG_As gnd 3.790200
+C rf_dec_0/Bl vdd 13.401119
+C alu_reg_0/reg_bit1_7/A_ vdd 5.819940
+C O7 vdd 7.410270
+C O2 vdd 7.410270
+C alu_reg_0/reg_bit1_3/Bl_ vdd 5.259000
+C REG_As vdd 3.704580
+C REG_As rf_dec_0/decoder_full_0/andor_1/D 2.853240
+C alu_reg_0/reg_bit1_4/Bl_ vdd 5.259000
+C rf_dec_0/register_file_0/reg_bit_1/Bl_ gnd 3.754919
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/B vdd 3.270960
+C rf_dec_0/register_file_0/reg_bit_0/Bl gnd 3.764040
+C rf_dec_0/register_file_0/reg_bit_5/Bl gnd 3.764040
+C O0 vdd 7.854870
+C rf_dec_0/register_file_0/reg_bit_1/Bl_ vdd 13.453560
+C Subtract O6 2.347920
+C rf_dec_0/register_file_0/reg_bit_0/Bl vdd 13.401120
+C rf_dec_0/register_file_0/reg_bit_5/Bl vdd 13.401120
+C alu_reg_0/reg_bit1_4/Bl vdd 5.206560
+C alu_reg_0/reg_bit1_0/Bl_ vdd 5.259000
+C alu_reg_0/reg_bit1_1/Bl vdd 5.206560
+C rf_dec_0/register_file_0/reg_bit_3/A_ vdd 5.819940
+C S2 O6 5.776380
+C rf_dec_0/decoder_full_0/andor_5/D rf_dec_0/decoder_full_0/andor_4/A 3.483360
+C O3 vdd 7.410270
+C rf_dec_0/register_file_0/reg_bit_0/Bl_ gnd 3.754919
+C rf_dec_0/register_file_0/reg_bit_5/Bl_ gnd 3.754919
+C rf_dec_0/decoder_full_0/andor_2/A rf_dec_0/decoder_full_0/andor_6/D 7.937700
+C rf_dec_0/register_file_0/reg_bit_4/Bl gnd 3.764040
+C rf_dec_0/register_file_0/reg_bit_0/Bl_ vdd 13.453560
+C rf_dec_0/register_file_0/reg_bit_5/Bl_ vdd 13.453560
+C rf_dec_0/register_file_0/reg_bit_4/Bl vdd 13.401120
+C alu_reg_0/reg_bit1_5/Bl_ vdd 5.259000
+C alu_reg_0/reg_bit1_2/Bl_ vdd 5.259000
+C rf_dec_0/register_file_0/reg_bit_2/A_ vdd 5.819940
+C alu_reg_0/reg_bit1_5/A_ vdd 5.819940
+C S2 O7 5.264160
+C alu_reg_0/reg_bit1_2/A_ vdd 5.819940
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/B vdd 3.270960
+C alu_reg_0/reg_bit1_1/Bl_ vdd 5.259000
+C O4 vdd 7.410270
+C rf_dec_0/register_file_0/reg_bit_4/Bl_ gnd 3.754919
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/C vdd 7.041420
+C rf_dec_0/register_file_0/reg_bit_3/Bl gnd 3.764040
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/C vdd 7.041420
+C rf_dec_0/register_file_0/reg_bit_4/Bl_ vdd 13.453560
+C O1 vdd 7.410270
+C rf_dec_0/register_file_0/reg_bit_3/Bl vdd 13.401120
+C REG_Pc vdd 13.194719
+C rf_dec_0/register_file_0/reg_bit_1/A_ vdd 5.819940
+C rf_dec_0/register_file_0/reg_bit_6/A_ vdd 5.819940
+C rf_dec_0/register_file_0/reg_bit_6/Bl gnd 3.764040
+C O5 vdd 7.410270
+C rf_dec_0/register_file_0/reg_bit_6/Bl_ gnd 3.754919
+C rf_dec_0/register_file_0/reg_bit_6/Bl vdd 13.401120
+C S3 O5 2.917860
+C gnd REG_Ds 14.604420
+C rf_dec_0/register_file_0/reg_bit_3/Bl_ gnd 3.754919
+C rf_dec_0/register_file_0/reg_bit_6/Bl_ vdd 13.453560
+C rf_dec_0/register_file_0/reg_bit_2/Bl gnd 3.764040
+C vdd REG_Ds 3.068190
+C Select gnd 2.977320
+C alu_reg_0/reg_bit1_4/A_ vdd 5.819940
+C rf_dec_0/register_file_0/reg_bit_3/Bl_ vdd 13.453560
+C alu_reg_0/reg_bit1_1/A_ vdd 5.819940
+C rf_dec_0/register_file_0/reg_bit_2/Bl vdd 13.401120
+C rf_dec_0/decoder_full_0/andor_3/A rf_dec_0/decoder_full_0/andor_6/D 6.758760
+C rf_dec_0/decoder_full_0/andor_5/D rf_dec_0/decoder_full_0/andor_3/A 6.857040
+C alu_reg_0/reg_bit1_7/Bl_ vdd 5.558880
+C alu_reg_0/reg_bit1_6/A_ vdd 5.819940
+C alu_reg_0/reg_bit1_6/Bl_ vdd 5.259000
+C alu_reg_0/reg_bit1_3/A_ vdd 5.819940
+C alu_reg_0/reg_bit1_6/Bl vdd 5.206560
+C rf_dec_0/register_file_0/reg_bit_0/A_ vdd 5.819940
+C Subtract I0 2.001120
+C rf_dec_0/register_file_0/reg_bit_5/A_ vdd 5.819940
+C alu_reg_0/reg_bit1_0/A_ vdd 5.819940
+C alu_reg_0/reg_bit1_3/Bl vdd 5.206560
+C rf_dec_0/register_file_0/reg_bit_7/Bl_ gnd 3.754919
+C alu_reg_0/reg_bit1_7/Bl vdd 5.206560
+C alu_reg_0/reg_bit1_0/Bl vdd 5.500320
+C O6 vdd 7.410270
+C S1 O7 2.930100
+C rf_dec_0/register_file_0/reg_bit_7/Bl_ vdd 13.453560
+R S0 1863
+C REG_Ds GND 94.557336
+R REG_Ds 17684
+C vdd GND 1801.402000
+R vdd 617485
+C rf_dec_0/decoder_full_0/andor_7/D GND 6.099480
+R rf_dec_0/decoder_full_0/andor_7/D 1893
+R rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_0/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_0/D GND 10.064340
+R rf_dec_0/decoder_full_0/andor_0/D 1896
+R rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_1/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_1/D GND 12.231211
+R rf_dec_0/decoder_full_0/andor_1/D 1896
+R rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_2/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_2/D GND 13.945080
+R rf_dec_0/decoder_full_0/andor_2/D 1897
+R rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_3/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/C GND 19.405662
+R rf_dec_0/decoder_full_0/decoder_0/3nor_0/C 3628
+C rf_dec_0/decoder_full_0/andor_3/D GND 11.909601
+R rf_dec_0/decoder_full_0/andor_3/D 1896
+R rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_4/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_4/D GND 10.131842
+R rf_dec_0/decoder_full_0/andor_4/D 1895
+R rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_5/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/B GND 24.701361
+R rf_dec_0/decoder_full_0/decoder_0/3nor_0/B 3005
+C rf_dec_0/decoder_full_0/andor_5/D GND 6.454701
+R rf_dec_0/decoder_full_0/andor_5/D 1897
+R rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_6/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_0/3nor_0/A GND 33.887840
+R rf_dec_0/decoder_full_0/decoder_0/3nor_0/A 3012
+R rf_dec_0/decoder_full_0/andor_6/D 1896
+R rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_0/3nor_7/a_7_0# 410
+R D2 3802
+R D1 3178
+R D0 3185
+C rf_dec_0/decoder_full_0/andor_7/A GND 9.578582
+R rf_dec_0/decoder_full_0/andor_7/A 1894
+R rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_0/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_0/A GND 11.290682
+R rf_dec_0/decoder_full_0/andor_0/A 1895
+R rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_1/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_1/A GND 4.704941
+R rf_dec_0/decoder_full_0/andor_1/A 1892
+R rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_2/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_2/A GND 4.704941
+R rf_dec_0/decoder_full_0/andor_2/A 1892
+R rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_3/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/C GND 19.405662
+R rf_dec_0/decoder_full_0/decoder_1/3nor_0/C 3628
+C rf_dec_0/decoder_full_0/andor_3/A GND 5.022119
+R rf_dec_0/decoder_full_0/andor_3/A 1892
+R rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_4/a_7_0# 410
+C rf_dec_0/decoder_full_0/andor_4/A GND 5.022121
+R rf_dec_0/decoder_full_0/andor_4/A 1892
+R rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_5/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/B GND 24.701361
+R rf_dec_0/decoder_full_0/decoder_1/3nor_0/B 3005
+C rf_dec_0/decoder_full_0/andor_5/A GND 7.216100
+R rf_dec_0/decoder_full_0/andor_5/A 1891
+R rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_6/a_7_0# 410
+C rf_dec_0/decoder_full_0/decoder_1/3nor_0/A GND 33.887840
+R rf_dec_0/decoder_full_0/decoder_1/3nor_0/A 3012
+C rf_dec_0/decoder_full_0/andor_6/A GND 5.291160
+R rf_dec_0/decoder_full_0/andor_6/A 1892
+R rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_15_0# 410
+R rf_dec_0/decoder_full_0/decoder_1/3nor_7/a_7_0# 410
+R A2 3802
+R A1 3178
+R A0 3185
+R rf_dec_0/decoder_full_0/andor_7/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_7/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_7/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_7/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_7/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_7/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_7/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_0/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_0/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_0/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_0/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_0/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_0/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_0/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_1/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_1/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_1/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_1/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_1/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_1/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_1/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_2/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_2/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_2/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_2/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_2/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_2/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_2/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_3/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_3/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_3/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_3/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_3/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_3/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_3/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_4/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_4/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_4/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_4/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_4/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_4/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_4/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_5/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_5/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_5/nand_2/a_n12_n50# 301
+C rf_dec_0/decoder_full_0/andor_5/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_5/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_5/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_5/nand_2/A 2341
+R rf_dec_0/decoder_full_0/andor_6/nand_0/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_6/nand_1/a_n12_n50# 301
+R rf_dec_0/decoder_full_0/andor_6/nand_2/a_n12_n50# 301
+C gnd GND 1582.782750
+R gnd 298875
+R En0 5545
+C rf_dec_0/decoder_full_0/andor_6/nand_2/B GND 9.028081
+R rf_dec_0/decoder_full_0/andor_6/nand_2/B 2341
+C rf_dec_0/decoder_full_0/andor_6/nand_2/A GND 8.842320
+R rf_dec_0/decoder_full_0/andor_6/nand_2/A 2341
+R rf_dec_0/register_file_0/reg_bit_0/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_0/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n4# 547
+C O7 GND 434.398906
+R O7 3463
+C rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_0/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_0/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_0/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_0/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_0/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_0/diffamp_0/a_92_n2# 777
+R Ad7 3626
+C rf_dec_0/register_file_0/reg_bit_0/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_0/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_1/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_1/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n4# 547
+C O6 GND 54.642543
+R O6 3467
+C rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_1/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_1/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_1/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_1/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_1/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_1/diffamp_0/a_92_n2# 777
+R Ad6 3625
+C rf_dec_0/register_file_0/reg_bit_1/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_1/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_2/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_2/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n4# 547
+C O5 GND 49.431547
+R O5 3471
+C rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_2/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_2/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_2/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_2/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_2/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_2/diffamp_0/a_92_n2# 777
+R Ad5 3624
+C rf_dec_0/register_file_0/reg_bit_2/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_2/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_3/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_3/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n4# 547
+C O4 GND 42.072070
+R O4 3468
+C rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_3/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_3/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_3/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_3/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_3/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_3/diffamp_0/a_92_n2# 777
+R Ad4 3624
+C rf_dec_0/register_file_0/reg_bit_3/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_3/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_4/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_4/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n4# 547
+C O3 GND 40.250648
+R O3 3467
+C rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_4/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_4/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_4/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_4/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_4/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_4/diffamp_0/a_92_n2# 777
+R Ad3 3624
+C rf_dec_0/register_file_0/reg_bit_4/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_4/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_5/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_5/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n4# 547
+C O2 GND 45.451191
+R O2 3468
+C rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_5/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_5/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_5/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_5/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_5/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_5/diffamp_0/a_92_n2# 777
+R Ad2 3624
+C rf_dec_0/register_file_0/reg_bit_5/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_5/A_ 2124
+R rf_dec_0/register_file_0/reg_bit_6/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_7/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_6/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_5/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_3/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_2/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_1/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_0/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_6/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n4# 547
+C O1 GND 43.838570
+R O1 3467
+C rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_6/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_6/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_6/Bl_ 4824
+C rf_dec_0/register_file_0/reg_bit_6/Bl GND 26.168096
+R rf_dec_0/register_file_0/reg_bit_6/Bl 4824
+R rf_dec_0/register_file_0/reg_bit_6/diffamp_0/a_92_n2# 777
+R Ad1 3624
+C rf_dec_0/register_file_0/reg_bit_6/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_6/A_ 2124
+C REG_Pc GND 17.246439
+R REG_Pc 13172
+R rf_dec_0/register_file_0/reg_bit_7/sram_7/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_7/a_5_n27# 738
+R En1 5545
+R rf_dec_0/register_file_0/reg_bit_7/sram_6/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_6/a_5_n27# 738
+R En2 5548
+R rf_dec_0/register_file_0/reg_bit_7/sram_5/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_5/a_5_n27# 738
+R En3 5549
+R rf_dec_0/register_file_0/reg_bit_7/sram_3/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_3/a_5_n27# 738
+R En4 5546
+R rf_dec_0/register_file_0/reg_bit_7/sram_2/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_2/a_5_n27# 738
+R En5 5592
+R rf_dec_0/register_file_0/reg_bit_7/sram_1/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_1/a_5_n27# 738
+R En6 5544
+R rf_dec_0/register_file_0/reg_bit_7/sram_0/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_0/a_5_n27# 738
+R En7 5549
+R rf_dec_0/register_file_0/reg_bit_7/sram_4/a_n2_n30# 738
+R rf_dec_0/register_file_0/reg_bit_7/sram_4/a_5_n27# 738
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n30# 219
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n30# 219
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_28_n4# 547
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n4# 547
+C O0 GND 47.802633
+R O0 3469
+C rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# GND 4.047120
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_0_n21# 1425
+C rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# GND 4.037310
+R rf_dec_0/register_file_0/reg_bit_7/write_driver_0/a_7_n15# 1139
+C rf_dec_0/register_file_0/reg_bit_7/Bl_ GND 25.465375
+R rf_dec_0/register_file_0/reg_bit_7/Bl_ 4824
+C rf_dec_0/Bl GND 26.168096
+R rf_dec_0/Bl 4824
+C REG_As GND 118.648586
+R REG_As 19130
+R rf_dec_0/register_file_0/reg_bit_7/diffamp_0/a_92_n2# 777
+R Ad0 3624
+C rf_dec_0/register_file_0/reg_bit_7/A_ GND 4.813080
+R rf_dec_0/register_file_0/reg_bit_7/A_ 2124
+C alu_0/fa_sub_0/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_0/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_0/xor2_0/a_50_6# 547
+R alu_0/fa_sub_0/xor2_0/a_33_6# 547
+R alu_0/fa_sub_0/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_0/fa_0/B GND 13.428090
+R alu_0/fa_sub_0/fa_0/B 4792
+R alu_0/fa_sub_0/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_0/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_0/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_0/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_0/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_0/xor2_0/A GND 7.000920
+R alu_0/fa_sub_0/xor2_0/A 3488
+R alu_0/fa_sub_0/fa_0/a_86_19# 274
+R alu_0/fa_sub_0/fa_0/a_81_19# 274
+R alu_0/fa_sub_0/fa_0/a_43_19# 525
+R alu_0/fa_sub_0/fa_0/a_11_19# 542
+R alu_0/fa_sub_0/fa_0/a_n2_19# 274
+C S7 GND 33.556477
+R S7 1877
+R alu_0/fa_sub_0/fa_0/a_86_72# 683
+R alu_0/fa_sub_0/fa_0/a_81_72# 683
+R alu_0/fa_sub_0/fa_0/a_43_72# 940
+R alu_0/fa_sub_0/fa_0/a_11_72# 998
+R alu_0/fa_sub_0/fa_0/a_n2_72# 683
+C S8 GND 5.777640
+R S8 582
+C alu_0/fa_sub_0/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_0/fa_0/a_67_19# 1272
+C I7 GND 17.232059
+R I7 4217
+C alu_0/fa_sub_0/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_0/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_1/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_1/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_1/xor2_0/a_50_6# 547
+R alu_0/fa_sub_1/xor2_0/a_33_6# 547
+R alu_0/fa_sub_1/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_1/fa_0/B GND 13.428090
+R alu_0/fa_sub_1/fa_0/B 4792
+R alu_0/fa_sub_1/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_1/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_1/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_1/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_1/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_1/xor2_0/A GND 7.000920
+R alu_0/fa_sub_1/xor2_0/A 3488
+R alu_0/fa_sub_1/fa_0/a_86_19# 274
+R alu_0/fa_sub_1/fa_0/a_81_19# 274
+R alu_0/fa_sub_1/fa_0/a_43_19# 525
+R alu_0/fa_sub_1/fa_0/a_11_19# 542
+R alu_0/fa_sub_1/fa_0/a_n2_19# 274
+C S6 GND 29.260609
+R S6 1873
+R alu_0/fa_sub_1/fa_0/a_86_72# 683
+R alu_0/fa_sub_1/fa_0/a_81_72# 683
+R alu_0/fa_sub_1/fa_0/a_43_72# 940
+R alu_0/fa_sub_1/fa_0/a_11_72# 998
+R alu_0/fa_sub_1/fa_0/a_n2_72# 683
+C alu_0/fa_sub_0/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_0/fa_0/Ci 3790
+C alu_0/fa_sub_1/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_1/fa_0/a_67_19# 1272
+C I6 GND 18.171939
+R I6 4216
+C alu_0/fa_sub_1/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_1/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_2/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_2/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_2/xor2_0/a_50_6# 547
+R alu_0/fa_sub_2/xor2_0/a_33_6# 547
+R alu_0/fa_sub_2/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_2/fa_0/B GND 13.428090
+R alu_0/fa_sub_2/fa_0/B 4792
+R alu_0/fa_sub_2/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_2/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_2/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_2/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_2/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_2/xor2_0/A GND 7.000920
+R alu_0/fa_sub_2/xor2_0/A 3488
+R alu_0/fa_sub_2/fa_0/a_86_19# 274
+R alu_0/fa_sub_2/fa_0/a_81_19# 274
+R alu_0/fa_sub_2/fa_0/a_43_19# 525
+R alu_0/fa_sub_2/fa_0/a_11_19# 542
+R alu_0/fa_sub_2/fa_0/a_n2_19# 274
+C S5 GND 21.260730
+R S5 1871
+R alu_0/fa_sub_2/fa_0/a_86_72# 683
+R alu_0/fa_sub_2/fa_0/a_81_72# 683
+R alu_0/fa_sub_2/fa_0/a_43_72# 940
+R alu_0/fa_sub_2/fa_0/a_11_72# 998
+R alu_0/fa_sub_2/fa_0/a_n2_72# 683
+C alu_0/fa_sub_1/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_1/fa_0/Ci 3790
+C alu_0/fa_sub_2/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_2/fa_0/a_67_19# 1272
+C I5 GND 27.705158
+R I5 4218
+C alu_0/fa_sub_2/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_2/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_3/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_3/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_3/xor2_0/a_50_6# 547
+R alu_0/fa_sub_3/xor2_0/a_33_6# 547
+R alu_0/fa_sub_3/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_3/fa_0/B GND 13.428090
+R alu_0/fa_sub_3/fa_0/B 4792
+R alu_0/fa_sub_3/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_3/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_3/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_3/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_3/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_3/xor2_0/A GND 7.000920
+R alu_0/fa_sub_3/xor2_0/A 3488
+R alu_0/fa_sub_3/fa_0/a_86_19# 274
+R alu_0/fa_sub_3/fa_0/a_81_19# 274
+R alu_0/fa_sub_3/fa_0/a_43_19# 525
+R alu_0/fa_sub_3/fa_0/a_11_19# 542
+R alu_0/fa_sub_3/fa_0/a_n2_19# 274
+C S4 GND 14.244292
+R S4 1868
+R alu_0/fa_sub_3/fa_0/a_86_72# 683
+R alu_0/fa_sub_3/fa_0/a_81_72# 683
+R alu_0/fa_sub_3/fa_0/a_43_72# 940
+R alu_0/fa_sub_3/fa_0/a_11_72# 998
+R alu_0/fa_sub_3/fa_0/a_n2_72# 683
+C alu_0/fa_sub_2/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_2/fa_0/Ci 3790
+C alu_0/fa_sub_3/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_3/fa_0/a_67_19# 1272
+C I4 GND 34.427734
+R I4 4217
+C alu_0/fa_sub_3/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_3/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_4/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_4/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_4/xor2_0/a_50_6# 547
+R alu_0/fa_sub_4/xor2_0/a_33_6# 547
+R alu_0/fa_sub_4/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_4/fa_0/B GND 13.428090
+R alu_0/fa_sub_4/fa_0/B 4792
+R alu_0/fa_sub_4/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_4/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_4/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_4/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_4/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_4/xor2_0/A GND 7.000920
+R alu_0/fa_sub_4/xor2_0/A 3488
+R alu_0/fa_sub_4/fa_0/a_86_19# 274
+R alu_0/fa_sub_4/fa_0/a_81_19# 274
+R alu_0/fa_sub_4/fa_0/a_43_19# 525
+R alu_0/fa_sub_4/fa_0/a_11_19# 542
+R alu_0/fa_sub_4/fa_0/a_n2_19# 274
+C S3 GND 9.157930
+R S3 1868
+R alu_0/fa_sub_4/fa_0/a_86_72# 683
+R alu_0/fa_sub_4/fa_0/a_81_72# 683
+R alu_0/fa_sub_4/fa_0/a_43_72# 940
+R alu_0/fa_sub_4/fa_0/a_11_72# 998
+R alu_0/fa_sub_4/fa_0/a_n2_72# 683
+C alu_0/fa_sub_3/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_3/fa_0/Ci 3790
+C alu_0/fa_sub_4/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_4/fa_0/a_67_19# 1272
+C I3 GND 41.037805
+R I3 4218
+C alu_0/fa_sub_4/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_4/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_5/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_5/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_5/xor2_0/a_50_6# 547
+R alu_0/fa_sub_5/xor2_0/a_33_6# 547
+R alu_0/fa_sub_5/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_5/fa_0/B GND 13.428090
+R alu_0/fa_sub_5/fa_0/B 4792
+R alu_0/fa_sub_5/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_5/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_5/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_5/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_5/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_5/xor2_0/A GND 7.000920
+R alu_0/fa_sub_5/xor2_0/A 3488
+R alu_0/fa_sub_5/fa_0/a_86_19# 274
+R alu_0/fa_sub_5/fa_0/a_81_19# 274
+R alu_0/fa_sub_5/fa_0/a_43_19# 525
+R alu_0/fa_sub_5/fa_0/a_11_19# 542
+R alu_0/fa_sub_5/fa_0/a_n2_19# 274
+C S2 GND 4.951800
+R S2 1867
+R alu_0/fa_sub_5/fa_0/a_86_72# 683
+R alu_0/fa_sub_5/fa_0/a_81_72# 683
+R alu_0/fa_sub_5/fa_0/a_43_72# 940
+R alu_0/fa_sub_5/fa_0/a_11_72# 998
+R alu_0/fa_sub_5/fa_0/a_n2_72# 683
+C alu_0/fa_sub_4/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_4/fa_0/Ci 3790
+C alu_0/fa_sub_5/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_5/fa_0/a_67_19# 1272
+C I2 GND 56.766754
+R I2 4216
+C alu_0/fa_sub_5/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_5/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_6/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_6/mux21_0/a_n3_n57# 1837
+R alu_0/fa_sub_6/xor2_0/a_50_6# 547
+R alu_0/fa_sub_6/xor2_0/a_33_6# 547
+R alu_0/fa_sub_6/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_6/fa_0/B GND 13.428090
+R alu_0/fa_sub_6/fa_0/B 4792
+R alu_0/fa_sub_6/xor2_0/a_33_54# 1367
+C alu_0/fa_sub_6/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_6/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_6/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_6/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_6/xor2_0/A GND 7.000920
+R alu_0/fa_sub_6/xor2_0/A 3488
+R alu_0/fa_sub_6/fa_0/a_86_19# 274
+R alu_0/fa_sub_6/fa_0/a_81_19# 274
+R alu_0/fa_sub_6/fa_0/a_43_19# 525
+R alu_0/fa_sub_6/fa_0/a_11_19# 542
+R alu_0/fa_sub_6/fa_0/a_n2_19# 274
+C S1 GND 8.117890
+R S1 1866
+R alu_0/fa_sub_6/fa_0/a_86_72# 683
+R alu_0/fa_sub_6/fa_0/a_81_72# 683
+R alu_0/fa_sub_6/fa_0/a_43_72# 940
+R alu_0/fa_sub_6/fa_0/a_11_72# 998
+R alu_0/fa_sub_6/fa_0/a_n2_72# 683
+C alu_0/fa_sub_5/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_5/fa_0/Ci 3790
+C alu_0/fa_sub_6/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_6/fa_0/a_67_19# 1272
+C I1 GND 71.424406
+R I1 4216
+C alu_0/fa_sub_6/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_6/fa_0/a_n14_38# 2588
+C alu_0/fa_sub_7/mux21_0/a_n3_n57# GND 5.635680
+R alu_0/fa_sub_7/mux21_0/a_n3_n57# 1837
+C Select GND 32.846281
+R Select 19614
+R alu_0/fa_sub_7/xor2_0/a_50_6# 547
+R alu_0/fa_sub_7/xor2_0/a_33_6# 547
+R alu_0/fa_sub_7/xor2_0/a_50_54# 1367
+C alu_0/fa_sub_7/fa_0/B GND 13.428090
+R alu_0/fa_sub_7/fa_0/B 4792
+R alu_0/fa_sub_7/xor2_0/a_33_54# 1367
+R Subtract 21727
+C alu_0/fa_sub_7/xor2_0/a_17_6# GND 5.648760
+R alu_0/fa_sub_7/xor2_0/a_17_6# 2465
+C alu_0/fa_sub_7/xor2_0/a_28_44# GND 4.901310
+R alu_0/fa_sub_7/xor2_0/a_28_44# 2348
+C alu_0/fa_sub_7/xor2_0/A GND 7.000920
+R alu_0/fa_sub_7/xor2_0/A 3488
+R alu_0/fa_sub_7/fa_0/a_86_19# 274
+R alu_0/fa_sub_7/fa_0/a_81_19# 274
+R alu_0/fa_sub_7/fa_0/a_43_19# 525
+R alu_0/fa_sub_7/fa_0/a_11_19# 542
+R alu_0/fa_sub_7/fa_0/a_n2_19# 274
+R alu_0/fa_sub_7/fa_0/a_86_72# 683
+R alu_0/fa_sub_7/fa_0/a_81_72# 683
+R alu_0/fa_sub_7/fa_0/a_43_72# 940
+R alu_0/fa_sub_7/fa_0/a_11_72# 998
+R alu_0/fa_sub_7/fa_0/a_n2_72# 683
+C alu_0/fa_sub_6/fa_0/Ci GND 11.026170
+R alu_0/fa_sub_6/fa_0/Ci 3790
+C alu_0/fa_sub_7/fa_0/a_67_19# GND 5.327280
+R alu_0/fa_sub_7/fa_0/a_67_19# 1272
+C I0 GND 42.408961
+R I0 4216
+C alu_0/fa_sub_7/fa_0/a_n14_38# GND 7.690680
+R alu_0/fa_sub_7/fa_0/a_n14_38# 2588
+R ALU_Pc 13172
+R alu_reg_0/reg_bit1_0/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_0/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_0/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_0/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_0/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_0/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_0/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_0/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_0/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_0/Bl_ 2484
+C alu_reg_0/reg_bit1_0/Bl GND 10.167900
+R alu_reg_0/reg_bit1_0/Bl 2484
+R ALU_As 11435
+R alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_0/A_ GND 4.109760
+R alu_reg_0/reg_bit1_0/A_ 2124
+R alu_reg_0/reg_bit1_1/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_1/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_1/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_1/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_1/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_1/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_1/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_1/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_1/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_1/Bl_ 2484
+C alu_reg_0/reg_bit1_1/Bl GND 10.167900
+R alu_reg_0/reg_bit1_1/Bl 2484
+R alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_1/A_ GND 4.109760
+R alu_reg_0/reg_bit1_1/A_ 2124
+R alu_reg_0/reg_bit1_2/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_2/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_2/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_2/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_2/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_2/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_2/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_2/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_2/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_2/Bl_ 2484
+C alu_reg_0/reg_bit1_2/Bl GND 10.167900
+R alu_reg_0/reg_bit1_2/Bl 2484
+R alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_2/A_ GND 4.109760
+R alu_reg_0/reg_bit1_2/A_ 2124
+R alu_reg_0/reg_bit1_3/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_3/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_3/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_3/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_3/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_3/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_3/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_3/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_3/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_3/Bl_ 2484
+C alu_reg_0/reg_bit1_3/Bl GND 10.167900
+R alu_reg_0/reg_bit1_3/Bl 2484
+R alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_3/A_ GND 4.109760
+R alu_reg_0/reg_bit1_3/A_ 2124
+R alu_reg_0/reg_bit1_4/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_4/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_4/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_4/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_4/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_4/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_4/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_4/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_4/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_4/Bl_ 2484
+C alu_reg_0/reg_bit1_4/Bl GND 10.167900
+R alu_reg_0/reg_bit1_4/Bl 2484
+R alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_4/A_ GND 4.109760
+R alu_reg_0/reg_bit1_4/A_ 2124
+R alu_reg_0/reg_bit1_5/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_5/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_5/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_5/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_5/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_5/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_5/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_5/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_5/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_5/Bl_ 2484
+C alu_reg_0/reg_bit1_5/Bl GND 10.167900
+R alu_reg_0/reg_bit1_5/Bl 2484
+R alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_5/A_ GND 4.109760
+R alu_reg_0/reg_bit1_5/A_ 2124
+R alu_reg_0/reg_bit1_6/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_6/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_6/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_6/write_driver_0/a_7_n30# 219
+R alu_reg_0/reg_bit1_6/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_6/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_6/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_6/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_6/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_6/Bl_ 2484
+C alu_reg_0/reg_bit1_6/Bl GND 10.167900
+R alu_reg_0/reg_bit1_6/Bl 2484
+R alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_6/A_ GND 4.109760
+R alu_reg_0/reg_bit1_6/A_ 2124
+R alu_reg_0/reg_bit1_7/sram_4/a_n2_n30# 738
+R alu_reg_0/reg_bit1_7/sram_4/a_5_n27# 738
+R alu_reg_0/reg_bit1_7/write_driver_0/a_28_n30# 219
+R alu_reg_0/reg_bit1_7/write_driver_0/a_7_n30# 219
+R ALU_Ds 9973
+R alu_reg_0/reg_bit1_7/write_driver_0/a_28_n4# 547
+R alu_reg_0/reg_bit1_7/write_driver_0/a_7_n4# 547
+C alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# GND 4.971780
+R alu_reg_0/reg_bit1_7/write_driver_0/a_0_n21# 1425
+C alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# GND 4.683090
+R alu_reg_0/reg_bit1_7/write_driver_0/a_7_n15# 1139
+C alu_reg_0/reg_bit1_7/Bl_ GND 9.446100
+R alu_reg_0/reg_bit1_7/Bl_ 2484
+C alu_reg_0/reg_bit1_7/Bl GND 10.167900
+R alu_reg_0/reg_bit1_7/Bl 2484
+R alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2# 777
+C alu_reg_0/reg_bit1_7/A_ GND 4.109760
+R alu_reg_0/reg_bit1_7/A_ 2124

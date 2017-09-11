@@ -1,0 +1,116 @@
+magic
+tech scmos
+timestamp 1480782994
+<< metal1 >>
+rect 1 262 8 269
+rect 2 157 9 162
+rect 1003 105 1007 109
+<< metal2 >>
+rect 20 269 24 273
+rect 36 269 40 273
+rect 52 269 56 273
+rect 145 269 149 273
+rect 161 269 165 273
+rect 177 269 181 273
+rect 270 269 274 273
+rect 286 269 290 273
+rect 302 269 306 273
+rect 395 269 399 273
+rect 411 269 415 273
+rect 427 269 431 273
+rect 520 269 524 273
+rect 536 269 540 273
+rect 552 269 556 273
+rect 645 269 649 273
+rect 661 269 665 273
+rect 677 269 681 273
+rect 770 269 774 273
+rect 786 269 790 273
+rect 802 269 806 273
+rect 895 269 899 273
+rect 927 269 931 273
+rect 7 101 11 105
+rect 120 56 124 60
+rect 245 56 249 60
+rect 370 56 374 60
+rect 495 56 499 60
+rect 620 56 624 60
+rect 745 56 749 60
+rect 870 56 874 60
+rect 995 56 999 60
+<< metal3 >>
+rect 1002 222 1006 228
+rect 1001 202 1006 208
+use fa_sub  fa_sub_0
+timestamp 1480782762
+transform 1 0 3 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_1
+timestamp 1480782762
+transform 1 0 128 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_2
+timestamp 1480782762
+transform 1 0 253 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_3
+timestamp 1480782762
+transform 1 0 378 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_4
+timestamp 1480782762
+transform 1 0 503 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_5
+timestamp 1480782762
+transform 1 0 628 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_6
+timestamp 1480782762
+transform 1 0 753 0 1 0
+box -2 56 129 273
+use fa_sub  fa_sub_7
+timestamp 1480782762
+transform 1 0 878 0 1 0
+box -2 56 129 273
+<< labels >>
+rlabel metal3 1005 227 1005 227 7 Subtract
+rlabel metal3 1004 207 1004 207 3 Select
+rlabel metal2 929 272 929 272 1 Breg0
+rlabel space 913 272 913 272 1 Bim0
+rlabel metal2 897 272 897 272 1 A0
+rlabel metal2 804 272 804 272 1 Breg1
+rlabel metal2 788 272 788 272 1 Bim1
+rlabel metal2 772 272 772 272 1 A1
+rlabel metal2 679 272 679 272 1 Breg2
+rlabel metal2 663 272 663 272 1 Bim2
+rlabel metal2 647 272 647 272 1 A2
+rlabel metal2 554 272 554 272 1 Breg3
+rlabel metal2 538 272 538 272 1 Bim3
+rlabel metal2 522 272 522 272 1 A3
+rlabel metal2 997 57 997 57 5 S0
+rlabel metal2 872 57 872 57 5 S1
+rlabel metal2 747 57 747 57 5 S2
+rlabel metal2 622 57 622 57 5 S3
+rlabel metal2 497 57 497 57 5 S4
+rlabel metal2 372 57 372 57 5 S5
+rlabel metal2 247 57 247 57 5 S6
+rlabel metal2 122 57 122 57 5 S7
+rlabel metal2 22 272 22 272 1 A7
+rlabel metal2 38 272 38 272 1 Bim7
+rlabel metal2 54 272 54 272 1 Breg7
+rlabel metal2 147 272 147 272 1 A6
+rlabel metal2 163 272 163 272 1 Bim6
+rlabel metal2 179 272 179 272 1 Breg6
+rlabel metal2 272 272 272 272 1 A5
+rlabel metal2 288 272 288 272 1 Bim5
+rlabel metal2 304 272 304 272 1 Breg5
+rlabel metal2 397 272 397 272 1 A4
+rlabel metal2 413 272 413 272 1 Bim4
+rlabel metal2 429 272 429 272 1 Breg4
+rlabel metal1 5 265 5 265 3 GND
+rlabel metal1 6 160 6 160 3 VDD
+rlabel space 3 61 7 67 3 GND
+rlabel metal2 9 102 9 102 1 Co
+rlabel metal1 1006 107 1006 107 3 Ci
+<< end >>

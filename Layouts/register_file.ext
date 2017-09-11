@@ -1,0 +1,301 @@
+timestamp 1481247610
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use reg_bit reg_bit_0 1 0 21 0 1 210
+use reg_bit reg_bit_1 1 0 68 0 1 210
+use reg_bit reg_bit_2 1 0 115 0 1 210
+use reg_bit reg_bit_3 1 0 162 0 1 210
+use reg_bit reg_bit_4 1 0 209 0 1 210
+use reg_bit reg_bit_5 1 0 256 0 1 210
+use reg_bit reg_bit_6 1 0 303 0 1 210
+use reg_bit reg_bit_7 1 0 350 0 1 210
+node "Dd0" 0 379.8 389 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd1" 0 379.8 342 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd2" 0 379.8 295 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd3" 0 379.8 248 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd4" 0 379.8 201 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd5" 0 379.8 154 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd6" 0 379.8 107 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "Dd7" 0 379.8 60 134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "En6" 0 308.4 17 283 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En5" 0 308.4 17 389 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En4" 0 308.4 17 405 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En3" 0 308.4 17 511 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En2" 0 308.4 17 527 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En1" 0 308.4 17 633 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "En0" 0 308.4 17 649 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20
+node "Pc" 8 16294 39 750 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1348 682 0 0
+node "m1_355_1#" 1 450 355 1 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 18 0 0 0 0
+node "Vdd" 0 468 355 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "Vdd" 0 432 355 113 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Gnd" 0 486 355 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "Vdd" 0 493.2 355 210 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Gnd" 0 432 355 276 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Vdd" 0 493.2 355 337 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Gnd" 0 432 355 397 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Vdd" 0 313.2 355 460 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "Gnd" 0 432 355 520 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Vdd" 0 493.2 355 581 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Gnd" 0 428.4 355 641 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0
+node "Vdd" 0 432 355 699 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_356_757#" 0 198 356 757 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0
+node "w_357_12#" 1654 26.64 357 12 nw 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_355_55#" 1241 79.92 355 55 nw 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Vdd" "w_355_55#" 86.4
+cap "reg_bit_0/Gnd" "reg_bit_0/write_driver_0/Ds" -1.06581e-14
+cap "reg_bit_3/write_driver_0/Ds" "reg_bit_6/write_driver_0/a_0_n21#" -8.88178e-16
+cap "reg_bit_0/sram_0/Gnd" "reg_bit_0/sram_4/En" -6.48
+cap "reg_bit_0/sram_0/Gnd" "En6" -6.48
+cap "reg_bit_1/sram_0/Gnd" "reg_bit_1/sram_4/En" -6.48
+cap "reg_bit_1/sram_0/Gnd" "reg_bit_1/sram_0/En" -6.48
+cap "reg_bit_3/sram_0/Gnd" "reg_bit_3/sram_4/En" -6.48
+cap "reg_bit_3/sram_0/Gnd" "reg_bit_3/sram_0/En" -6.48
+cap "Gnd" "reg_bit_6/sram_0/En" -3.24
+cap "Gnd" "reg_bit_6/sram_4/En" -3.24
+cap "En5" "reg_bit_0/sram_2/Gnd" -6.48
+cap "reg_bit_0/sram_2/Gnd" "En4" -6.48
+cap "reg_bit_1/sram_2/En" "reg_bit_1/sram_2/Gnd" -6.48
+cap "reg_bit_1/sram_2/Gnd" "reg_bit_1/sram_1/En" -6.48
+cap "reg_bit_3/sram_2/Gnd" "reg_bit_3/sram_1/En" -6.48
+cap "reg_bit_3/sram_2/Gnd" "reg_bit_3/sram_2/En" -6.48
+cap "reg_bit_6/sram_1/En" "Gnd" -3.24
+cap "Gnd" "reg_bit_6/sram_2/En" -3.24
+cap "reg_bit_0/sram_5/Gnd" "En3" -6.48
+cap "reg_bit_0/sram_5/Gnd" "En2" -6.48
+cap "reg_bit_1/sram_5/Gnd" "reg_bit_1/sram_5/En" -6.48
+cap "reg_bit_1/sram_5/Gnd" "reg_bit_1/sram_3/En" -6.48
+cap "reg_bit_3/sram_5/Gnd" "reg_bit_3/sram_5/En" -6.48
+cap "reg_bit_3/sram_3/En" "reg_bit_3/sram_5/Gnd" -6.48
+cap "reg_bit_6/sram_5/En" "Gnd" -3.24
+cap "reg_bit_6/sram_3/En" "Gnd" -3.24
+cap "En1" "reg_bit_0/sram_7/Gnd" -6.48
+cap "En0" "reg_bit_0/sram_7/Gnd" -6.48
+cap "reg_bit_1/sram_7/Gnd" "reg_bit_1/sram_6/En" -6.48
+cap "reg_bit_1/sram_7/Gnd" "reg_bit_1/sram_7/En" -6.48
+cap "reg_bit_3/sram_7/Gnd" "reg_bit_3/sram_7/En" -6.48
+cap "reg_bit_3/sram_7/Gnd" "reg_bit_3/sram_6/En" -6.48
+cap "Gnd" "reg_bit_6/sram_7/En" -3.24
+cap "Gnd" "reg_bit_6/sram_6/En" -3.24
+cap "reg_bit_0/sram_7/Vdd" "Pc" 536.04
+cap "reg_bit_1/precharge_0/w_n25_n17#" "reg_bit_3/precharge_0/Bl" 1.13687e-13
+cap "reg_bit_1/precharge_0/w_n25_n17#" "reg_bit_2/precharge_0/Bl" 1.13687e-13
+cap "reg_bit_1/precharge_0/w_n25_n17#" "reg_bit_2/precharge_0/Clk" 758.88
+cap "reg_bit_3/precharge_0/w_n25_n17#" "reg_bit_5/precharge_0/Bl" 1.13687e-13
+cap "reg_bit_3/precharge_0/w_n25_n17#" "reg_bit_4/precharge_0/Clk" 774.72
+cap "Vdd" "reg_bit_7/precharge_0/Bl" 1.13687e-13
+cap "reg_bit_6/precharge_0/Clk" "Vdd" 412.56
+merge "reg_bit_7/precharge_0/w_n25_n17#" "reg_bit_6/precharge_0/w_n25_n17#" -194.94 0 0 0 0 -58 -65 0 0 0 0 0 0 0 0 0 0 45 -7 0 0 0 0
+merge "reg_bit_6/precharge_0/w_n25_n17#" "reg_bit_5/precharge_0/w_n25_n17#"
+merge "reg_bit_5/precharge_0/w_n25_n17#" "reg_bit_2/precharge_0/w_n25_n17#"
+merge "reg_bit_2/precharge_0/w_n25_n17#" "reg_bit_1/sram_7/Vdd"
+merge "reg_bit_1/sram_7/Vdd" "reg_bit_0/sram_7/Vdd"
+merge "reg_bit_0/sram_7/Vdd" "reg_bit_7/sram_7/Vdd"
+merge "reg_bit_7/sram_7/Vdd" "reg_bit_6/sram_7/Vdd"
+merge "reg_bit_6/sram_7/Vdd" "reg_bit_5/sram_7/Vdd"
+merge "reg_bit_5/sram_7/Vdd" "reg_bit_4/sram_7/Vdd"
+merge "reg_bit_4/sram_7/Vdd" "reg_bit_3/precharge_0/w_n25_n17#"
+merge "reg_bit_3/precharge_0/w_n25_n17#" "reg_bit_4/precharge_0/w_n25_n17#"
+merge "reg_bit_4/precharge_0/w_n25_n17#" "reg_bit_3/sram_7/Vdd"
+merge "reg_bit_3/sram_7/Vdd" "reg_bit_2/sram_7/Vdd"
+merge "reg_bit_2/sram_7/Vdd" "reg_bit_1/precharge_0/w_n25_n17#"
+merge "reg_bit_1/precharge_0/w_n25_n17#" "m1_356_757#"
+merge "m1_356_757#" "reg_bit_7/sram_6/Vdd"
+merge "reg_bit_7/sram_6/Vdd" "reg_bit_6/sram_6/Vdd"
+merge "reg_bit_6/sram_6/Vdd" "reg_bit_5/sram_6/Vdd"
+merge "reg_bit_5/sram_6/Vdd" "reg_bit_4/sram_6/Vdd"
+merge "reg_bit_4/sram_6/Vdd" "reg_bit_3/sram_6/Vdd"
+merge "reg_bit_3/sram_6/Vdd" "reg_bit_2/sram_6/Vdd"
+merge "reg_bit_2/sram_6/Vdd" "reg_bit_1/sram_6/Vdd"
+merge "reg_bit_1/sram_6/Vdd" "reg_bit_0/sram_6/Vdd"
+merge "reg_bit_0/sram_6/Vdd" "reg_bit_7/sram_3/Vdd"
+merge "reg_bit_7/sram_3/Vdd" "reg_bit_6/sram_3/Vdd"
+merge "reg_bit_6/sram_3/Vdd" "reg_bit_5/sram_3/Vdd"
+merge "reg_bit_5/sram_3/Vdd" "reg_bit_4/sram_3/Vdd"
+merge "reg_bit_4/sram_3/Vdd" "reg_bit_3/sram_3/Vdd"
+merge "reg_bit_3/sram_3/Vdd" "reg_bit_2/sram_3/Vdd"
+merge "reg_bit_2/sram_3/Vdd" "reg_bit_1/sram_3/Vdd"
+merge "reg_bit_1/sram_3/Vdd" "reg_bit_0/sram_3/Vdd"
+merge "reg_bit_0/sram_3/Vdd" "reg_bit_7/sram_1/Vdd"
+merge "reg_bit_7/sram_1/Vdd" "reg_bit_6/sram_1/Vdd"
+merge "reg_bit_6/sram_1/Vdd" "reg_bit_5/sram_1/Vdd"
+merge "reg_bit_5/sram_1/Vdd" "reg_bit_4/sram_1/Vdd"
+merge "reg_bit_4/sram_1/Vdd" "reg_bit_3/sram_1/Vdd"
+merge "reg_bit_3/sram_1/Vdd" "reg_bit_2/sram_1/Vdd"
+merge "reg_bit_2/sram_1/Vdd" "reg_bit_1/sram_1/Vdd"
+merge "reg_bit_1/sram_1/Vdd" "reg_bit_0/sram_1/Vdd"
+merge "reg_bit_0/sram_1/Vdd" "reg_bit_7/sram_4/Vdd"
+merge "reg_bit_7/sram_4/Vdd" "reg_bit_6/sram_4/Vdd"
+merge "reg_bit_6/sram_4/Vdd" "reg_bit_5/sram_4/Vdd"
+merge "reg_bit_5/sram_4/Vdd" "reg_bit_4/sram_4/Vdd"
+merge "reg_bit_4/sram_4/Vdd" "reg_bit_3/sram_4/Vdd"
+merge "reg_bit_3/sram_4/Vdd" "reg_bit_2/sram_4/Vdd"
+merge "reg_bit_2/sram_4/Vdd" "reg_bit_1/sram_4/Vdd"
+merge "reg_bit_1/sram_4/Vdd" "reg_bit_0/sram_4/Vdd"
+merge "reg_bit_0/sram_4/Vdd" "reg_bit_7/Vdd"
+merge "reg_bit_7/Vdd" "reg_bit_6/diffamp_0/Vdd"
+merge "reg_bit_6/diffamp_0/Vdd" "w_355_55#"
+merge "w_355_55#" "w_357_12#"
+merge "w_357_12#" "Vdd"
+merge "Vdd" "reg_bit_6/write_driver_0/Vdd"
+merge "reg_bit_6/write_driver_0/Vdd" "reg_bit_0/precharge_0/w_n25_n17#"
+merge "reg_bit_2/write_driver_0/Dd" "Dd5" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "reg_bit_3/write_driver_0/Dd" "Dd4" -323.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -24
+merge "reg_bit_7/sram_7/En" "reg_bit_6/sram_7/En" -1606.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -118
+merge "reg_bit_6/sram_7/En" "reg_bit_5/sram_7/En"
+merge "reg_bit_5/sram_7/En" "reg_bit_4/sram_7/En"
+merge "reg_bit_4/sram_7/En" "reg_bit_3/sram_7/En"
+merge "reg_bit_3/sram_7/En" "reg_bit_2/sram_7/En"
+merge "reg_bit_2/sram_7/En" "reg_bit_1/sram_7/En"
+merge "reg_bit_1/sram_7/En" "reg_bit_0/sram_7/En"
+merge "reg_bit_0/sram_7/En" "En0"
+merge "reg_bit_7/sram_7/Gnd" "reg_bit_7/sram_5/Gnd" -5191.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 -226 0 0 0 0
+merge "reg_bit_7/sram_5/Gnd" "reg_bit_7/sram_2/Gnd"
+merge "reg_bit_7/sram_2/Gnd" "reg_bit_7/sram_0/Gnd"
+merge "reg_bit_7/sram_0/Gnd" "reg_bit_7/Gnd"
+merge "reg_bit_7/Gnd" "reg_bit_6/diffamp_0/Gnd"
+merge "reg_bit_6/diffamp_0/Gnd" "Gnd"
+merge "Gnd" "reg_bit_6/write_driver_0/Gnd"
+merge "reg_bit_6/write_driver_0/Gnd" "reg_bit_6/sram_0/Gnd"
+merge "reg_bit_6/sram_0/Gnd" "reg_bit_5/sram_0/Gnd"
+merge "reg_bit_5/sram_0/Gnd" "reg_bit_4/sram_0/Gnd"
+merge "reg_bit_4/sram_0/Gnd" "reg_bit_3/sram_0/Gnd"
+merge "reg_bit_3/sram_0/Gnd" "reg_bit_2/sram_0/Gnd"
+merge "reg_bit_2/sram_0/Gnd" "reg_bit_1/sram_0/Gnd"
+merge "reg_bit_1/sram_0/Gnd" "reg_bit_0/sram_0/Gnd"
+merge "reg_bit_0/sram_0/Gnd" "reg_bit_6/sram_2/Gnd"
+merge "reg_bit_6/sram_2/Gnd" "reg_bit_5/sram_2/Gnd"
+merge "reg_bit_5/sram_2/Gnd" "reg_bit_4/sram_2/Gnd"
+merge "reg_bit_4/sram_2/Gnd" "reg_bit_3/sram_2/Gnd"
+merge "reg_bit_3/sram_2/Gnd" "reg_bit_2/sram_2/Gnd"
+merge "reg_bit_2/sram_2/Gnd" "reg_bit_1/sram_2/Gnd"
+merge "reg_bit_1/sram_2/Gnd" "reg_bit_0/sram_2/Gnd"
+merge "reg_bit_0/sram_2/Gnd" "reg_bit_6/sram_5/Gnd"
+merge "reg_bit_6/sram_5/Gnd" "reg_bit_5/sram_5/Gnd"
+merge "reg_bit_5/sram_5/Gnd" "reg_bit_4/sram_5/Gnd"
+merge "reg_bit_4/sram_5/Gnd" "reg_bit_3/sram_5/Gnd"
+merge "reg_bit_3/sram_5/Gnd" "reg_bit_2/sram_5/Gnd"
+merge "reg_bit_2/sram_5/Gnd" "reg_bit_1/sram_5/Gnd"
+merge "reg_bit_1/sram_5/Gnd" "reg_bit_0/sram_5/Gnd"
+merge "reg_bit_0/sram_5/Gnd" "reg_bit_6/sram_7/Gnd"
+merge "reg_bit_6/sram_7/Gnd" "reg_bit_5/sram_7/Gnd"
+merge "reg_bit_5/sram_7/Gnd" "reg_bit_4/sram_7/Gnd"
+merge "reg_bit_4/sram_7/Gnd" "reg_bit_3/sram_7/Gnd"
+merge "reg_bit_3/sram_7/Gnd" "reg_bit_2/sram_7/Gnd"
+merge "reg_bit_2/sram_7/Gnd" "reg_bit_1/sram_7/Gnd"
+merge "reg_bit_1/sram_7/Gnd" "reg_bit_0/sram_7/Gnd"
+merge "reg_bit_1/write_driver_0/Dd" "Dd6" -371.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -24
+merge "reg_bit_7/sram_5/Vdd" "reg_bit_6/sram_5/Vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "reg_bit_6/sram_5/Vdd" "reg_bit_5/sram_5/Vdd"
+merge "reg_bit_5/sram_5/Vdd" "reg_bit_4/sram_5/Vdd"
+merge "reg_bit_4/sram_5/Vdd" "reg_bit_3/sram_5/Vdd"
+merge "reg_bit_3/sram_5/Vdd" "reg_bit_2/sram_5/Vdd"
+merge "reg_bit_2/sram_5/Vdd" "reg_bit_1/sram_5/Vdd"
+merge "reg_bit_1/sram_5/Vdd" "reg_bit_0/sram_5/Vdd"
+merge "reg_bit_6/Vdd" "reg_bit_5/Vdd" -534.42 0 0 0 0 6 -12 0 0 0 0 0 0 0 0 0 0 54 -32 0 0 0 0
+merge "reg_bit_5/Vdd" "reg_bit_4/Vdd"
+merge "reg_bit_4/Vdd" "reg_bit_3/Vdd"
+merge "reg_bit_3/Vdd" "reg_bit_2/Vdd"
+merge "reg_bit_2/Vdd" "reg_bit_1/Vdd"
+merge "reg_bit_1/Vdd" "reg_bit_0/diffamp_0/Vdd"
+merge "reg_bit_0/diffamp_0/Vdd" "reg_bit_1/diffamp_0/Vdd"
+merge "reg_bit_1/diffamp_0/Vdd" "reg_bit_3/diffamp_0/Vdd"
+merge "reg_bit_3/diffamp_0/Vdd" "reg_bit_0/write_driver_0/Vdd"
+merge "reg_bit_0/write_driver_0/Vdd" "reg_bit_1/write_driver_0/Vdd"
+merge "reg_bit_1/write_driver_0/Vdd" "reg_bit_3/write_driver_0/Vdd"
+merge "reg_bit_0/write_driver_0/Dd" "Dd7" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "reg_bit_6/Ds" "reg_bit_5/Ds" -409.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -32
+merge "reg_bit_5/Ds" "reg_bit_4/Ds"
+merge "reg_bit_4/Ds" "reg_bit_3/Ds"
+merge "reg_bit_3/Ds" "reg_bit_2/Ds"
+merge "reg_bit_2/Ds" "reg_bit_1/Ds"
+merge "reg_bit_1/Ds" "reg_bit_0/write_driver_0/Ds"
+merge "reg_bit_0/write_driver_0/Ds" "reg_bit_1/write_driver_0/Ds"
+merge "reg_bit_1/write_driver_0/Ds" "reg_bit_3/write_driver_0/Ds"
+merge "reg_bit_6/Gnd" "reg_bit_5/Gnd" -2300.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -96 0 0 0 0
+merge "reg_bit_5/Gnd" "reg_bit_4/Gnd"
+merge "reg_bit_4/Gnd" "reg_bit_3/Gnd"
+merge "reg_bit_3/Gnd" "reg_bit_2/Gnd"
+merge "reg_bit_2/Gnd" "reg_bit_1/Gnd"
+merge "reg_bit_1/Gnd" "reg_bit_0/diffamp_0/Gnd"
+merge "reg_bit_0/diffamp_0/Gnd" "reg_bit_1/diffamp_0/Gnd"
+merge "reg_bit_1/diffamp_0/Gnd" "reg_bit_3/diffamp_0/Gnd"
+merge "reg_bit_3/diffamp_0/Gnd" "reg_bit_0/Gnd"
+merge "reg_bit_7/precharge_0/Clk" "reg_bit_6/precharge_0/Clk" -5324.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 -128 0 0
+merge "reg_bit_6/precharge_0/Clk" "reg_bit_5/precharge_0/Clk"
+merge "reg_bit_5/precharge_0/Clk" "reg_bit_4/precharge_0/Clk"
+merge "reg_bit_4/precharge_0/Clk" "reg_bit_3/precharge_0/Clk"
+merge "reg_bit_3/precharge_0/Clk" "reg_bit_2/precharge_0/Clk"
+merge "reg_bit_2/precharge_0/Clk" "reg_bit_1/precharge_0/Clk"
+merge "reg_bit_1/precharge_0/Clk" "reg_bit_0/precharge_0/Clk"
+merge "reg_bit_0/precharge_0/Clk" "Pc"
+merge "reg_bit_7/sram_3/En" "reg_bit_6/sram_3/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_3/En" "reg_bit_5/sram_3/En"
+merge "reg_bit_5/sram_3/En" "reg_bit_4/sram_3/En"
+merge "reg_bit_4/sram_3/En" "reg_bit_3/sram_3/En"
+merge "reg_bit_3/sram_3/En" "reg_bit_2/sram_3/En"
+merge "reg_bit_2/sram_3/En" "reg_bit_1/sram_3/En"
+merge "reg_bit_1/sram_3/En" "reg_bit_0/sram_3/En"
+merge "reg_bit_0/sram_3/En" "En3"
+merge "reg_bit_7/sram_6/En" "reg_bit_6/sram_6/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_6/En" "reg_bit_5/sram_6/En"
+merge "reg_bit_5/sram_6/En" "reg_bit_4/sram_6/En"
+merge "reg_bit_4/sram_6/En" "reg_bit_3/sram_6/En"
+merge "reg_bit_3/sram_6/En" "reg_bit_2/sram_6/En"
+merge "reg_bit_2/sram_6/En" "reg_bit_1/sram_6/En"
+merge "reg_bit_1/sram_6/En" "reg_bit_0/sram_6/En"
+merge "reg_bit_0/sram_6/En" "En1"
+merge "reg_bit_7/Ds" "reg_bit_6/write_driver_0/Ds" -237 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16
+merge "reg_bit_7/sram_4/Gnd" "reg_bit_6/sram_4/Gnd" -86.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0 0
+merge "reg_bit_6/sram_4/Gnd" "reg_bit_5/sram_4/Gnd"
+merge "reg_bit_5/sram_4/Gnd" "reg_bit_4/sram_4/Gnd"
+merge "reg_bit_4/sram_4/Gnd" "reg_bit_3/sram_4/Gnd"
+merge "reg_bit_3/sram_4/Gnd" "reg_bit_2/sram_4/Gnd"
+merge "reg_bit_2/sram_4/Gnd" "reg_bit_1/sram_4/Gnd"
+merge "reg_bit_1/sram_4/Gnd" "reg_bit_0/sram_4/Gnd"
+merge "reg_bit_7/sram_2/En" "reg_bit_6/sram_2/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_2/En" "reg_bit_5/sram_2/En"
+merge "reg_bit_5/sram_2/En" "reg_bit_4/sram_2/En"
+merge "reg_bit_4/sram_2/En" "reg_bit_3/sram_2/En"
+merge "reg_bit_3/sram_2/En" "reg_bit_2/sram_2/En"
+merge "reg_bit_2/sram_2/En" "reg_bit_1/sram_2/En"
+merge "reg_bit_1/sram_2/En" "reg_bit_0/sram_2/En"
+merge "reg_bit_0/sram_2/En" "En4"
+merge "reg_bit_7/A" "m1_355_1#" -450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -18 0 0 0 0
+merge "reg_bit_7/sram_5/En" "reg_bit_6/sram_5/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_5/En" "reg_bit_5/sram_5/En"
+merge "reg_bit_5/sram_5/En" "reg_bit_4/sram_5/En"
+merge "reg_bit_4/sram_5/En" "reg_bit_3/sram_5/En"
+merge "reg_bit_3/sram_5/En" "reg_bit_2/sram_5/En"
+merge "reg_bit_2/sram_5/En" "reg_bit_1/sram_5/En"
+merge "reg_bit_1/sram_5/En" "reg_bit_0/sram_5/En"
+merge "reg_bit_0/sram_5/En" "En2"
+merge "reg_bit_7/sram_1/En" "reg_bit_6/sram_1/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_1/En" "reg_bit_5/sram_1/En"
+merge "reg_bit_5/sram_1/En" "reg_bit_4/sram_1/En"
+merge "reg_bit_4/sram_1/En" "reg_bit_3/sram_1/En"
+merge "reg_bit_3/sram_1/En" "reg_bit_2/sram_1/En"
+merge "reg_bit_2/sram_1/En" "reg_bit_1/sram_1/En"
+merge "reg_bit_1/sram_1/En" "reg_bit_0/sram_1/En"
+merge "reg_bit_0/sram_1/En" "En5"
+merge "reg_bit_7/sram_0/En" "reg_bit_6/sram_0/En" -1617.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -118
+merge "reg_bit_6/sram_0/En" "reg_bit_5/sram_0/En"
+merge "reg_bit_5/sram_0/En" "reg_bit_4/sram_0/En"
+merge "reg_bit_4/sram_0/En" "reg_bit_3/sram_0/En"
+merge "reg_bit_3/sram_0/En" "reg_bit_2/sram_0/En"
+merge "reg_bit_2/sram_0/En" "reg_bit_1/sram_0/En"
+merge "reg_bit_1/sram_0/En" "reg_bit_0/sram_0/En"
+merge "reg_bit_0/sram_0/En" "En6"
+merge "reg_bit_7/sram_4/En" "reg_bit_6/sram_4/En" -1676.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -254 -98
+merge "reg_bit_6/sram_4/En" "reg_bit_5/sram_4/En"
+merge "reg_bit_5/sram_4/En" "reg_bit_4/sram_4/En"
+merge "reg_bit_4/sram_4/En" "reg_bit_3/sram_4/En"
+merge "reg_bit_3/sram_4/En" "reg_bit_2/sram_4/En"
+merge "reg_bit_2/sram_4/En" "reg_bit_1/sram_4/En"
+merge "reg_bit_1/sram_4/En" "reg_bit_0/sram_4/En"
+merge "reg_bit_7/write_driver_0/Dd" "Dd0" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "reg_bit_6/write_driver_0/Dd" "Dd1" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "reg_bit_5/write_driver_0/Dd" "Dd2" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "reg_bit_4/write_driver_0/Dd" "Dd3" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24

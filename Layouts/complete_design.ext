@@ -1,0 +1,510 @@
+timestamp 1481316610
+version 8.0
+tech scmos
+style AMI0.5um(amic5)from:T01X
+scale 1000 1 30
+resistclasses 82100 102500 827000 827000 1 26000 26500 26500 90 90 50
+use rf_dec rf_dec_0 1 0 553 0 1 399
+use alu alu_0 1 0 -21 0 1 51
+use alu_reg alu_reg_0 -1 0 1021 0 -1 15
+node "ALU_Ds" 1 2985.9 1017 -134 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 654 230
+node "ALU_As" 1 3134.1 1011 35 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 690 242
+node "Select" 2 5520.6 -199 253 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1080 372
+node "Subtract" 2 5592 -199 273 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1092 376
+node "En7" 0 379.8 498 528 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "REG_Ds" 1 4878 964 567 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 972 336
+node "En6" 0 379.8 498 621 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "En5" 0 379.8 498 711 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "D0" 3 12981.9 -199 785 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2334 790
+node "En4" 0 379.8 498 801 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "D1" 3 12981.9 -199 801 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2334 790
+node "D2" 3 13053.3 -199 815 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2346 794
+node "En3" 0 379.8 498 891 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "En2" 0 379.8 498 951 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "En1" 0 379.8 498 1057 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "En0" 0 379.8 498 1101 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24
+node "A0" 3 12981.9 -199 1156 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2334 790
+node "A1" 3 12946.2 -199 1172 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2328 788
+node "A2" 3 12981.9 -199 1186 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2334 790
+node "ALU_Pc" 10 20954.9 660 -312 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1632 824 378 138
+node "m2_679_36#" 8 16150.3 679 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1336 676 0 0
+node "S0" 3 8212.14 974 53 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 130 1098 378
+node "S2" 6 9203.67 724 100 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 844 430 1098 378
+node "S3" 8 15599.6 599 93 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1152 584 1098 378
+node "S4" 10 23027.2 474 86 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1464 740 1098 378
+node "S5" 11 27459.9 349 79 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1772 894 1098 378
+node "S6" 13 31338.2 224 72 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2080 1048 1098 378
+node "S7" 15 34878.4 99 65 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2388 1202 1098 378
+node "S1" 5 10481.5 849 109 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 548 286 1098 378
+node "S8" 1 2935.44 -10 137 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 0 0
+node "m2_974_150#" 0 445.68 974 150 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "Ad0" 1 1835.94 906 320 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 414 150
+node "Ad1" 1 4007.28 781 322 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 864 300
+node "Ad2" 2 6470.46 656 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1338 458
+node "Ad3" 3 8721.42 531 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1806 614
+node "Ad4" 3 12522.4 406 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2274 770
+node "Ad5" 4 4545.72 281 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2742 926
+node "Ad6" 5 3872.52 156 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 3204 1080
+node "Ad7" 5 21258.6 31 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 3678 1238
+node "I7" 2 6816 -20 321 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 54 1104 380
+node "I6" 5 13099.3 -20 330 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 616 316 1104 380
+node "I5" 8 19720.6 -20 340 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1168 592 1104 380
+node "I4" 11 26328 -20 349 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1720 868 1104 380
+node "I3" 14 32696 -20 358 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2252 1134 1104 380
+node "I2" 17 39016.2 -20 368 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2812 1414 1104 380
+node "I1" 20 44187.2 -20 377 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3340 1678 1104 380
+node "I0" 23 49374.8 -20 386 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3840 1928 1104 380
+node "REG_As" 2 5741.82 950 399 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1062 366
+node "m1_982_156#" 1 5051.94 982 156 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 32 24 870 302
+node "gnd" 52 495079 -23 111 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 463 244 106279 15270 0 0
+node "m1_886_314#" 0 748.8 886 314 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_761_313#" 0 748.8 761 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_636_313#" 0 748.8 636 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_511_313#" 0 748.8 511 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_386_313#" 0 748.8 386 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_261_313#" 0 748.8 261 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_136_313#" 0 748.8 136 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_11_313#" 0 748.8 11 313 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "O0" 12 32683.2 926 372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1920 968 72 52 364 144
+node "O1" 14 37254.5 879 365 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2208 1112 64 48 406 158
+node "O2" 15 41972 832 358 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2500 1258 64 48 448 172
+node "O3" 17 46689.5 785 351 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2792 1404 64 48 490 186
+node "O4" 19 51407 738 344 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3084 1550 64 48 532 200
+node "O5" 21 57129.2 691 337 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3528 1772 64 48 352 140
+node "O6" 23 62086.4 644 330 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3852 1934 64 48 352 140
+node "O7" 25 67160.9 597 323 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4172 2094 64 48 358 142
+node "REG_Pc" 2 6765.72 923 1174 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 108 62 1200 412
+node "vdd" 46 704744 -168 -353 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102416 14174 64 48 691 256
+node "w_904_1174#" 4755 306.36 904 1174 nw 0 0 0 0 92 54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "S0" "m2_679_36#" 385.44
+cap "S1" "O2" 303.36
+cap "Ad3" "I1" 385.44
+cap "I1" "Ad6" 16419.1
+cap "S0" "O7" 303.36
+cap "O3" "S2" 303.36
+cap "I0" "O4" 606.72
+cap "gnd" "D2" 930.6
+cap "Ad5" "O7" 89.64
+cap "A2" "vdd" 637.2
+cap "gnd" "ALU_Ds" 930.6
+cap "I0" "vdd" 637.2
+cap "Ad1" "O2" 272.88
+cap "ALU_Pc" "vdd" 637.2
+cap "S0" "O4" 303.36
+cap "Ad4" "O7" 272.88
+cap "O6" "m2_679_36#" 385.44
+cap "S3" "O6" 4214.76
+cap "O3" "Ad0" 272.88
+cap "O6" "S2" 5776.38
+cap "Ad3" "O7" 272.88
+cap "Ad6" "O7" 89.64
+cap "I1" "Ad2" 385.44
+cap "gnd" "I3" 930.6
+cap "gnd" "I2" 930.6
+cap "D2" "vdd" 637.2
+cap "I2" "O7" 606.72
+cap "I0" "O5" 606.72
+cap "ALU_Ds" "vdd" 637.2
+cap "S1" "m2_679_36#" 385.44
+cap "gnd" "S7" 198.54
+cap "S1" "O7" 2917.86
+cap "I3" "Ad7" 385.44
+cap "gnd" "I4" 930.6
+cap "I2" "Ad7" 385.44
+cap "gnd" "I6" 930.6
+cap "Ad3" "O4" 823.32
+cap "O6" "Ad0" 272.88
+cap "m1_982_156#" "O6" 2347.92
+cap "S4" "O6" 303.36
+cap "Ad1" "O7" 1884
+cap "I4" "Ad7" 385.44
+cap "S0" "O5" 303.36
+cap "gnd" "A0" 930.6
+cap "O1" "m2_679_36#" 385.44
+cap "I6" "Ad7" 385.44
+cap "Ad2" "O7" 428.4
+cap "S1" "O4" 303.36
+cap "I3" "vdd" 637.2
+cap "m2_679_36#" "O2" 385.44
+cap "I2" "vdd" 637.2
+cap "O0" "m2_679_36#" 385.44
+cap "S7" "vdd" 640.26
+cap "gnd" "Select" 930.6
+cap "O3" "I0" 606.72
+cap "gnd" "I1" 930.6
+cap "Ad1" "O4" 272.88
+cap "I4" "vdd" 637.2
+cap "Ad4" "O5" 272.88
+cap "I6" "vdd" 637.2
+cap "I1" "O7" 606.72
+cap "Ad2" "O4" 272.88
+cap "I0" "Ad5" 385.44
+cap "gnd" "D1" 930.6
+cap "Ad3" "O5" 2164.32
+cap "I1" "Ad7" 385.44
+cap "A0" "vdd" 637.2
+cap "O1" "Ad0" 272.88
+cap "O3" "S0" 303.36
+cap "I5" "Ad6" 385.44
+cap "Ad0" "O2" 272.88
+cap "I0" "Ad4" 385.44
+cap "S1" "O5" 303.36
+cap "I1" "O4" 606.72
+cap "S5" "O6" 303.36
+cap "I0" "O6" 606.72
+cap "gnd" "REG_As" 930.6
+cap "gnd" "REG_Pc" 1712.52
+cap "Select" "vdd" 637.2
+cap "I1" "vdd" 637.2
+cap "S3" "m2_679_36#" 385.44
+cap "I0" "Ad6" 17851.2
+cap "Ad3" "I0" 385.44
+cap "S3" "O7" 303.36
+cap "Ad1" "O5" 272.88
+cap "S2" "m2_679_36#" 385.44
+cap "gnd" "REG_Ds" 930.6
+cap "S2" "O7" 5251.92
+cap "D1" "vdd" 637.2
+cap "Ad2" "O5" 272.88
+cap "S0" "O6" 303.36
+cap "O6" "Ad5" 226.08
+cap "REG_Pc" "w_904_1174#" 308.52
+cap "gnd" "I7" 930.6
+cap "O4" "m2_679_36#" 385.44
+cap "gnd" "D0" 930.6
+cap "gnd" "A1" 930.6
+cap "S3" "O4" 303.36
+cap "O4" "S2" 303.36
+cap "gnd" "vdd" 50581.6
+cap "I0" "Ad1" 385.44
+cap "REG_As" "vdd" 637.2
+cap "I1" "O5" 606.72
+cap "S1" "O3" 303.36
+cap "I3" "Ad5" 385.44
+cap "REG_Pc" "vdd" 1241.28
+cap "Ad0" "O7" 390.84
+cap "I2" "Ad5" 14195.4
+cap "m1_982_156#" "O7" 663.72
+cap "S4" "m2_679_36#" 385.44
+cap "I0" "Ad2" 385.44
+cap "Ad4" "O6" 272.88
+cap "S4" "O7" 303.36
+cap "I0" "O2" 606.72
+cap "REG_Ds" "vdd" 637.2
+cap "gnd" "ALU_As" 930.6
+cap "m2_679_36#" "ALU_As" 211.68
+cap "O3" "Ad1" 272.88
+cap "gnd" "Subtract" 930.6
+cap "I4" "Ad5" 385.44
+cap "Ad3" "O6" 272.88
+cap "S6" "m2_679_36#" 385.44
+cap "I3" "Ad4" 4425.36
+cap "S6" "O7" 303.36
+cap "O3" "Ad2" 272.88
+cap "Ad4" "I2" 385.44
+cap "O1" "S0" 303.36
+cap "O4" "Ad0" 272.88
+cap "I7" "vdd" 637.2
+cap "D0" "vdd" 637.2
+cap "A1" "vdd" 637.2
+cap "I3" "Ad6" 385.44
+cap "S0" "O2" 303.36
+cap "S1" "O6" 303.36
+cap "Ad3" "I2" 385.44
+cap "I2" "Ad6" 385.44
+cap "O5" "m2_679_36#" 385.44
+cap "S3" "O5" 2917.86
+cap "gnd" "I5" 930.6
+cap "O5" "S2" 303.36
+cap "I4" "Ad6" 385.44
+cap "Ad1" "O6" 272.88
+cap "vdd" "ALU_As" 637.2
+cap "I1" "Ad5" 12553.4
+cap "Ad2" "O6" 3036.24
+cap "Subtract" "vdd" 637.2
+cap "gnd" "A2" 930.6
+cap "I5" "Ad7" 385.44
+cap "gnd" "I0" 930.6
+cap "S5" "m2_679_36#" 385.44
+cap "S5" "O7" 303.36
+cap "I0" "O7" 562.68
+cap "gnd" "ALU_Pc" 930.6
+cap "O5" "Ad0" 272.88
+cap "I1" "Ad4" 385.44
+cap "I0" "Ad7" 625.26
+cap "O5" "S4" 1193.76
+cap "I1" "O6" 606.72
+cap "O3" "m2_679_36#" 385.44
+cap "I5" "vdd" 637.2
+cap "alu_reg_0/reg_bit1_6/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_6/precharge_0/Clk" 293.04
+cap "alu_reg_0/reg_bit1_4/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_4/precharge_0/Clk" 770.76
+cap "alu_reg_0/reg_bit1_2/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_2/precharge_0/Clk" 734.04
+cap "alu_reg_0/reg_bit1_0/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_0/precharge_0/Clk" 717.48
+cap "alu_reg_0/reg_bit1_0/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_0/precharge_0/Clk" 206.28
+cap "alu_reg_0/reg_bit1_7/sram_4/En" "alu_reg_0/reg_bit1_7/precharge_0/Bl_" 299.88
+cap "alu_reg_0/reg_bit1_0/sram_4/Vdd" "alu_reg_0/reg_bit1_0/sram_4/Gnd" -0.18
+cap "alu_reg_0/reg_bit1_0/sram_4/Vdd" "alu_reg_0/reg_bit1_0/precharge_0/Bl" 293.76
+cap "alu_reg_0/reg_bit1_7/Vdd" "alu_reg_0/reg_bit1_7/Gnd" -1.42109e-14
+cap "alu_reg_0/reg_bit1_7/Vdd" "alu_reg_0/reg_bit1_6/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_7/Vdd" "alu_reg_0/reg_bit1_7/write_driver_0/Dd" 22.68
+cap "alu_reg_0/reg_bit1_6/Bl_" "alu_reg_0/reg_bit1_6/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_7/Bl_" "alu_reg_0/reg_bit1_7/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_5/Bl_" "alu_reg_0/reg_bit1_5/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_5/Vdd" "alu_reg_0/reg_bit1_4/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_5/Vdd" "alu_reg_0/reg_bit1_5/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_4/Bl_" "alu_reg_0/reg_bit1_4/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_3/Vdd" "alu_reg_0/reg_bit1_2/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_3/Vdd" "alu_reg_0/reg_bit1_3/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_2/Bl_" "alu_reg_0/reg_bit1_2/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_3/Bl_" "alu_reg_0/reg_bit1_3/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_0/write_driver_0/Vdd" "alu_reg_0/reg_bit1_0/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_0/write_driver_0/Vdd" "alu_reg_0/reg_bit1_1/write_driver_0/Dd" 56.7
+cap "alu_reg_0/reg_bit1_0/Bl_" "alu_reg_0/reg_bit1_0/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_1/Bl_" "alu_reg_0/reg_bit1_1/write_driver_0/Dd" 85.68
+cap "alu_reg_0/reg_bit1_7/A" "alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_7/A" "alu_reg_0/reg_bit1_7/A_" 19.44
+cap "S6" "alu_reg_0/reg_bit1_6/A_" 159.12
+cap "S6" "alu_reg_0/reg_bit1_7/Vdd" 384.75
+cap "S7" "alu_reg_0/reg_bit1_7/A_" 159.12
+cap "S7" "alu_reg_0/reg_bit1_7/Vdd" 316.71
+cap "alu_reg_0/reg_bit1_4/A_" "S4" 159.12
+cap "alu_reg_0/reg_bit1_5/A_" "S5" 159.12
+cap "alu_reg_0/reg_bit1_4/diffamp_0/Vdd" "S4" 384.75
+cap "alu_reg_0/reg_bit1_4/diffamp_0/Vdd" "S5" 384.75
+cap "alu_reg_0/reg_bit1_5/A" "alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_5/A" "alu_reg_0/reg_bit1_5/A_" 19.44
+cap "alu_reg_0/reg_bit1_6/A" "alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_6/A" "alu_reg_0/reg_bit1_6/A_" 19.44
+cap "alu_reg_0/reg_bit1_2/diffamp_0/Ad" "alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2#" 29.16
+cap "alu_reg_0/reg_bit1_3/A" "alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_3/A" "alu_reg_0/reg_bit1_3/A_" 19.44
+cap "alu_reg_0/reg_bit1_4/A" "alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_4/A" "alu_reg_0/reg_bit1_4/A_" 19.44
+cap "alu_reg_0/reg_bit1_2/A_" "S2" 159.12
+cap "alu_reg_0/reg_bit1_3/A_" "S3" 159.12
+cap "alu_reg_0/reg_bit1_2/diffamp_0/Vdd" "S2" 384.75
+cap "alu_reg_0/reg_bit1_2/diffamp_0/Vdd" "S3" 384.75
+cap "alu_reg_0/reg_bit1_2/diffamp_0/Ad" "alu_reg_0/reg_bit1_2/A_" 6.48
+cap "alu_reg_0/reg_bit1_1/A" "alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2#" 87.48
+cap "S0" "alu_reg_0/reg_bit1_0/diffamp_0/Vdd" 384.75
+cap "S1" "alu_reg_0/reg_bit1_0/diffamp_0/Vdd" 384.75
+cap "alu_reg_0/reg_bit1_2/A" "alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2#" 58.32
+cap "alu_reg_0/reg_bit1_2/A" "alu_reg_0/reg_bit1_2/diffamp_0/a_90_n17#" 12.96
+cap "alu_reg_0/reg_bit1_0/A_" "S0" 159.12
+cap "alu_reg_0/reg_bit1_1/A_" "S1" 159.12
+cap "alu_reg_0/reg_bit1_1/A_" "alu_reg_0/reg_bit1_1/A" 19.44
+cap "alu_reg_0/reg_bit1_0/diffamp_0/Ad" "alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2#" 87.48
+cap "alu_reg_0/reg_bit1_0/diffamp_0/Ad" "alu_reg_0/reg_bit1_0/A_" 19.44
+cap "alu_0/fa_sub_0/fa_0/GND" "S8" 125.46
+cap "alu_reg_0/reg_bit1_7/Gnd" "S7" 56.7
+cap "alu_reg_0/reg_bit1_7/Gnd" "S6" 68.04
+cap "alu_reg_0/reg_bit1_7/Gnd" "O7" 107.19
+cap "O7" "alu_reg_0/reg_bit1_7/diffamp_0/As" 12.6
+cap "alu_reg_0/reg_bit1_7/diffamp_0/a_92_n2#" "O7" 117.18
+cap "alu_reg_0/reg_bit1_4/Gnd" "alu_reg_0/reg_bit1_5/diffamp_0/As" 68.4
+cap "S2" "O7" 12.24
+cap "S4" "alu_reg_0/reg_bit1_4/Gnd" 68.04
+cap "O5" "alu_reg_0/reg_bit1_5/diffamp_0/a_92_n2#" 117.18
+cap "O5" "alu_reg_0/reg_bit1_5/diffamp_0/As" 6.3
+cap "S5" "alu_reg_0/reg_bit1_4/Gnd" 68.04
+cap "O6" "alu_reg_0/reg_bit1_6/diffamp_0/a_92_n2#" 117.18
+cap "O5" "alu_reg_0/reg_bit1_4/Gnd" 92.34
+cap "O6" "alu_reg_0/reg_bit1_5/diffamp_0/As" 6.3
+cap "O6" "alu_reg_0/reg_bit1_4/Gnd" 92.34
+cap "alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2#" "O2" 35.64
+cap "alu_reg_0/reg_bit1_2/diffamp_0/As" "O2" 1.26
+cap "alu_reg_0/reg_bit1_2/Gnd" "S2" 68.04
+cap "alu_reg_0/reg_bit1_3/diffamp_0/a_92_n2#" "O3" 117.18
+cap "alu_reg_0/reg_bit1_2/Gnd" "S3" 68.04
+cap "alu_reg_0/reg_bit1_2/Gnd" "O2" 22.68
+cap "alu_reg_0/reg_bit1_3/diffamp_0/As" "O3" 6.3
+cap "alu_reg_0/reg_bit1_2/Gnd" "O3" 92.34
+cap "alu_reg_0/reg_bit1_4/diffamp_0/a_92_n2#" "O4" 117.18
+cap "alu_reg_0/reg_bit1_3/diffamp_0/As" "O4" 6.3
+cap "alu_reg_0/reg_bit1_2/Gnd" "O4" 92.34
+cap "alu_reg_0/reg_bit1_3/diffamp_0/As" "alu_reg_0/reg_bit1_2/diffamp_0/As" 1.98
+cap "alu_reg_0/reg_bit1_2/Gnd" "alu_reg_0/reg_bit1_3/diffamp_0/As" 68.4
+cap "O7" "S1" 12.24
+cap "alu_reg_0/reg_bit1_0/diffamp_0/a_92_n2#" "O0" 117.18
+cap "alu_reg_0/reg_bit1_0/diffamp_0/As" "O0" 6.3
+cap "alu_reg_0/reg_bit1_0/Gnd" "S0" 68.04
+cap "alu_reg_0/reg_bit1_1/diffamp_0/a_92_n2#" "O1" 117.18
+cap "alu_reg_0/reg_bit1_0/Gnd" "S1" 68.04
+cap "alu_reg_0/reg_bit1_0/Gnd" "O0" 92.34
+cap "alu_reg_0/reg_bit1_0/diffamp_0/As" "O1" 6.3
+cap "alu_reg_0/reg_bit1_0/Gnd" "O1" 92.34
+cap "alu_reg_0/reg_bit1_2/diffamp_0/a_92_n2#" "O2" 81.54
+cap "alu_reg_0/reg_bit1_0/diffamp_0/As" "O2" 5.04
+cap "alu_reg_0/reg_bit1_0/Gnd" "O2" 69.66
+cap "alu_reg_0/reg_bit1_0/Gnd" "alu_reg_0/reg_bit1_0/diffamp_0/As" 102.6
+cap "alu_0/fa_sub_0/fa_0/GND" "alu_0/Co" 125.28
+cap "alu_0/fa_sub_0/fa_0/a_n14_38#" "alu_0/Co" 15.84
+cap "alu_0/A7" "alu_0/Bim7" 7.10543e-15
+cap "alu_0/Bim6" "alu_0/A6" 1.42109e-14
+cap "alu_0/Bim5" "alu_0/A5" 1.42109e-14
+cap "alu_0/A4" "alu_0/Bim4" 1.42109e-14
+cap "alu_0/Bim3" "alu_0/A3" 7.10543e-15
+cap "alu_0/Bim2" "alu_0/A2" 1.42109e-14
+cap "alu_0/Bim1" "alu_0/A1" 1.42109e-14
+cap "alu_0/Subtract" "O7" 7.10543e-15
+cap "alu_0/fa_sub_7/mux21_0/GND" "alu_0/Breg0" 3.24
+cap "alu_0/Bim2" "rf_dec_0/Dd7" 12.24
+cap "alu_0/Bim1" "O7" 12.24
+cap "O7" "alu_0/A0" 12.24
+cap "alu_0/fa_sub_6/xor2_0/GND" "O7" 12.24
+cap "vdd" "gnd" 33.66
+cap "rf_dec_0/decoder_full_0/decoder_0/inv_0/Gnd" "rf_dec_0/decoder_full_0/decoder_0/inv_0/Vdd" 2187.9
+cap "rf_dec_0/register_file_0/reg_bit_7/precharge_0/Clk" "rf_dec_0/register_file_0/reg_bit_7/precharge_0/w_n25_n17#" 4.32
+merge "rf_dec_0/A0" "A0" 2131.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1722 -14
+merge "alu_reg_0/reg_bit1_0/precharge_0/Clk" "alu_reg_0/reg_bit1_1/precharge_0/Clk" -5639.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -172 -128 0 0
+merge "alu_reg_0/reg_bit1_1/precharge_0/Clk" "alu_reg_0/reg_bit1_2/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_2/precharge_0/Clk" "alu_reg_0/reg_bit1_3/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_3/precharge_0/Clk" "alu_reg_0/reg_bit1_4/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_4/precharge_0/Clk" "alu_reg_0/reg_bit1_5/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_5/precharge_0/Clk" "alu_reg_0/reg_bit1_6/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_6/precharge_0/Clk" "alu_reg_0/reg_bit1_7/precharge_0/Clk"
+merge "alu_reg_0/reg_bit1_7/precharge_0/Clk" "ALU_Pc"
+merge "rf_dec_0/m1_376_179#" "rf_dec_0/GND" 69344.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26623 -266 6313 -1713 0 0
+merge "rf_dec_0/GND" "alu_0/fa_sub_6/xor2_0/GND"
+merge "alu_0/fa_sub_6/xor2_0/GND" "alu_0/fa_sub_6/mux21_0/GND"
+merge "alu_0/fa_sub_6/mux21_0/GND" "alu_0/fa_sub_5/mux21_0/GND"
+merge "alu_0/fa_sub_5/mux21_0/GND" "alu_0/fa_sub_4/mux21_0/GND"
+merge "alu_0/fa_sub_4/mux21_0/GND" "alu_0/fa_sub_2/xor2_0/GND"
+merge "alu_0/fa_sub_2/xor2_0/GND" "alu_0/fa_sub_2/mux21_0/GND"
+merge "alu_0/fa_sub_2/mux21_0/GND" "alu_0/fa_sub_1/mux21_0/GND"
+merge "alu_0/fa_sub_1/mux21_0/GND" "alu_0/fa_sub_0/mux21_0/GND"
+merge "alu_0/fa_sub_0/mux21_0/GND" "alu_0/fa_sub_7/B_im"
+merge "alu_0/fa_sub_7/B_im" "alu_0/Bim1"
+merge "alu_0/Bim1" "alu_0/Bim2"
+merge "alu_0/Bim2" "alu_0/Bim3"
+merge "alu_0/Bim3" "alu_0/Bim4"
+merge "alu_0/Bim4" "alu_0/Bim5"
+merge "alu_0/Bim5" "alu_0/Bim6"
+merge "alu_0/Bim6" "alu_0/Bim7"
+merge "alu_0/Bim7" "alu_0/GND"
+merge "alu_0/GND" "m1_11_313#"
+merge "m1_11_313#" "m1_136_313#"
+merge "m1_136_313#" "m1_261_313#"
+merge "m1_261_313#" "m1_386_313#"
+merge "m1_386_313#" "m1_511_313#"
+merge "m1_511_313#" "m1_636_313#"
+merge "m1_636_313#" "m1_761_313#"
+merge "m1_761_313#" "m1_886_314#"
+merge "m1_886_314#" "alu_0/fa_sub_0/fa_0/GND"
+merge "alu_0/fa_sub_0/fa_0/GND" "alu_reg_0/reg_bit1_0/Gnd"
+merge "alu_reg_0/reg_bit1_0/Gnd" "alu_reg_0/reg_bit1_7/Gnd"
+merge "alu_reg_0/reg_bit1_7/Gnd" "alu_reg_0/reg_bit1_0/sram_4/Gnd"
+merge "alu_reg_0/reg_bit1_0/sram_4/Gnd" "alu_reg_0/reg_bit1_7/sram_4/Gnd"
+merge "alu_reg_0/reg_bit1_7/sram_4/Gnd" "gnd"
+merge "alu_0/A3" "I3" -7382.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2364 -620 0 0
+merge "rf_dec_0/register_file_0/reg_bit_7/precharge_0/w_n25_n17#" "w_904_1174#" 2051.28 0 0 0 0 616 -54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rf_dec_0/A1" "A1" 2167.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1728 -12
+merge "alu_0/A4" "I4" -3215.79 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2483 -422 0 0
+merge "rf_dec_0/Dd4" "alu_reg_0/reg_bit1_4/A" -23294.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 722 -778 -12 -24 -3504 -178
+merge "alu_reg_0/reg_bit1_4/A" "alu_reg_0/reg_bit1_4/diffamp_0/Ad"
+merge "alu_reg_0/reg_bit1_4/diffamp_0/Ad" "O4"
+merge "rf_dec_0/A2" "A2" 2175.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1734 -12
+merge "alu_0/S7" "alu_reg_0/reg_bit1_7/write_driver_0/Dd" -8248.11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -228 -126 -852 -302
+merge "alu_reg_0/reg_bit1_7/write_driver_0/Dd" "S7"
+merge "alu_0/A5" "I5" -2928.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 632 -214 0 0
+merge "alu_0/fa_sub_0/Subtract" "alu_0/Subtract" -337361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -71098 -16 0 0 -59076 -94
+merge "alu_0/Subtract" "Subtract"
+merge "Subtract" "alu_0/Ci"
+merge "alu_0/Ci" "m1_982_156#"
+merge "alu_0/A6" "I6" -5455.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -57 -256 154 -36
+merge "alu_0/S6" "alu_reg_0/reg_bit1_6/write_driver_0/Dd" -9389.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -287 -236 28 -302
+merge "alu_reg_0/reg_bit1_6/write_driver_0/Dd" "S6"
+merge "rf_dec_0/Dd6" "alu_reg_0/reg_bit1_6/A" -24067 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1890 -1058 -32 -24 -2920 -118
+merge "alu_reg_0/reg_bit1_6/A" "alu_reg_0/reg_bit1_6/diffamp_0/Ad"
+merge "alu_reg_0/reg_bit1_6/diffamp_0/Ad" "O6"
+merge "rf_dec_0/As" "REG_As" -1209.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -150 -56
+merge "alu_0/A7" "I7" 273.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 266 -14 0 0
+merge "alu_0/S5" "alu_reg_0/reg_bit1_5/write_driver_0/Dd" -13510.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -668 -346 -852 -302
+merge "alu_reg_0/reg_bit1_5/write_driver_0/Dd" "S5"
+merge "rf_dec_0/m1_374_723#" "rf_dec_0/VDD" -149151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32041 -1273 -32 -24 -463 -192
+merge "rf_dec_0/VDD" "alu_0/fa_sub_0/mux21_0/VDD"
+merge "alu_0/fa_sub_0/mux21_0/VDD" "alu_0/fa_sub_0/VDD"
+merge "alu_0/fa_sub_0/VDD" "alu_0/VDD"
+merge "alu_0/VDD" "alu_reg_0/reg_bit1_0/Vdd"
+merge "alu_reg_0/reg_bit1_0/Vdd" "alu_reg_0/reg_bit1_7/Vdd"
+merge "alu_reg_0/reg_bit1_7/Vdd" "alu_reg_0/reg_bit1_0/sram_4/En"
+merge "alu_reg_0/reg_bit1_0/sram_4/En" "alu_reg_0/reg_bit1_0/write_driver_0/Vdd"
+merge "alu_reg_0/reg_bit1_0/write_driver_0/Vdd" "alu_reg_0/reg_bit1_7/sram_4/En"
+merge "alu_reg_0/reg_bit1_7/sram_4/En" "alu_reg_0/reg_bit1_7/write_driver_0/Vdd"
+merge "alu_reg_0/reg_bit1_7/write_driver_0/Vdd" "alu_reg_0/reg_bit1_0/precharge_0/w_n25_n17#"
+merge "alu_reg_0/reg_bit1_0/precharge_0/w_n25_n17#" "alu_reg_0/reg_bit1_6/precharge_0/w_n25_n17#"
+merge "alu_reg_0/reg_bit1_6/precharge_0/w_n25_n17#" "vdd"
+merge "rf_dec_0/m1_n58_313#" "rf_dec_0/decoder_full_0/andor_1/En" -4369.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2991 -24
+merge "rf_dec_0/decoder_full_0/andor_1/En" "En5"
+merge "alu_0/S4" "alu_reg_0/reg_bit1_4/write_driver_0/Dd" -16111.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -888 -456 -852 -302
+merge "alu_reg_0/reg_bit1_4/write_driver_0/Dd" "S4"
+merge "alu_0/fa_sub_0/Im_sel" "alu_0/Select" -39535.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28500 -78
+merge "alu_0/Select" "Select"
+merge "alu_reg_0/reg_bit1_0/diffamp_0/As" "alu_reg_0/reg_bit1_1/diffamp_0/As" -658.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -392 -16 528 -14
+merge "alu_reg_0/reg_bit1_1/diffamp_0/As" "alu_reg_0/reg_bit1_2/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_2/diffamp_0/As" "alu_reg_0/reg_bit1_3/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_3/diffamp_0/As" "alu_reg_0/reg_bit1_4/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_4/diffamp_0/As" "alu_reg_0/reg_bit1_5/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_5/diffamp_0/As" "alu_reg_0/reg_bit1_6/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_6/diffamp_0/As" "alu_reg_0/reg_bit1_7/diffamp_0/As"
+merge "alu_reg_0/reg_bit1_7/diffamp_0/As" "m2_679_36#"
+merge "m2_679_36#" "ALU_As"
+merge "alu_0/fa_sub_7/fa_0/S" "m2_974_150#" -391443 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -186722 -42 -636 -224
+merge "m2_974_150#" "alu_0/S0"
+merge "alu_0/S0" "alu_reg_0/reg_bit1_0/write_driver_0/Dd"
+merge "alu_reg_0/reg_bit1_0/write_driver_0/Dd" "S0"
+merge "alu_0/S3" "alu_reg_0/reg_bit1_3/write_driver_0/Dd" -13753.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -704 -364 -852 -302
+merge "alu_reg_0/reg_bit1_3/write_driver_0/Dd" "S3"
+merge "alu_0/S2" "alu_reg_0/reg_bit1_2/write_driver_0/Dd" -11563.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -524 -274 -852 -302
+merge "alu_reg_0/reg_bit1_2/write_driver_0/Dd" "S2"
+merge "rf_dec_0/Dd0" "alu_reg_0/reg_bit1_0/A" 3095.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3178 -10 -36 -22 -4384 -122
+merge "alu_reg_0/reg_bit1_0/A" "alu_reg_0/reg_bit1_0/diffamp_0/Ad"
+merge "alu_reg_0/reg_bit1_0/diffamp_0/Ad" "O0"
+merge "alu_0/S1" "alu_reg_0/reg_bit1_1/write_driver_0/Dd" -9675.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -356 -194 -852 -302
+merge "alu_reg_0/reg_bit1_1/write_driver_0/Dd" "S1"
+merge "rf_dec_0/Dd3" "alu_reg_0/reg_bit1_3/A" -19518.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1288 -684 -32 -24 -3958 -164
+merge "alu_reg_0/reg_bit1_3/A" "O3"
+merge "alu_reg_0/reg_bit1_0/Ds" "ALU_Ds" 252 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 432 -24
+merge "rf_dec_0/decoder_full_0/andor_4/En" "En2" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "rf_dec_0/Dd7" "alu_reg_0/reg_bit1_7/A" 351871 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109676 -1560 -32 -24 -3090 -124
+merge "alu_reg_0/reg_bit1_7/A" "O7"
+merge "rf_dec_0/decoder_full_0/andor_6/En" "rf_dec_0/m1_n58_703#" -12469.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8991 -24
+merge "rf_dec_0/m1_n58_703#" "En0"
+merge "rf_dec_0/m1_n58_659#" "En1" -47930.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -35259 -24
+merge "rf_dec_0/m1_n58_223#" "rf_dec_0/decoder_full_0/andor_0/En" -76945.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56751 -24
+merge "rf_dec_0/decoder_full_0/andor_0/En" "En6"
+merge "rf_dec_0/Ad0" "alu_0/Breg0" 19954.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6036 -16 6012 -24
+merge "alu_0/Breg0" "Ad0"
+merge "rf_dec_0/Ad1" "alu_0/Breg1" 9748.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1752 -16 5673 -88
+merge "alu_0/Breg1" "Ad1"
+merge "rf_dec_0/register_file_0/reg_bit_7/precharge_0/Clk" "REG_Pc" -505.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -24 0 0
+merge "rf_dec_0/decoder_full_0/andor_3/En" "En3" -379.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -24
+merge "rf_dec_0/Ad2" "alu_0/Breg2" 11160.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3004 -14 5752 -224
+merge "alu_0/Breg2" "Ad2"
+merge "rf_dec_0/Dd2" "alu_reg_0/reg_bit1_2/A" -9327.78 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2196 -390 -20 -24 -4088 -150
+merge "alu_reg_0/reg_bit1_2/A" "alu_reg_0/reg_bit1_2/diffamp_0/Ad"
+merge "alu_reg_0/reg_bit1_2/diffamp_0/Ad" "O2"
+merge "rf_dec_0/decoder_full_0/andor_2/En" "En4" 4455.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3546 -24
+merge "rf_dec_0/D0" "D0" 2175.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1734 -12
+merge "rf_dec_0/Ad3" "alu_0/Breg3" 8054.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2504 -14 4542 -224
+merge "alu_0/Breg3" "Ad3"
+merge "rf_dec_0/Ad4" "alu_0/Breg4" 3139.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2024 -14 3660 -424
+merge "alu_0/Breg4" "Ad4"
+merge "rf_dec_0/D1" "D1" 2175.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1734 -12
+merge "rf_dec_0/D2" "D2" 2106.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1724 -16
+merge "rf_dec_0/Ad5" "alu_0/Breg5" -799.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1504 -14 2778 -624
+merge "alu_0/Breg5" "Ad5"
+merge "rf_dec_0/m1_n58_130#" "En7" -331.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24
+merge "rf_dec_0/Ad6" "alu_0/Breg6" -5379.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1004 -14 1896 -824
+merge "alu_0/Breg6" "Ad6"
+merge "rf_dec_0/Dd1" "alu_reg_0/reg_bit1_1/A" -5990.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2526 -296 -32 -24 -4250 -136
+merge "alu_reg_0/reg_bit1_1/A" "O1"
+merge "rf_dec_0/Ad7" "alu_0/Breg7" -8431.62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 504 -14 1614 -824
+merge "alu_0/Breg7" "Ad7"
+merge "alu_0/A0" "I0" -37528.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4738 -1408 0 0
+merge "rf_dec_0/Ds" "REG_Ds" 900.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 810 -14
+merge "alu_0/A1" "I1" -13419.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5196 -1226 0 0
+merge "alu_0/A2" "I2" -8129.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5909 -1030 0 0
+merge "rf_dec_0/Dd5" "alu_reg_0/reg_bit1_5/A" -23222.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 306 -748 -32 -24 -3444 -118
+merge "alu_reg_0/reg_bit1_5/A" "O5"
+merge "alu_0/Co" "S8" -777.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -248 -8 0 0

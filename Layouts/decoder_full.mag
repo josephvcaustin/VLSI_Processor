@@ -1,0 +1,176 @@
+magic
+tech scmos
+timestamp 1480799581
+<< metal1 >>
+rect 358 97 378 98
+rect 358 92 424 97
+rect 358 35 424 40
+rect 653 32 657 36
+rect 46 31 418 32
+rect 46 27 457 31
+rect 39 -44 43 -33
+rect 46 -42 50 27
+rect 134 20 499 24
+rect 134 -39 138 20
+rect 533 17 537 24
+rect 226 13 537 17
+rect 141 -44 145 -33
+rect 219 -44 223 -18
+rect 226 -39 230 13
+rect 571 10 575 24
+rect 314 6 575 10
+rect 314 -42 318 6
+rect 609 3 613 24
+rect 406 -1 613 3
+rect 321 -44 325 -33
+rect 399 -44 403 -33
+rect 406 -42 410 -1
+rect 647 -4 651 24
+rect 494 -8 651 -4
+rect 494 -45 498 -8
+rect 685 -11 689 24
+rect 586 -15 689 -11
+rect 501 -44 505 -33
+rect 579 -44 583 -33
+rect 586 -41 590 -15
+rect 723 -18 727 24
+rect 674 -22 727 -18
+rect 674 -42 678 -22
+rect 681 -39 685 -33
+<< m2contact >>
+rect 457 27 461 31
+rect 39 -33 43 -29
+rect 495 24 499 28
+rect 533 24 537 28
+rect 571 24 575 28
+rect 219 -18 223 -14
+rect 141 -33 145 -29
+rect 609 24 613 28
+rect 647 24 651 28
+rect 321 -33 325 -29
+rect 399 -33 403 -29
+rect 685 24 689 28
+rect 723 24 727 28
+rect 501 -33 505 -29
+rect 579 -33 583 -29
+rect 681 -33 685 -29
+<< metal2 >>
+rect 86 31 90 38
+rect 124 35 128 38
+rect 124 31 130 35
+rect 54 27 90 31
+rect 54 -44 58 27
+rect 126 -43 130 31
+rect 162 -28 166 38
+rect 200 -21 204 39
+rect 238 -14 242 40
+rect 276 -7 280 39
+rect 314 0 318 38
+rect 352 7 356 39
+rect 457 31 461 37
+rect 495 28 499 37
+rect 533 28 537 34
+rect 571 28 575 37
+rect 609 28 613 35
+rect 647 28 651 35
+rect 685 28 689 34
+rect 723 28 727 35
+rect 352 3 670 7
+rect 314 -4 598 0
+rect 276 -11 490 -7
+rect 238 -18 418 -14
+rect 200 -25 310 -21
+rect 162 -32 238 -28
+rect 234 -43 238 -32
+rect 306 -43 310 -25
+rect 414 -43 418 -18
+rect 486 -43 490 -11
+rect 594 -43 598 -4
+rect 666 -43 670 3
+<< m3contact >>
+rect 35 -33 39 -29
+rect 27 -43 31 -39
+rect 215 -18 219 -14
+rect 145 -33 149 -29
+rect 153 -43 157 -39
+rect 207 -43 211 -39
+rect 325 -33 329 -29
+rect 395 -33 399 -29
+rect 333 -43 337 -39
+rect 387 -43 391 -39
+rect 505 -33 509 -29
+rect 575 -33 579 -29
+rect 513 -43 517 -39
+rect 567 -43 571 -39
+rect 685 -33 689 -29
+rect 693 -43 697 -39
+<< metal3 >>
+rect 214 -14 224 -13
+rect 214 -18 215 -14
+rect 219 -18 224 -14
+rect 214 -28 224 -18
+rect 11 -29 729 -28
+rect 11 -33 35 -29
+rect 39 -33 145 -29
+rect 149 -33 325 -29
+rect 329 -33 395 -29
+rect 399 -33 505 -29
+rect 509 -33 575 -29
+rect 579 -33 685 -29
+rect 689 -33 729 -29
+rect 11 -34 729 -33
+rect 11 -39 729 -38
+rect 11 -43 27 -39
+rect 31 -43 153 -39
+rect 157 -43 207 -39
+rect 211 -43 333 -39
+rect 337 -43 387 -39
+rect 391 -43 513 -39
+rect 517 -43 567 -39
+rect 571 -43 693 -39
+rect 697 -43 729 -39
+rect 11 -44 729 -43
+use decoder  decoder_0
+timestamp 1480795357
+transform 1 0 49 0 1 35
+box -52 0 311 112
+use decoder  decoder_1
+timestamp 1480795357
+transform 1 0 420 0 1 34
+box -52 0 311 112
+use andor  andor_7
+timestamp 1480792043
+transform 0 1 -3 -1 0 -42
+box -3 5 87 95
+use andor  andor_0
+timestamp 1480792043
+transform 0 -1 187 -1 0 -42
+box -3 5 87 95
+use andor  andor_1
+timestamp 1480792043
+transform 0 1 177 -1 0 -42
+box -3 5 87 95
+use andor  andor_2
+timestamp 1480792043
+transform 0 -1 367 -1 0 -42
+box -3 5 87 95
+use andor  andor_3
+timestamp 1480792043
+transform 0 1 357 -1 0 -42
+box -3 5 87 95
+use andor  andor_4
+timestamp 1480792043
+transform 0 -1 547 -1 0 -42
+box -3 5 87 95
+use andor  andor_5
+timestamp 1480792043
+transform 0 1 537 -1 0 -42
+box -3 5 87 95
+use andor  andor_6
+timestamp 1480792043
+transform 0 -1 727 -1 0 -42
+box -3 5 87 95
+<< labels >>
+rlabel metal3 14 -31 14 -31 1 Clk_
+rlabel metal3 14 -41 14 -41 1 Clk
+<< end >>

@@ -1,0 +1,64 @@
+magic
+tech scmos
+timestamp 1480882247
+<< nwell >>
+rect -4 -156 0 -149
+rect 0 -166 4 -159
+rect 36 -166 40 -159
+<< metal1 >>
+rect -5 -56 43 -49
+rect -4 -99 0 -92
+rect -4 -156 0 -149
+rect -4 -247 44 -240
+<< m2contact >>
+rect 14 -106 18 -102
+rect 7 -235 11 -231
+<< metal2 >>
+rect 2 -110 6 -106
+rect 34 -110 38 -106
+rect 0 -166 4 -159
+rect 36 -166 40 -159
+<< m3contact >>
+rect 10 -106 14 -102
+rect 7 -231 11 -227
+<< metal3 >>
+rect -4 -67 1 -61
+rect 9 -102 15 -101
+rect 9 -106 10 -102
+rect 14 -106 15 -102
+rect 9 -226 15 -106
+rect 6 -227 15 -226
+rect 6 -231 7 -227
+rect 11 -231 15 -227
+rect 6 -236 15 -231
+use precharge  precharge_0
+timestamp 1480754025
+transform 1 0 19 0 1 87
+box -25 -20 27 41
+use sram  sram_4
+timestamp 1480732973
+transform 1 0 6 0 -1 21
+box -13 -47 38 16
+use write_driver  write_driver_0
+timestamp 1480756569
+transform 1 0 2 0 1 -16
+box -7 -83 43 23
+use isolation  isolation_0
+timestamp 1480733940
+transform 1 0 20 0 1 -159
+box -20 5 20 61
+use diffamp  diffamp_0
+timestamp 1480881943
+transform 1 0 -79 0 1 -210
+box 72 -37 123 63
+<< labels >>
+rlabel metal3 -2 -64 -2 -64 1 Ds
+rlabel metal1 -2 -152 -2 -152 1 Vdd
+rlabel metal1 -2 -96 -2 -96 1 Vdd
+rlabel metal1 -2 -53 -2 -53 1 Gnd
+rlabel metal2 2 -164 2 -164 5 A
+rlabel metal2 4 -108 4 -108 1 Bl
+rlabel metal2 36 -108 36 -108 1 Bl_
+rlabel metal2 38 -164 38 -164 1 A_
+rlabel metal1 20 -243 20 -243 1 Gnd
+<< end >>

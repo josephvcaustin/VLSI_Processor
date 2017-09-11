@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1481247610
+<< nwell >>
+rect 355 55 359 61
+rect 357 12 359 16
+<< metal1 >>
+rect 356 757 359 758
+rect 355 699 359 703
+rect 355 641 358 646
+rect 355 581 359 586
+rect 355 520 359 524
+rect 355 460 358 463
+rect 355 397 359 401
+rect 355 337 359 342
+rect 355 276 359 280
+rect 355 210 359 215
+rect 355 155 358 161
+rect 355 113 359 117
+rect 355 55 359 61
+rect 358 2 359 6
+rect 355 1 359 2
+<< metal2 >>
+rect 39 750 376 754
+<< metal3 >>
+rect 17 649 21 655
+rect 17 633 21 639
+rect 17 527 21 533
+rect 17 511 21 517
+rect 17 405 21 411
+rect 17 389 21 395
+rect 17 283 21 289
+rect 60 134 66 140
+rect 107 134 113 140
+rect 154 134 160 140
+rect 201 134 207 140
+rect 248 134 254 140
+rect 295 134 301 140
+rect 342 134 348 140
+rect 389 134 395 140
+use reg_bit  reg_bit_0
+timestamp 1481247542
+transform 1 0 21 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_1
+timestamp 1481247542
+transform 1 0 68 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_2
+timestamp 1481247542
+transform 1 0 115 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_3
+timestamp 1481247542
+transform 1 0 162 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_4
+timestamp 1481247542
+transform 1 0 209 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_5
+timestamp 1481247542
+transform 1 0 256 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_6
+timestamp 1481247542
+transform 1 0 303 0 1 210
+box -7 -247 46 555
+use reg_bit  reg_bit_7
+timestamp 1481247542
+transform 1 0 350 0 1 210
+box -7 -247 46 555
+<< labels >>
+rlabel metal1 357 57 357 57 3 Vdd
+rlabel metal1 357 115 357 115 3 Vdd
+rlabel metal1 356 158 356 158 3 Gnd
+rlabel metal1 357 213 357 213 3 Vdd
+rlabel metal1 357 278 357 278 3 Gnd
+rlabel metal1 357 339 357 339 3 Vdd
+rlabel metal1 357 399 357 399 3 Gnd
+rlabel metal1 357 462 357 462 3 Vdd
+rlabel metal1 357 522 357 522 3 Gnd
+rlabel metal1 357 583 357 583 3 Vdd
+rlabel metal1 357 643 357 643 3 Gnd
+rlabel metal1 357 701 357 701 3 Vdd
+rlabel metal3 389 134 395 140 5 Dd0
+rlabel metal3 342 134 348 140 5 Dd1
+rlabel metal3 295 134 301 140 5 Dd2
+rlabel metal3 248 134 254 140 5 Dd3
+rlabel metal3 201 134 207 140 5 Dd4
+rlabel metal3 154 134 160 140 5 Dd5
+rlabel metal3 107 134 113 140 5 Dd6
+rlabel metal3 60 134 66 140 5 Dd7
+rlabel metal3 19 652 19 652 7 En0
+rlabel metal3 19 635 19 635 7 En1
+rlabel metal3 19 530 19 530 7 En2
+rlabel metal3 19 514 19 514 7 En3
+rlabel metal3 19 409 19 409 7 En4
+rlabel metal3 19 391 19 391 7 En5
+rlabel metal3 19 286 19 286 7 En6
+rlabel metal2 47 750 51 754 1 Pc
+rlabel space 357 -21 361 -17 1 As0
+rlabel space 310 -21 314 -17 1 As1
+rlabel space 263 -21 267 -17 1 As2
+rlabel space 216 -21 220 -17 1 As3
+rlabel space 169 -21 173 -17 1 As4
+rlabel space 122 -21 126 -17 1 As5
+rlabel space 75 -21 79 -17 1 As6
+rlabel space 28 -21 32 -17 1 As7
+<< end >>

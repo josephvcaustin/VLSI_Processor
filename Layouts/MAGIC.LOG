@@ -1,0 +1,65 @@
+Starting magic under Tcl interpreter
+
+Magic 8.0 revision 209 - Compiled on Fri Sep 11 02:08:49 CDT 2015.
+Using the terminal as the console.
+Using NULL graphics device.
+Input style lambda=0.30(p): scaleFactor=30, multiplier=1
+/usr/local/lib/magic/sys/scmos.tech: line 6070: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Using technology "scmos", version 2000d.
+SCMOS: Submit as technology.lambda: SCN3ME_SUBM.30 [to process: AMIc5]
+Extended macros are unavailable with this device type.
+Processing system .magicrc file
+{}
+FreeSans
+FreeSerif
+FreeMono
+if {![catch {set Opts(tools)}]} { magic::enable_tools }
+: after#0
+set GND "gnd!"
+: gnd!
+set VDD "vdd!"
+: vdd!
+catch {source /usr/local/lib/magic/sys/site.def}
+: 1
+Processing timestamp mismatches: diffamp, precharge, alu_reg, fa_sub, alu, reg_bit, andor, inv, decoder, decoder_full, rf_dec.
+Extracting reg_bit1 into reg_bit1.ext:
+reg_bit1: 4 warnings
+Extracting alu_reg into alu_reg.ext:
+Extracting fa into fa.ext:
+Extracting xor2 into xor2.ext:
+Extracting mux21 into mux21.ext:
+Extracting fa_sub into fa_sub.ext:
+Extracting alu into alu.ext:
+Extracting diffamp into diffamp.ext:
+Extracting isolation into isolation.ext:
+Extracting write_driver into write_driver.ext:
+write_driver: 2 warnings
+Extracting sram into sram.ext:
+Extracting precharge into precharge.ext:
+Extracting reg_bit into reg_bit.ext:
+reg_bit: 4 warnings
+Extracting register_file into register_file.ext:
+register_file: 12 warnings
+Extracting nand into nand.ext:
+Extracting andor into andor.ext:
+Extracting 3nor into 3nor.ext:
+Extracting inv into inv.ext:
+Extracting decoder into decoder.ext:
+Extracting decoder_full into decoder_full.ext:
+Extracting rf_dec into rf_dec.ext:
+rf_dec: 4 warnings
+Extracting complete_design into complete_design.ext:
+Total of 26 warnings.
+exttosim finished.
+Devices merged: 0
+exttosim finished.
+Devs merged: 0
+exttospice finished.

@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.03-1 linux64' PARAM_COUNT=0
+.TITLE '*********************************************************'
+ vmax             vmin             trise            tfall           
+ tplh             tphl             avg_delay        avgpower        
+ peakpwr          temper           alter#          
+    failed           failed           failed           failed       
+    failed           failed           failed         3.863e-02      
+    0.3763          70.0000        1               
