@@ -1,0 +1,47 @@
+# SUE version MMI_SUE5.6.26
+
+proc SCHEMATIC_alu_slice {} {
+  make FA -origin {1030 640}
+  make input -orient R90 -name A -origin {960 480}
+  make input -orient RXY -name Subtract -origin {1090 490}
+  make input -orient RXY -name Ci -origin {1090 610}
+  make output -orient RXY -name Co -origin {970 610}
+  make output -orient R90 -name S -origin {1030 670}
+  make xor2 -orient RX -origin {1060 500}
+  make mux21 -origin {1090 400}
+  make input -orient R90 -name B_im -origin {1000 370}
+  make input -orient R90 -name B_reg -origin {1030 370}
+  make input -orient RXY -name Im_sel -origin {1070 390}
+  make_wire 1050 490 1050 500
+  make_wire 1050 490 1090 490
+  make_wire 960 540 1010 540
+  make_wire 1010 540 1010 580
+  make_wire 960 480 960 540
+  make_wire 1030 480 1030 500
+}
+
+proc ICON_alu_slice args {
+  icon_setup $args {{origin {0 0}} {orient R0} {name {}} {M {}} {dpc {}}}
+  icon_term -type output -origin {-170 0} -orient RX -name Co
+  icon_term -type input -origin {170 -40} -orient RX -name Im_sel
+  icon_term -type input -origin {170 0} -orient RX -name Subtract
+  icon_term -type input -origin {170 40} -orient RX -name Ci
+  icon_term -type input -origin {-40 -100} -orient R90 -name A
+  icon_term -type input -origin {0 -100} -orient R90 -name B_im
+  icon_term -type input -origin {40 -100} -orient R90 -name B_reg
+  icon_term -type output -origin {0 100} -orient R90 -name S
+  icon_property -origin {0 0} -size large -anchor center -label alu_slice
+  icon_line -170 -100 170 -100 170 100 -170 100 -170 -100
+  icon_property -origin {-160 0} -label Co
+  icon_property -origin {160 -40} -anchor e -label Im_sel
+  icon_property -origin {160 0} -anchor e -label Subtract
+  icon_property -origin {160 40} -anchor e -label Ci
+  icon_property -origin {-40 -90} -rotate 1 -label A
+  icon_property -origin {0 -90} -rotate 1 -label B_im
+  icon_property -origin {40 -90} -rotate 1 -label B_reg
+  icon_property -origin {0 90} -anchor e -rotate 1 -label S
+  icon_property -origin {-170 320} -type user -name name
+  icon_property -origin {-170 340} -type user -name M
+  icon_property -origin {-170 360} -type user -name dpc
+}
+

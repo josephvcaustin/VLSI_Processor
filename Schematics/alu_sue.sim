@@ -1,0 +1,869 @@
+| units: 30.0  tech: scmos  format: MIT
+A A0 input
+A A1 input
+A A2 input
+A A3 input
+A A4 input
+A A5 input
+A A6 input
+A A7 input
+A Bim0 input
+A Bim1 input
+A Bim2 input
+A Bim3 input
+A Bim4 input
+A Bim5 input
+A Bim6 input
+A Bim7 input
+A Breg0 input
+A Breg1 input
+A Breg2 input
+A Breg3 input
+A Breg4 input
+A Breg5 input
+A Breg6 input
+A Breg7 input
+A Ci input
+A Select input
+A Subtract input
+A Co output
+A S0 output
+A S1 output
+A S2 output
+A S3 output
+A S4 output
+A S5 output
+A S6 output
+A S7 output
+| begin alu_slice 640 470
+| begin alu_slice.FA 1030 640
+| device alu_slice.FA.nmos 430 370
+n alu_slice.FA.net_2 alu_slice.FA.net_9 alu_slice.FA.net_10 1 3
+| device alu_slice.FA.nmos_1 250 450
+n A2 GND alu_slice.FA.net_9 1 3
+| device alu_slice.FA.nmos_2 430 450
+n alu_slice.net_1 GND alu_slice.FA.net_9 1 3
+| device alu_slice.FA.nmos_3 610 450
+n net_7 GND alu_slice.FA.net_9 1 3
+| device alu_slice.FA.nmos_4 810 370
+n net_7 alu_slice.FA.net_12 alu_slice.FA.net_10 1 3
+| device alu_slice.FA.nmos_5 810 450
+n alu_slice.net_1 alu_slice.FA.net_8 alu_slice.FA.net_12 1 3
+| device alu_slice.FA.nmos_6 810 530
+n A2 GND alu_slice.FA.net_8 1 3
+| device alu_slice.FA.nmos_7 -250 370
+n net_7 alu_slice.FA.net_5 alu_slice.FA.net_2 1 3
+| device alu_slice.FA.nmos_8 -320 450
+n A2 GND alu_slice.FA.net_5 1 3
+| device alu_slice.FA.nmos_9 -150 450
+n alu_slice.net_1 GND alu_slice.FA.net_5 1 3
+| device alu_slice.FA.nmos_10 40 370
+n alu_slice.net_1 alu_slice.FA.net_4 alu_slice.FA.net_2 1 3
+| device alu_slice.FA.nmos_11 40 450
+n A2 GND alu_slice.FA.net_4 1 3
+| device alu_slice.FA.pmos 250 210
+p A2 VDD alu_slice.FA.net_11 1 6
+| device alu_slice.FA.pmos_1 430 210
+p alu_slice.net_1 VDD alu_slice.FA.net_11 1 6
+| device alu_slice.FA.pmos_2 610 210
+p net_7 VDD alu_slice.FA.net_11 1 6
+| device alu_slice.FA.pmos_3 430 290
+p alu_slice.FA.net_2 alu_slice.FA.net_11 alu_slice.FA.net_10 1 6
+| device alu_slice.FA.pmos_4 810 210
+p alu_slice.net_1 alu_slice.FA.net_3 alu_slice.FA.net_1 1 6
+| device alu_slice.FA.pmos_5 810 290
+p net_7 alu_slice.FA.net_1 alu_slice.FA.net_10 1 6
+| device alu_slice.FA.pmos_6 810 130
+p A2 VDD alu_slice.FA.net_3 1 6
+| device alu_slice.FA.pmos_7 -320 210
+p A2 VDD alu_slice.FA.net_6 1 6
+| device alu_slice.FA.pmos_8 -150 210
+p alu_slice.net_1 VDD alu_slice.FA.net_6 1 6
+| device alu_slice.FA.pmos_9 -250 290
+p net_7 alu_slice.FA.net_6 alu_slice.FA.net_2 1 6
+| device alu_slice.FA.pmos_10 40 290
+p alu_slice.net_1 alu_slice.FA.net_7 alu_slice.FA.net_2 1 6
+| device alu_slice.FA.pmos_11 40 210
+p A2 VDD alu_slice.FA.net_7 1 6
+| begin alu_slice.FA.inv 890 680
+| device alu_slice.FA.inv.nmos 440 -610
+n alu_slice.FA.net_2 GND net_4 1 3
+| device alu_slice.FA.inv.pmos 440 -770
+p alu_slice.FA.net_2 VDD net_4 1 6
+| end alu_slice.FA.inv
+| begin alu_slice.FA.inv_1 900 330
+| device alu_slice.FA.inv_1.nmos 440 -610
+n alu_slice.FA.net_10 GND S2 1 3
+| device alu_slice.FA.inv_1.pmos 440 -770
+p alu_slice.FA.net_10 VDD S2 1 6
+| end alu_slice.FA.inv_1
+| end alu_slice.FA
+| begin alu_slice.xor2 1060 500
+| device alu_slice.xor2.pmos -150 210
+p Subtract VDD alu_slice.xor2.net_4 1 12
+| device alu_slice.xor2.pmos_1 -150 290
+p alu_slice.xor2.net_1 alu_slice.xor2.net_4 alu_slice.net_1 1 12
+| device alu_slice.xor2.pmos_2 -320 290
+p alu_slice.net_2 alu_slice.xor2.net_6 alu_slice.net_1 1 12
+| device alu_slice.xor2.pmos_3 -320 210
+p alu_slice.xor2.net_3 VDD alu_slice.xor2.net_6 1 12
+| device alu_slice.xor2.nmos -150 450
+n Subtract GND alu_slice.xor2.net_2 1 6
+| device alu_slice.xor2.nmos_1 -320 450
+n alu_slice.xor2.net_3 GND alu_slice.xor2.net_5 1 6
+| device alu_slice.xor2.nmos_2 -150 370
+n alu_slice.net_2 alu_slice.xor2.net_2 alu_slice.net_1 1 6
+| device alu_slice.xor2.nmos_3 -320 370
+n alu_slice.xor2.net_1 alu_slice.xor2.net_5 alu_slice.net_1 1 6
+| device alu_slice.xor2.pmos_4 -580 210
+p alu_slice.net_2 VDD alu_slice.xor2.net_1 1 12
+| device alu_slice.xor2.nmos_4 -580 430
+n alu_slice.net_2 GND alu_slice.xor2.net_1 1 6
+| device alu_slice.xor2.pmos_5 80 210
+p Subtract VDD alu_slice.xor2.net_3 1 12
+| device alu_slice.xor2.nmos_5 80 430
+n Subtract GND alu_slice.xor2.net_3 1 6
+| end alu_slice.xor2
+| begin alu_slice.mux21 1090 400
+| device alu_slice.mux21.nmos 210 150
+n Select Breg2 alu_slice.net_2 1 3
+| device alu_slice.mux21.pmos 210 150
+p alu_slice.mux21.net_1 Breg2 alu_slice.net_2 1 3
+| device alu_slice.mux21.nmos_1 210 340
+n alu_slice.mux21.net_1 Bim2 alu_slice.net_2 1 3
+| device alu_slice.mux21.pmos_1 210 340
+p Select Bim2 alu_slice.net_2 1 3
+| device alu_slice.mux21.nmos_2 30 290
+n Select GND alu_slice.mux21.net_1 1 1
+| device alu_slice.mux21.pmos_2 30 210
+p Select VDD alu_slice.mux21.net_1 1 2
+| end alu_slice.mux21
+| end alu_slice
+| begin alu_slice_1 260 470
+| begin alu_slice_1.FA 1030 640
+| device alu_slice_1.FA.nmos 430 370
+n alu_slice_1.FA.net_2 alu_slice_1.FA.net_9 alu_slice_1.FA.net_10 1 3
+| device alu_slice_1.FA.nmos_1 250 450
+n A3 GND alu_slice_1.FA.net_9 1 3
+| device alu_slice_1.FA.nmos_2 430 450
+n alu_slice_1.net_1 GND alu_slice_1.FA.net_9 1 3
+| device alu_slice_1.FA.nmos_3 610 450
+n net_4 GND alu_slice_1.FA.net_9 1 3
+| device alu_slice_1.FA.nmos_4 810 370
+n net_4 alu_slice_1.FA.net_12 alu_slice_1.FA.net_10 1 3
+| device alu_slice_1.FA.nmos_5 810 450
+n alu_slice_1.net_1 alu_slice_1.FA.net_8 alu_slice_1.FA.net_12 1 3
+| device alu_slice_1.FA.nmos_6 810 530
+n A3 GND alu_slice_1.FA.net_8 1 3
+| device alu_slice_1.FA.nmos_7 -250 370
+n net_4 alu_slice_1.FA.net_5 alu_slice_1.FA.net_2 1 3
+| device alu_slice_1.FA.nmos_8 -320 450
+n A3 GND alu_slice_1.FA.net_5 1 3
+| device alu_slice_1.FA.nmos_9 -150 450
+n alu_slice_1.net_1 GND alu_slice_1.FA.net_5 1 3
+| device alu_slice_1.FA.nmos_10 40 370
+n alu_slice_1.net_1 alu_slice_1.FA.net_4 alu_slice_1.FA.net_2 1 3
+| device alu_slice_1.FA.nmos_11 40 450
+n A3 GND alu_slice_1.FA.net_4 1 3
+| device alu_slice_1.FA.pmos 250 210
+p A3 VDD alu_slice_1.FA.net_11 1 6
+| device alu_slice_1.FA.pmos_1 430 210
+p alu_slice_1.net_1 VDD alu_slice_1.FA.net_11 1 6
+| device alu_slice_1.FA.pmos_2 610 210
+p net_4 VDD alu_slice_1.FA.net_11 1 6
+| device alu_slice_1.FA.pmos_3 430 290
+p alu_slice_1.FA.net_2 alu_slice_1.FA.net_11 alu_slice_1.FA.net_10 1 6
+| device alu_slice_1.FA.pmos_4 810 210
+p alu_slice_1.net_1 alu_slice_1.FA.net_3 alu_slice_1.FA.net_1 1 6
+| device alu_slice_1.FA.pmos_5 810 290
+p net_4 alu_slice_1.FA.net_1 alu_slice_1.FA.net_10 1 6
+| device alu_slice_1.FA.pmos_6 810 130
+p A3 VDD alu_slice_1.FA.net_3 1 6
+| device alu_slice_1.FA.pmos_7 -320 210
+p A3 VDD alu_slice_1.FA.net_6 1 6
+| device alu_slice_1.FA.pmos_8 -150 210
+p alu_slice_1.net_1 VDD alu_slice_1.FA.net_6 1 6
+| device alu_slice_1.FA.pmos_9 -250 290
+p net_4 alu_slice_1.FA.net_6 alu_slice_1.FA.net_2 1 6
+| device alu_slice_1.FA.pmos_10 40 290
+p alu_slice_1.net_1 alu_slice_1.FA.net_7 alu_slice_1.FA.net_2 1 6
+| device alu_slice_1.FA.pmos_11 40 210
+p A3 VDD alu_slice_1.FA.net_7 1 6
+| begin alu_slice_1.FA.inv 890 680
+| device alu_slice_1.FA.inv.nmos 440 -610
+n alu_slice_1.FA.net_2 GND net_6 1 3
+| device alu_slice_1.FA.inv.pmos 440 -770
+p alu_slice_1.FA.net_2 VDD net_6 1 6
+| end alu_slice_1.FA.inv
+| begin alu_slice_1.FA.inv_1 900 330
+| device alu_slice_1.FA.inv_1.nmos 440 -610
+n alu_slice_1.FA.net_10 GND S3 1 3
+| device alu_slice_1.FA.inv_1.pmos 440 -770
+p alu_slice_1.FA.net_10 VDD S3 1 6
+| end alu_slice_1.FA.inv_1
+| end alu_slice_1.FA
+| begin alu_slice_1.xor2 1060 500
+| device alu_slice_1.xor2.pmos -150 210
+p Subtract VDD alu_slice_1.xor2.net_4 1 12
+| device alu_slice_1.xor2.pmos_1 -150 290
+p alu_slice_1.xor2.net_1 alu_slice_1.xor2.net_4 alu_slice_1.net_1 1 12
+| device alu_slice_1.xor2.pmos_2 -320 290
+p alu_slice_1.net_2 alu_slice_1.xor2.net_6 alu_slice_1.net_1 1 12
+| device alu_slice_1.xor2.pmos_3 -320 210
+p alu_slice_1.xor2.net_3 VDD alu_slice_1.xor2.net_6 1 12
+| device alu_slice_1.xor2.nmos -150 450
+n Subtract GND alu_slice_1.xor2.net_2 1 6
+| device alu_slice_1.xor2.nmos_1 -320 450
+n alu_slice_1.xor2.net_3 GND alu_slice_1.xor2.net_5 1 6
+| device alu_slice_1.xor2.nmos_2 -150 370
+n alu_slice_1.net_2 alu_slice_1.xor2.net_2 alu_slice_1.net_1 1 6
+| device alu_slice_1.xor2.nmos_3 -320 370
+n alu_slice_1.xor2.net_1 alu_slice_1.xor2.net_5 alu_slice_1.net_1 1 6
+| device alu_slice_1.xor2.pmos_4 -580 210
+p alu_slice_1.net_2 VDD alu_slice_1.xor2.net_1 1 12
+| device alu_slice_1.xor2.nmos_4 -580 430
+n alu_slice_1.net_2 GND alu_slice_1.xor2.net_1 1 6
+| device alu_slice_1.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_1.xor2.net_3 1 12
+| device alu_slice_1.xor2.nmos_5 80 430
+n Subtract GND alu_slice_1.xor2.net_3 1 6
+| end alu_slice_1.xor2
+| begin alu_slice_1.mux21 1090 400
+| device alu_slice_1.mux21.nmos 210 150
+n Select Breg3 alu_slice_1.net_2 1 3
+| device alu_slice_1.mux21.pmos 210 150
+p alu_slice_1.mux21.net_1 Breg3 alu_slice_1.net_2 1 3
+| device alu_slice_1.mux21.nmos_1 210 340
+n alu_slice_1.mux21.net_1 Bim3 alu_slice_1.net_2 1 3
+| device alu_slice_1.mux21.pmos_1 210 340
+p Select Bim3 alu_slice_1.net_2 1 3
+| device alu_slice_1.mux21.nmos_2 30 290
+n Select GND alu_slice_1.mux21.net_1 1 1
+| device alu_slice_1.mux21.pmos_2 30 210
+p Select VDD alu_slice_1.mux21.net_1 1 2
+| end alu_slice_1.mux21
+| end alu_slice_1
+| begin alu_slice_2 1400 470
+| begin alu_slice_2.FA 1030 640
+| device alu_slice_2.FA.nmos 430 370
+n alu_slice_2.FA.net_2 alu_slice_2.FA.net_9 alu_slice_2.FA.net_10 1 3
+| device alu_slice_2.FA.nmos_1 250 450
+n A0 GND alu_slice_2.FA.net_9 1 3
+| device alu_slice_2.FA.nmos_2 430 450
+n alu_slice_2.net_1 GND alu_slice_2.FA.net_9 1 3
+| device alu_slice_2.FA.nmos_3 610 450
+n Ci GND alu_slice_2.FA.net_9 1 3
+| device alu_slice_2.FA.nmos_4 810 370
+n Ci alu_slice_2.FA.net_12 alu_slice_2.FA.net_10 1 3
+| device alu_slice_2.FA.nmos_5 810 450
+n alu_slice_2.net_1 alu_slice_2.FA.net_8 alu_slice_2.FA.net_12 1 3
+| device alu_slice_2.FA.nmos_6 810 530
+n A0 GND alu_slice_2.FA.net_8 1 3
+| device alu_slice_2.FA.nmos_7 -250 370
+n Ci alu_slice_2.FA.net_5 alu_slice_2.FA.net_2 1 3
+| device alu_slice_2.FA.nmos_8 -320 450
+n A0 GND alu_slice_2.FA.net_5 1 3
+| device alu_slice_2.FA.nmos_9 -150 450
+n alu_slice_2.net_1 GND alu_slice_2.FA.net_5 1 3
+| device alu_slice_2.FA.nmos_10 40 370
+n alu_slice_2.net_1 alu_slice_2.FA.net_4 alu_slice_2.FA.net_2 1 3
+| device alu_slice_2.FA.nmos_11 40 450
+n A0 GND alu_slice_2.FA.net_4 1 3
+| device alu_slice_2.FA.pmos 250 210
+p A0 VDD alu_slice_2.FA.net_11 1 6
+| device alu_slice_2.FA.pmos_1 430 210
+p alu_slice_2.net_1 VDD alu_slice_2.FA.net_11 1 6
+| device alu_slice_2.FA.pmos_2 610 210
+p Ci VDD alu_slice_2.FA.net_11 1 6
+| device alu_slice_2.FA.pmos_3 430 290
+p alu_slice_2.FA.net_2 alu_slice_2.FA.net_11 alu_slice_2.FA.net_10 1 6
+| device alu_slice_2.FA.pmos_4 810 210
+p alu_slice_2.net_1 alu_slice_2.FA.net_3 alu_slice_2.FA.net_1 1 6
+| device alu_slice_2.FA.pmos_5 810 290
+p Ci alu_slice_2.FA.net_1 alu_slice_2.FA.net_10 1 6
+| device alu_slice_2.FA.pmos_6 810 130
+p A0 VDD alu_slice_2.FA.net_3 1 6
+| device alu_slice_2.FA.pmos_7 -320 210
+p A0 VDD alu_slice_2.FA.net_6 1 6
+| device alu_slice_2.FA.pmos_8 -150 210
+p alu_slice_2.net_1 VDD alu_slice_2.FA.net_6 1 6
+| device alu_slice_2.FA.pmos_9 -250 290
+p Ci alu_slice_2.FA.net_6 alu_slice_2.FA.net_2 1 6
+| device alu_slice_2.FA.pmos_10 40 290
+p alu_slice_2.net_1 alu_slice_2.FA.net_7 alu_slice_2.FA.net_2 1 6
+| device alu_slice_2.FA.pmos_11 40 210
+p A0 VDD alu_slice_2.FA.net_7 1 6
+| begin alu_slice_2.FA.inv 890 680
+| device alu_slice_2.FA.inv.nmos 440 -610
+n alu_slice_2.FA.net_2 GND net_5 1 3
+| device alu_slice_2.FA.inv.pmos 440 -770
+p alu_slice_2.FA.net_2 VDD net_5 1 6
+| end alu_slice_2.FA.inv
+| begin alu_slice_2.FA.inv_1 900 330
+| device alu_slice_2.FA.inv_1.nmos 440 -610
+n alu_slice_2.FA.net_10 GND S0 1 3
+| device alu_slice_2.FA.inv_1.pmos 440 -770
+p alu_slice_2.FA.net_10 VDD S0 1 6
+| end alu_slice_2.FA.inv_1
+| end alu_slice_2.FA
+| begin alu_slice_2.xor2 1060 500
+| device alu_slice_2.xor2.pmos -150 210
+p Subtract VDD alu_slice_2.xor2.net_4 1 12
+| device alu_slice_2.xor2.pmos_1 -150 290
+p alu_slice_2.xor2.net_1 alu_slice_2.xor2.net_4 alu_slice_2.net_1 1 12
+| device alu_slice_2.xor2.pmos_2 -320 290
+p alu_slice_2.net_2 alu_slice_2.xor2.net_6 alu_slice_2.net_1 1 12
+| device alu_slice_2.xor2.pmos_3 -320 210
+p alu_slice_2.xor2.net_3 VDD alu_slice_2.xor2.net_6 1 12
+| device alu_slice_2.xor2.nmos -150 450
+n Subtract GND alu_slice_2.xor2.net_2 1 6
+| device alu_slice_2.xor2.nmos_1 -320 450
+n alu_slice_2.xor2.net_3 GND alu_slice_2.xor2.net_5 1 6
+| device alu_slice_2.xor2.nmos_2 -150 370
+n alu_slice_2.net_2 alu_slice_2.xor2.net_2 alu_slice_2.net_1 1 6
+| device alu_slice_2.xor2.nmos_3 -320 370
+n alu_slice_2.xor2.net_1 alu_slice_2.xor2.net_5 alu_slice_2.net_1 1 6
+| device alu_slice_2.xor2.pmos_4 -580 210
+p alu_slice_2.net_2 VDD alu_slice_2.xor2.net_1 1 12
+| device alu_slice_2.xor2.nmos_4 -580 430
+n alu_slice_2.net_2 GND alu_slice_2.xor2.net_1 1 6
+| device alu_slice_2.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_2.xor2.net_3 1 12
+| device alu_slice_2.xor2.nmos_5 80 430
+n Subtract GND alu_slice_2.xor2.net_3 1 6
+| end alu_slice_2.xor2
+| begin alu_slice_2.mux21 1090 400
+| device alu_slice_2.mux21.nmos 210 150
+n Select Breg0 alu_slice_2.net_2 1 3
+| device alu_slice_2.mux21.pmos 210 150
+p alu_slice_2.mux21.net_1 Breg0 alu_slice_2.net_2 1 3
+| device alu_slice_2.mux21.nmos_1 210 340
+n alu_slice_2.mux21.net_1 Bim0 alu_slice_2.net_2 1 3
+| device alu_slice_2.mux21.pmos_1 210 340
+p Select Bim0 alu_slice_2.net_2 1 3
+| device alu_slice_2.mux21.nmos_2 30 290
+n Select GND alu_slice_2.mux21.net_1 1 1
+| device alu_slice_2.mux21.pmos_2 30 210
+p Select VDD alu_slice_2.mux21.net_1 1 2
+| end alu_slice_2.mux21
+| end alu_slice_2
+| begin alu_slice_3 1020 470
+| begin alu_slice_3.FA 1030 640
+| device alu_slice_3.FA.nmos 430 370
+n alu_slice_3.FA.net_2 alu_slice_3.FA.net_9 alu_slice_3.FA.net_10 1 3
+| device alu_slice_3.FA.nmos_1 250 450
+n A1 GND alu_slice_3.FA.net_9 1 3
+| device alu_slice_3.FA.nmos_2 430 450
+n alu_slice_3.net_1 GND alu_slice_3.FA.net_9 1 3
+| device alu_slice_3.FA.nmos_3 610 450
+n net_5 GND alu_slice_3.FA.net_9 1 3
+| device alu_slice_3.FA.nmos_4 810 370
+n net_5 alu_slice_3.FA.net_12 alu_slice_3.FA.net_10 1 3
+| device alu_slice_3.FA.nmos_5 810 450
+n alu_slice_3.net_1 alu_slice_3.FA.net_8 alu_slice_3.FA.net_12 1 3
+| device alu_slice_3.FA.nmos_6 810 530
+n A1 GND alu_slice_3.FA.net_8 1 3
+| device alu_slice_3.FA.nmos_7 -250 370
+n net_5 alu_slice_3.FA.net_5 alu_slice_3.FA.net_2 1 3
+| device alu_slice_3.FA.nmos_8 -320 450
+n A1 GND alu_slice_3.FA.net_5 1 3
+| device alu_slice_3.FA.nmos_9 -150 450
+n alu_slice_3.net_1 GND alu_slice_3.FA.net_5 1 3
+| device alu_slice_3.FA.nmos_10 40 370
+n alu_slice_3.net_1 alu_slice_3.FA.net_4 alu_slice_3.FA.net_2 1 3
+| device alu_slice_3.FA.nmos_11 40 450
+n A1 GND alu_slice_3.FA.net_4 1 3
+| device alu_slice_3.FA.pmos 250 210
+p A1 VDD alu_slice_3.FA.net_11 1 6
+| device alu_slice_3.FA.pmos_1 430 210
+p alu_slice_3.net_1 VDD alu_slice_3.FA.net_11 1 6
+| device alu_slice_3.FA.pmos_2 610 210
+p net_5 VDD alu_slice_3.FA.net_11 1 6
+| device alu_slice_3.FA.pmos_3 430 290
+p alu_slice_3.FA.net_2 alu_slice_3.FA.net_11 alu_slice_3.FA.net_10 1 6
+| device alu_slice_3.FA.pmos_4 810 210
+p alu_slice_3.net_1 alu_slice_3.FA.net_3 alu_slice_3.FA.net_1 1 6
+| device alu_slice_3.FA.pmos_5 810 290
+p net_5 alu_slice_3.FA.net_1 alu_slice_3.FA.net_10 1 6
+| device alu_slice_3.FA.pmos_6 810 130
+p A1 VDD alu_slice_3.FA.net_3 1 6
+| device alu_slice_3.FA.pmos_7 -320 210
+p A1 VDD alu_slice_3.FA.net_6 1 6
+| device alu_slice_3.FA.pmos_8 -150 210
+p alu_slice_3.net_1 VDD alu_slice_3.FA.net_6 1 6
+| device alu_slice_3.FA.pmos_9 -250 290
+p net_5 alu_slice_3.FA.net_6 alu_slice_3.FA.net_2 1 6
+| device alu_slice_3.FA.pmos_10 40 290
+p alu_slice_3.net_1 alu_slice_3.FA.net_7 alu_slice_3.FA.net_2 1 6
+| device alu_slice_3.FA.pmos_11 40 210
+p A1 VDD alu_slice_3.FA.net_7 1 6
+| begin alu_slice_3.FA.inv 890 680
+| device alu_slice_3.FA.inv.nmos 440 -610
+n alu_slice_3.FA.net_2 GND net_7 1 3
+| device alu_slice_3.FA.inv.pmos 440 -770
+p alu_slice_3.FA.net_2 VDD net_7 1 6
+| end alu_slice_3.FA.inv
+| begin alu_slice_3.FA.inv_1 900 330
+| device alu_slice_3.FA.inv_1.nmos 440 -610
+n alu_slice_3.FA.net_10 GND S1 1 3
+| device alu_slice_3.FA.inv_1.pmos 440 -770
+p alu_slice_3.FA.net_10 VDD S1 1 6
+| end alu_slice_3.FA.inv_1
+| end alu_slice_3.FA
+| begin alu_slice_3.xor2 1060 500
+| device alu_slice_3.xor2.pmos -150 210
+p Subtract VDD alu_slice_3.xor2.net_4 1 12
+| device alu_slice_3.xor2.pmos_1 -150 290
+p alu_slice_3.xor2.net_1 alu_slice_3.xor2.net_4 alu_slice_3.net_1 1 12
+| device alu_slice_3.xor2.pmos_2 -320 290
+p alu_slice_3.net_2 alu_slice_3.xor2.net_6 alu_slice_3.net_1 1 12
+| device alu_slice_3.xor2.pmos_3 -320 210
+p alu_slice_3.xor2.net_3 VDD alu_slice_3.xor2.net_6 1 12
+| device alu_slice_3.xor2.nmos -150 450
+n Subtract GND alu_slice_3.xor2.net_2 1 6
+| device alu_slice_3.xor2.nmos_1 -320 450
+n alu_slice_3.xor2.net_3 GND alu_slice_3.xor2.net_5 1 6
+| device alu_slice_3.xor2.nmos_2 -150 370
+n alu_slice_3.net_2 alu_slice_3.xor2.net_2 alu_slice_3.net_1 1 6
+| device alu_slice_3.xor2.nmos_3 -320 370
+n alu_slice_3.xor2.net_1 alu_slice_3.xor2.net_5 alu_slice_3.net_1 1 6
+| device alu_slice_3.xor2.pmos_4 -580 210
+p alu_slice_3.net_2 VDD alu_slice_3.xor2.net_1 1 12
+| device alu_slice_3.xor2.nmos_4 -580 430
+n alu_slice_3.net_2 GND alu_slice_3.xor2.net_1 1 6
+| device alu_slice_3.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_3.xor2.net_3 1 12
+| device alu_slice_3.xor2.nmos_5 80 430
+n Subtract GND alu_slice_3.xor2.net_3 1 6
+| end alu_slice_3.xor2
+| begin alu_slice_3.mux21 1090 400
+| device alu_slice_3.mux21.nmos 210 150
+n Select Breg1 alu_slice_3.net_2 1 3
+| device alu_slice_3.mux21.pmos 210 150
+p alu_slice_3.mux21.net_1 Breg1 alu_slice_3.net_2 1 3
+| device alu_slice_3.mux21.nmos_1 210 340
+n alu_slice_3.mux21.net_1 Bim1 alu_slice_3.net_2 1 3
+| device alu_slice_3.mux21.pmos_1 210 340
+p Select Bim1 alu_slice_3.net_2 1 3
+| device alu_slice_3.mux21.nmos_2 30 290
+n Select GND alu_slice_3.mux21.net_1 1 1
+| device alu_slice_3.mux21.pmos_2 30 210
+p Select VDD alu_slice_3.mux21.net_1 1 2
+| end alu_slice_3.mux21
+| end alu_slice_3
+| begin alu_slice_4 -880 470
+| begin alu_slice_4.FA 1030 640
+| device alu_slice_4.FA.nmos 430 370
+n alu_slice_4.FA.net_2 alu_slice_4.FA.net_9 alu_slice_4.FA.net_10 1 3
+| device alu_slice_4.FA.nmos_1 250 450
+n A6 GND alu_slice_4.FA.net_9 1 3
+| device alu_slice_4.FA.nmos_2 430 450
+n alu_slice_4.net_1 GND alu_slice_4.FA.net_9 1 3
+| device alu_slice_4.FA.nmos_3 610 450
+n net_2 GND alu_slice_4.FA.net_9 1 3
+| device alu_slice_4.FA.nmos_4 810 370
+n net_2 alu_slice_4.FA.net_12 alu_slice_4.FA.net_10 1 3
+| device alu_slice_4.FA.nmos_5 810 450
+n alu_slice_4.net_1 alu_slice_4.FA.net_8 alu_slice_4.FA.net_12 1 3
+| device alu_slice_4.FA.nmos_6 810 530
+n A6 GND alu_slice_4.FA.net_8 1 3
+| device alu_slice_4.FA.nmos_7 -250 370
+n net_2 alu_slice_4.FA.net_5 alu_slice_4.FA.net_2 1 3
+| device alu_slice_4.FA.nmos_8 -320 450
+n A6 GND alu_slice_4.FA.net_5 1 3
+| device alu_slice_4.FA.nmos_9 -150 450
+n alu_slice_4.net_1 GND alu_slice_4.FA.net_5 1 3
+| device alu_slice_4.FA.nmos_10 40 370
+n alu_slice_4.net_1 alu_slice_4.FA.net_4 alu_slice_4.FA.net_2 1 3
+| device alu_slice_4.FA.nmos_11 40 450
+n A6 GND alu_slice_4.FA.net_4 1 3
+| device alu_slice_4.FA.pmos 250 210
+p A6 VDD alu_slice_4.FA.net_11 1 6
+| device alu_slice_4.FA.pmos_1 430 210
+p alu_slice_4.net_1 VDD alu_slice_4.FA.net_11 1 6
+| device alu_slice_4.FA.pmos_2 610 210
+p net_2 VDD alu_slice_4.FA.net_11 1 6
+| device alu_slice_4.FA.pmos_3 430 290
+p alu_slice_4.FA.net_2 alu_slice_4.FA.net_11 alu_slice_4.FA.net_10 1 6
+| device alu_slice_4.FA.pmos_4 810 210
+p alu_slice_4.net_1 alu_slice_4.FA.net_3 alu_slice_4.FA.net_1 1 6
+| device alu_slice_4.FA.pmos_5 810 290
+p net_2 alu_slice_4.FA.net_1 alu_slice_4.FA.net_10 1 6
+| device alu_slice_4.FA.pmos_6 810 130
+p A6 VDD alu_slice_4.FA.net_3 1 6
+| device alu_slice_4.FA.pmos_7 -320 210
+p A6 VDD alu_slice_4.FA.net_6 1 6
+| device alu_slice_4.FA.pmos_8 -150 210
+p alu_slice_4.net_1 VDD alu_slice_4.FA.net_6 1 6
+| device alu_slice_4.FA.pmos_9 -250 290
+p net_2 alu_slice_4.FA.net_6 alu_slice_4.FA.net_2 1 6
+| device alu_slice_4.FA.pmos_10 40 290
+p alu_slice_4.net_1 alu_slice_4.FA.net_7 alu_slice_4.FA.net_2 1 6
+| device alu_slice_4.FA.pmos_11 40 210
+p A6 VDD alu_slice_4.FA.net_7 1 6
+| begin alu_slice_4.FA.inv 890 680
+| device alu_slice_4.FA.inv.nmos 440 -610
+n alu_slice_4.FA.net_2 GND net_1 1 3
+| device alu_slice_4.FA.inv.pmos 440 -770
+p alu_slice_4.FA.net_2 VDD net_1 1 6
+| end alu_slice_4.FA.inv
+| begin alu_slice_4.FA.inv_1 900 330
+| device alu_slice_4.FA.inv_1.nmos 440 -610
+n alu_slice_4.FA.net_10 GND S6 1 3
+| device alu_slice_4.FA.inv_1.pmos 440 -770
+p alu_slice_4.FA.net_10 VDD S6 1 6
+| end alu_slice_4.FA.inv_1
+| end alu_slice_4.FA
+| begin alu_slice_4.xor2 1060 500
+| device alu_slice_4.xor2.pmos -150 210
+p Subtract VDD alu_slice_4.xor2.net_4 1 12
+| device alu_slice_4.xor2.pmos_1 -150 290
+p alu_slice_4.xor2.net_1 alu_slice_4.xor2.net_4 alu_slice_4.net_1 1 12
+| device alu_slice_4.xor2.pmos_2 -320 290
+p alu_slice_4.net_2 alu_slice_4.xor2.net_6 alu_slice_4.net_1 1 12
+| device alu_slice_4.xor2.pmos_3 -320 210
+p alu_slice_4.xor2.net_3 VDD alu_slice_4.xor2.net_6 1 12
+| device alu_slice_4.xor2.nmos -150 450
+n Subtract GND alu_slice_4.xor2.net_2 1 6
+| device alu_slice_4.xor2.nmos_1 -320 450
+n alu_slice_4.xor2.net_3 GND alu_slice_4.xor2.net_5 1 6
+| device alu_slice_4.xor2.nmos_2 -150 370
+n alu_slice_4.net_2 alu_slice_4.xor2.net_2 alu_slice_4.net_1 1 6
+| device alu_slice_4.xor2.nmos_3 -320 370
+n alu_slice_4.xor2.net_1 alu_slice_4.xor2.net_5 alu_slice_4.net_1 1 6
+| device alu_slice_4.xor2.pmos_4 -580 210
+p alu_slice_4.net_2 VDD alu_slice_4.xor2.net_1 1 12
+| device alu_slice_4.xor2.nmos_4 -580 430
+n alu_slice_4.net_2 GND alu_slice_4.xor2.net_1 1 6
+| device alu_slice_4.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_4.xor2.net_3 1 12
+| device alu_slice_4.xor2.nmos_5 80 430
+n Subtract GND alu_slice_4.xor2.net_3 1 6
+| end alu_slice_4.xor2
+| begin alu_slice_4.mux21 1090 400
+| device alu_slice_4.mux21.nmos 210 150
+n Select Breg6 alu_slice_4.net_2 1 3
+| device alu_slice_4.mux21.pmos 210 150
+p alu_slice_4.mux21.net_1 Breg6 alu_slice_4.net_2 1 3
+| device alu_slice_4.mux21.nmos_1 210 340
+n alu_slice_4.mux21.net_1 Bim6 alu_slice_4.net_2 1 3
+| device alu_slice_4.mux21.pmos_1 210 340
+p Select Bim6 alu_slice_4.net_2 1 3
+| device alu_slice_4.mux21.nmos_2 30 290
+n Select GND alu_slice_4.mux21.net_1 1 1
+| device alu_slice_4.mux21.pmos_2 30 210
+p Select VDD alu_slice_4.mux21.net_1 1 2
+| end alu_slice_4.mux21
+| end alu_slice_4
+| begin alu_slice_5 -1260 470
+| begin alu_slice_5.FA 1030 640
+| device alu_slice_5.FA.nmos 430 370
+n alu_slice_5.FA.net_2 alu_slice_5.FA.net_9 alu_slice_5.FA.net_10 1 3
+| device alu_slice_5.FA.nmos_1 250 450
+n A7 GND alu_slice_5.FA.net_9 1 3
+| device alu_slice_5.FA.nmos_2 430 450
+n alu_slice_5.net_1 GND alu_slice_5.FA.net_9 1 3
+| device alu_slice_5.FA.nmos_3 610 450
+n net_1 GND alu_slice_5.FA.net_9 1 3
+| device alu_slice_5.FA.nmos_4 810 370
+n net_1 alu_slice_5.FA.net_12 alu_slice_5.FA.net_10 1 3
+| device alu_slice_5.FA.nmos_5 810 450
+n alu_slice_5.net_1 alu_slice_5.FA.net_8 alu_slice_5.FA.net_12 1 3
+| device alu_slice_5.FA.nmos_6 810 530
+n A7 GND alu_slice_5.FA.net_8 1 3
+| device alu_slice_5.FA.nmos_7 -250 370
+n net_1 alu_slice_5.FA.net_5 alu_slice_5.FA.net_2 1 3
+| device alu_slice_5.FA.nmos_8 -320 450
+n A7 GND alu_slice_5.FA.net_5 1 3
+| device alu_slice_5.FA.nmos_9 -150 450
+n alu_slice_5.net_1 GND alu_slice_5.FA.net_5 1 3
+| device alu_slice_5.FA.nmos_10 40 370
+n alu_slice_5.net_1 alu_slice_5.FA.net_4 alu_slice_5.FA.net_2 1 3
+| device alu_slice_5.FA.nmos_11 40 450
+n A7 GND alu_slice_5.FA.net_4 1 3
+| device alu_slice_5.FA.pmos 250 210
+p A7 VDD alu_slice_5.FA.net_11 1 6
+| device alu_slice_5.FA.pmos_1 430 210
+p alu_slice_5.net_1 VDD alu_slice_5.FA.net_11 1 6
+| device alu_slice_5.FA.pmos_2 610 210
+p net_1 VDD alu_slice_5.FA.net_11 1 6
+| device alu_slice_5.FA.pmos_3 430 290
+p alu_slice_5.FA.net_2 alu_slice_5.FA.net_11 alu_slice_5.FA.net_10 1 6
+| device alu_slice_5.FA.pmos_4 810 210
+p alu_slice_5.net_1 alu_slice_5.FA.net_3 alu_slice_5.FA.net_1 1 6
+| device alu_slice_5.FA.pmos_5 810 290
+p net_1 alu_slice_5.FA.net_1 alu_slice_5.FA.net_10 1 6
+| device alu_slice_5.FA.pmos_6 810 130
+p A7 VDD alu_slice_5.FA.net_3 1 6
+| device alu_slice_5.FA.pmos_7 -320 210
+p A7 VDD alu_slice_5.FA.net_6 1 6
+| device alu_slice_5.FA.pmos_8 -150 210
+p alu_slice_5.net_1 VDD alu_slice_5.FA.net_6 1 6
+| device alu_slice_5.FA.pmos_9 -250 290
+p net_1 alu_slice_5.FA.net_6 alu_slice_5.FA.net_2 1 6
+| device alu_slice_5.FA.pmos_10 40 290
+p alu_slice_5.net_1 alu_slice_5.FA.net_7 alu_slice_5.FA.net_2 1 6
+| device alu_slice_5.FA.pmos_11 40 210
+p A7 VDD alu_slice_5.FA.net_7 1 6
+| begin alu_slice_5.FA.inv 890 680
+| device alu_slice_5.FA.inv.nmos 440 -610
+n alu_slice_5.FA.net_2 GND Co 1 3
+| device alu_slice_5.FA.inv.pmos 440 -770
+p alu_slice_5.FA.net_2 VDD Co 1 6
+| end alu_slice_5.FA.inv
+| begin alu_slice_5.FA.inv_1 900 330
+| device alu_slice_5.FA.inv_1.nmos 440 -610
+n alu_slice_5.FA.net_10 GND S7 1 3
+| device alu_slice_5.FA.inv_1.pmos 440 -770
+p alu_slice_5.FA.net_10 VDD S7 1 6
+| end alu_slice_5.FA.inv_1
+| end alu_slice_5.FA
+| begin alu_slice_5.xor2 1060 500
+| device alu_slice_5.xor2.pmos -150 210
+p Subtract VDD alu_slice_5.xor2.net_4 1 12
+| device alu_slice_5.xor2.pmos_1 -150 290
+p alu_slice_5.xor2.net_1 alu_slice_5.xor2.net_4 alu_slice_5.net_1 1 12
+| device alu_slice_5.xor2.pmos_2 -320 290
+p alu_slice_5.net_2 alu_slice_5.xor2.net_6 alu_slice_5.net_1 1 12
+| device alu_slice_5.xor2.pmos_3 -320 210
+p alu_slice_5.xor2.net_3 VDD alu_slice_5.xor2.net_6 1 12
+| device alu_slice_5.xor2.nmos -150 450
+n Subtract GND alu_slice_5.xor2.net_2 1 6
+| device alu_slice_5.xor2.nmos_1 -320 450
+n alu_slice_5.xor2.net_3 GND alu_slice_5.xor2.net_5 1 6
+| device alu_slice_5.xor2.nmos_2 -150 370
+n alu_slice_5.net_2 alu_slice_5.xor2.net_2 alu_slice_5.net_1 1 6
+| device alu_slice_5.xor2.nmos_3 -320 370
+n alu_slice_5.xor2.net_1 alu_slice_5.xor2.net_5 alu_slice_5.net_1 1 6
+| device alu_slice_5.xor2.pmos_4 -580 210
+p alu_slice_5.net_2 VDD alu_slice_5.xor2.net_1 1 12
+| device alu_slice_5.xor2.nmos_4 -580 430
+n alu_slice_5.net_2 GND alu_slice_5.xor2.net_1 1 6
+| device alu_slice_5.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_5.xor2.net_3 1 12
+| device alu_slice_5.xor2.nmos_5 80 430
+n Subtract GND alu_slice_5.xor2.net_3 1 6
+| end alu_slice_5.xor2
+| begin alu_slice_5.mux21 1090 400
+| device alu_slice_5.mux21.nmos 210 150
+n Select Breg7 alu_slice_5.net_2 1 3
+| device alu_slice_5.mux21.pmos 210 150
+p alu_slice_5.mux21.net_1 Breg7 alu_slice_5.net_2 1 3
+| device alu_slice_5.mux21.nmos_1 210 340
+n alu_slice_5.mux21.net_1 Bim7 alu_slice_5.net_2 1 3
+| device alu_slice_5.mux21.pmos_1 210 340
+p Select Bim7 alu_slice_5.net_2 1 3
+| device alu_slice_5.mux21.nmos_2 30 290
+n Select GND alu_slice_5.mux21.net_1 1 1
+| device alu_slice_5.mux21.pmos_2 30 210
+p Select VDD alu_slice_5.mux21.net_1 1 2
+| end alu_slice_5.mux21
+| end alu_slice_5
+| begin alu_slice_6 -120 470
+| begin alu_slice_6.FA 1030 640
+| device alu_slice_6.FA.nmos 430 370
+n alu_slice_6.FA.net_2 alu_slice_6.FA.net_9 alu_slice_6.FA.net_10 1 3
+| device alu_slice_6.FA.nmos_1 250 450
+n A4 GND alu_slice_6.FA.net_9 1 3
+| device alu_slice_6.FA.nmos_2 430 450
+n alu_slice_6.net_1 GND alu_slice_6.FA.net_9 1 3
+| device alu_slice_6.FA.nmos_3 610 450
+n net_6 GND alu_slice_6.FA.net_9 1 3
+| device alu_slice_6.FA.nmos_4 810 370
+n net_6 alu_slice_6.FA.net_12 alu_slice_6.FA.net_10 1 3
+| device alu_slice_6.FA.nmos_5 810 450
+n alu_slice_6.net_1 alu_slice_6.FA.net_8 alu_slice_6.FA.net_12 1 3
+| device alu_slice_6.FA.nmos_6 810 530
+n A4 GND alu_slice_6.FA.net_8 1 3
+| device alu_slice_6.FA.nmos_7 -250 370
+n net_6 alu_slice_6.FA.net_5 alu_slice_6.FA.net_2 1 3
+| device alu_slice_6.FA.nmos_8 -320 450
+n A4 GND alu_slice_6.FA.net_5 1 3
+| device alu_slice_6.FA.nmos_9 -150 450
+n alu_slice_6.net_1 GND alu_slice_6.FA.net_5 1 3
+| device alu_slice_6.FA.nmos_10 40 370
+n alu_slice_6.net_1 alu_slice_6.FA.net_4 alu_slice_6.FA.net_2 1 3
+| device alu_slice_6.FA.nmos_11 40 450
+n A4 GND alu_slice_6.FA.net_4 1 3
+| device alu_slice_6.FA.pmos 250 210
+p A4 VDD alu_slice_6.FA.net_11 1 6
+| device alu_slice_6.FA.pmos_1 430 210
+p alu_slice_6.net_1 VDD alu_slice_6.FA.net_11 1 6
+| device alu_slice_6.FA.pmos_2 610 210
+p net_6 VDD alu_slice_6.FA.net_11 1 6
+| device alu_slice_6.FA.pmos_3 430 290
+p alu_slice_6.FA.net_2 alu_slice_6.FA.net_11 alu_slice_6.FA.net_10 1 6
+| device alu_slice_6.FA.pmos_4 810 210
+p alu_slice_6.net_1 alu_slice_6.FA.net_3 alu_slice_6.FA.net_1 1 6
+| device alu_slice_6.FA.pmos_5 810 290
+p net_6 alu_slice_6.FA.net_1 alu_slice_6.FA.net_10 1 6
+| device alu_slice_6.FA.pmos_6 810 130
+p A4 VDD alu_slice_6.FA.net_3 1 6
+| device alu_slice_6.FA.pmos_7 -320 210
+p A4 VDD alu_slice_6.FA.net_6 1 6
+| device alu_slice_6.FA.pmos_8 -150 210
+p alu_slice_6.net_1 VDD alu_slice_6.FA.net_6 1 6
+| device alu_slice_6.FA.pmos_9 -250 290
+p net_6 alu_slice_6.FA.net_6 alu_slice_6.FA.net_2 1 6
+| device alu_slice_6.FA.pmos_10 40 290
+p alu_slice_6.net_1 alu_slice_6.FA.net_7 alu_slice_6.FA.net_2 1 6
+| device alu_slice_6.FA.pmos_11 40 210
+p A4 VDD alu_slice_6.FA.net_7 1 6
+| begin alu_slice_6.FA.inv 890 680
+| device alu_slice_6.FA.inv.nmos 440 -610
+n alu_slice_6.FA.net_2 GND net_3 1 3
+| device alu_slice_6.FA.inv.pmos 440 -770
+p alu_slice_6.FA.net_2 VDD net_3 1 6
+| end alu_slice_6.FA.inv
+| begin alu_slice_6.FA.inv_1 900 330
+| device alu_slice_6.FA.inv_1.nmos 440 -610
+n alu_slice_6.FA.net_10 GND S4 1 3
+| device alu_slice_6.FA.inv_1.pmos 440 -770
+p alu_slice_6.FA.net_10 VDD S4 1 6
+| end alu_slice_6.FA.inv_1
+| end alu_slice_6.FA
+| begin alu_slice_6.xor2 1060 500
+| device alu_slice_6.xor2.pmos -150 210
+p Subtract VDD alu_slice_6.xor2.net_4 1 12
+| device alu_slice_6.xor2.pmos_1 -150 290
+p alu_slice_6.xor2.net_1 alu_slice_6.xor2.net_4 alu_slice_6.net_1 1 12
+| device alu_slice_6.xor2.pmos_2 -320 290
+p alu_slice_6.net_2 alu_slice_6.xor2.net_6 alu_slice_6.net_1 1 12
+| device alu_slice_6.xor2.pmos_3 -320 210
+p alu_slice_6.xor2.net_3 VDD alu_slice_6.xor2.net_6 1 12
+| device alu_slice_6.xor2.nmos -150 450
+n Subtract GND alu_slice_6.xor2.net_2 1 6
+| device alu_slice_6.xor2.nmos_1 -320 450
+n alu_slice_6.xor2.net_3 GND alu_slice_6.xor2.net_5 1 6
+| device alu_slice_6.xor2.nmos_2 -150 370
+n alu_slice_6.net_2 alu_slice_6.xor2.net_2 alu_slice_6.net_1 1 6
+| device alu_slice_6.xor2.nmos_3 -320 370
+n alu_slice_6.xor2.net_1 alu_slice_6.xor2.net_5 alu_slice_6.net_1 1 6
+| device alu_slice_6.xor2.pmos_4 -580 210
+p alu_slice_6.net_2 VDD alu_slice_6.xor2.net_1 1 12
+| device alu_slice_6.xor2.nmos_4 -580 430
+n alu_slice_6.net_2 GND alu_slice_6.xor2.net_1 1 6
+| device alu_slice_6.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_6.xor2.net_3 1 12
+| device alu_slice_6.xor2.nmos_5 80 430
+n Subtract GND alu_slice_6.xor2.net_3 1 6
+| end alu_slice_6.xor2
+| begin alu_slice_6.mux21 1090 400
+| device alu_slice_6.mux21.nmos 210 150
+n Select Breg4 alu_slice_6.net_2 1 3
+| device alu_slice_6.mux21.pmos 210 150
+p alu_slice_6.mux21.net_1 Breg4 alu_slice_6.net_2 1 3
+| device alu_slice_6.mux21.nmos_1 210 340
+n alu_slice_6.mux21.net_1 Bim4 alu_slice_6.net_2 1 3
+| device alu_slice_6.mux21.pmos_1 210 340
+p Select Bim4 alu_slice_6.net_2 1 3
+| device alu_slice_6.mux21.nmos_2 30 290
+n Select GND alu_slice_6.mux21.net_1 1 1
+| device alu_slice_6.mux21.pmos_2 30 210
+p Select VDD alu_slice_6.mux21.net_1 1 2
+| end alu_slice_6.mux21
+| end alu_slice_6
+| begin alu_slice_7 -500 470
+| begin alu_slice_7.FA 1030 640
+| device alu_slice_7.FA.nmos 430 370
+n alu_slice_7.FA.net_2 alu_slice_7.FA.net_9 alu_slice_7.FA.net_10 1 3
+| device alu_slice_7.FA.nmos_1 250 450
+n A5 GND alu_slice_7.FA.net_9 1 3
+| device alu_slice_7.FA.nmos_2 430 450
+n alu_slice_7.net_1 GND alu_slice_7.FA.net_9 1 3
+| device alu_slice_7.FA.nmos_3 610 450
+n net_3 GND alu_slice_7.FA.net_9 1 3
+| device alu_slice_7.FA.nmos_4 810 370
+n net_3 alu_slice_7.FA.net_12 alu_slice_7.FA.net_10 1 3
+| device alu_slice_7.FA.nmos_5 810 450
+n alu_slice_7.net_1 alu_slice_7.FA.net_8 alu_slice_7.FA.net_12 1 3
+| device alu_slice_7.FA.nmos_6 810 530
+n A5 GND alu_slice_7.FA.net_8 1 3
+| device alu_slice_7.FA.nmos_7 -250 370
+n net_3 alu_slice_7.FA.net_5 alu_slice_7.FA.net_2 1 3
+| device alu_slice_7.FA.nmos_8 -320 450
+n A5 GND alu_slice_7.FA.net_5 1 3
+| device alu_slice_7.FA.nmos_9 -150 450
+n alu_slice_7.net_1 GND alu_slice_7.FA.net_5 1 3
+| device alu_slice_7.FA.nmos_10 40 370
+n alu_slice_7.net_1 alu_slice_7.FA.net_4 alu_slice_7.FA.net_2 1 3
+| device alu_slice_7.FA.nmos_11 40 450
+n A5 GND alu_slice_7.FA.net_4 1 3
+| device alu_slice_7.FA.pmos 250 210
+p A5 VDD alu_slice_7.FA.net_11 1 6
+| device alu_slice_7.FA.pmos_1 430 210
+p alu_slice_7.net_1 VDD alu_slice_7.FA.net_11 1 6
+| device alu_slice_7.FA.pmos_2 610 210
+p net_3 VDD alu_slice_7.FA.net_11 1 6
+| device alu_slice_7.FA.pmos_3 430 290
+p alu_slice_7.FA.net_2 alu_slice_7.FA.net_11 alu_slice_7.FA.net_10 1 6
+| device alu_slice_7.FA.pmos_4 810 210
+p alu_slice_7.net_1 alu_slice_7.FA.net_3 alu_slice_7.FA.net_1 1 6
+| device alu_slice_7.FA.pmos_5 810 290
+p net_3 alu_slice_7.FA.net_1 alu_slice_7.FA.net_10 1 6
+| device alu_slice_7.FA.pmos_6 810 130
+p A5 VDD alu_slice_7.FA.net_3 1 6
+| device alu_slice_7.FA.pmos_7 -320 210
+p A5 VDD alu_slice_7.FA.net_6 1 6
+| device alu_slice_7.FA.pmos_8 -150 210
+p alu_slice_7.net_1 VDD alu_slice_7.FA.net_6 1 6
+| device alu_slice_7.FA.pmos_9 -250 290
+p net_3 alu_slice_7.FA.net_6 alu_slice_7.FA.net_2 1 6
+| device alu_slice_7.FA.pmos_10 40 290
+p alu_slice_7.net_1 alu_slice_7.FA.net_7 alu_slice_7.FA.net_2 1 6
+| device alu_slice_7.FA.pmos_11 40 210
+p A5 VDD alu_slice_7.FA.net_7 1 6
+| begin alu_slice_7.FA.inv 890 680
+| device alu_slice_7.FA.inv.nmos 440 -610
+n alu_slice_7.FA.net_2 GND net_2 1 3
+| device alu_slice_7.FA.inv.pmos 440 -770
+p alu_slice_7.FA.net_2 VDD net_2 1 6
+| end alu_slice_7.FA.inv
+| begin alu_slice_7.FA.inv_1 900 330
+| device alu_slice_7.FA.inv_1.nmos 440 -610
+n alu_slice_7.FA.net_10 GND S5 1 3
+| device alu_slice_7.FA.inv_1.pmos 440 -770
+p alu_slice_7.FA.net_10 VDD S5 1 6
+| end alu_slice_7.FA.inv_1
+| end alu_slice_7.FA
+| begin alu_slice_7.xor2 1060 500
+| device alu_slice_7.xor2.pmos -150 210
+p Subtract VDD alu_slice_7.xor2.net_4 1 12
+| device alu_slice_7.xor2.pmos_1 -150 290
+p alu_slice_7.xor2.net_1 alu_slice_7.xor2.net_4 alu_slice_7.net_1 1 12
+| device alu_slice_7.xor2.pmos_2 -320 290
+p alu_slice_7.net_2 alu_slice_7.xor2.net_6 alu_slice_7.net_1 1 12
+| device alu_slice_7.xor2.pmos_3 -320 210
+p alu_slice_7.xor2.net_3 VDD alu_slice_7.xor2.net_6 1 12
+| device alu_slice_7.xor2.nmos -150 450
+n Subtract GND alu_slice_7.xor2.net_2 1 6
+| device alu_slice_7.xor2.nmos_1 -320 450
+n alu_slice_7.xor2.net_3 GND alu_slice_7.xor2.net_5 1 6
+| device alu_slice_7.xor2.nmos_2 -150 370
+n alu_slice_7.net_2 alu_slice_7.xor2.net_2 alu_slice_7.net_1 1 6
+| device alu_slice_7.xor2.nmos_3 -320 370
+n alu_slice_7.xor2.net_1 alu_slice_7.xor2.net_5 alu_slice_7.net_1 1 6
+| device alu_slice_7.xor2.pmos_4 -580 210
+p alu_slice_7.net_2 VDD alu_slice_7.xor2.net_1 1 12
+| device alu_slice_7.xor2.nmos_4 -580 430
+n alu_slice_7.net_2 GND alu_slice_7.xor2.net_1 1 6
+| device alu_slice_7.xor2.pmos_5 80 210
+p Subtract VDD alu_slice_7.xor2.net_3 1 12
+| device alu_slice_7.xor2.nmos_5 80 430
+n Subtract GND alu_slice_7.xor2.net_3 1 6
+| end alu_slice_7.xor2
+| begin alu_slice_7.mux21 1090 400
+| device alu_slice_7.mux21.nmos 210 150
+n Select Breg5 alu_slice_7.net_2 1 3
+| device alu_slice_7.mux21.pmos 210 150
+p alu_slice_7.mux21.net_1 Breg5 alu_slice_7.net_2 1 3
+| device alu_slice_7.mux21.nmos_1 210 340
+n alu_slice_7.mux21.net_1 Bim5 alu_slice_7.net_2 1 3
+| device alu_slice_7.mux21.pmos_1 210 340
+p Select Bim5 alu_slice_7.net_2 1 3
+| device alu_slice_7.mux21.nmos_2 30 290
+n Select GND alu_slice_7.mux21.net_1 1 1
+| device alu_slice_7.mux21.pmos_2 30 210
+p Select VDD alu_slice_7.mux21.net_1 1 2
+| end alu_slice_7.mux21
+| end alu_slice_7

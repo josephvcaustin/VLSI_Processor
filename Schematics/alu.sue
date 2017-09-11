@@ -1,0 +1,103 @@
+# SUE version MMI_SUE5.6.26
+
+proc SCHEMATIC_alu {} {
+  make alu_slice -origin {640 470}
+  make alu_slice -origin {260 470}
+  make alu_slice -origin {1400 470}
+  make alu_slice -origin {1020 470}
+  make alu_slice -origin {-880 470}
+  make alu_slice -origin {-1260 470}
+  make alu_slice -origin {-120 470}
+  make alu_slice -origin {-500 470}
+  make input -orient RXY -name Ci -origin {1610 510}
+  make input -orient RXY -name Subtract -origin {1610 450}
+  make input -orient RXY -name Select -origin {1610 430}
+  make input -orient R90 -name A0 -origin {1360 370}
+  make input -orient R90 -name Breg0 -origin {1440 370}
+  make input -orient R90 -name Bim0 -origin {1400 370}
+  make output -orient RXY -name Co -origin {-1430 470}
+  make output -orient R90 -name S7 -origin {-1260 570}
+  make output -orient R90 -name S0 -origin {1400 570}
+  make input -orient R90 -name Breg1 -origin {1060 370}
+  make input -orient R90 -name Bim1 -origin {1020 370}
+  make input -orient R90 -name A1 -origin {980 370}
+  make input -orient R90 -name Breg2 -origin {680 370}
+  make output -orient R90 -name S1 -origin {1020 570}
+  make input -orient R90 -name Bim2 -origin {640 370}
+  make input -orient R90 -name A2 -origin {600 370}
+  make output -orient R90 -name S2 -origin {640 570}
+  make output -orient R90 -name S3 -origin {260 570}
+  make input -orient R90 -name A3 -origin {220 370}
+  make input -orient R90 -name Bim3 -origin {260 370}
+  make input -orient R90 -name Breg3 -origin {300 370}
+  make input -orient R90 -name Breg4 -origin {-80 370}
+  make input -orient R90 -name Bim4 -origin {-120 370}
+  make input -orient R90 -name A4 -origin {-160 370}
+  make output -orient R90 -name S4 -origin {-120 570}
+  make input -orient R90 -name Breg5 -origin {-460 370}
+  make input -orient R90 -name Bim5 -origin {-500 370}
+  make input -orient R90 -name A5 -origin {-540 370}
+  make output -orient R90 -name S5 -origin {-500 570}
+  make input -orient R90 -name Breg6 -origin {-840 370}
+  make input -orient R90 -name Bim6 -origin {-880 370}
+  make input -orient R90 -name A6 -origin {-920 370}
+  make output -orient R90 -name S6 -origin {-880 570}
+  make input -orient R90 -name Breg7 -origin {-1220 370}
+  make input -orient R90 -name Bim7 -origin {-1260 370}
+  make input -orient R90 -name A7 -origin {-1300 370}
+  make_wire 450 470 450 510
+  make_wire 470 470 450 470
+  make_wire 430 510 450 510
+  make_wire 830 470 830 510
+  make_wire 850 470 830 470
+  make_wire 810 510 830 510
+  make_wire 1210 470 1210 510
+  make_wire 1230 470 1210 470
+  make_wire 1190 510 1210 510
+  make_wire -1070 470 -1070 510
+  make_wire -1050 470 -1070 470
+  make_wire -1090 510 -1070 510
+  make_wire -690 470 -690 510
+  make_wire -670 470 -690 470
+  make_wire -710 510 -690 510
+  make_wire -310 470 -310 510
+  make_wire -290 470 -310 470
+  make_wire -330 510 -310 510
+  make_wire 70 470 70 510
+  make_wire 90 470 70 470
+  make_wire 50 510 70 510
+  make_wire 1570 430 1610 430
+  make_wire 430 430 810 430
+  make_wire 1190 430 810 430
+  make_wire 1190 430 1570 430
+  make_wire 50 430 430 430
+  make_wire -330 430 50 430
+  make_wire -330 430 -710 430
+  make_wire -1090 430 -710 430
+  make_wire 1610 510 1570 510
+  make_wire -1080 450 -1080 470
+  make_wire -1080 470 -1090 470
+  make_wire -700 450 -700 470
+  make_wire -700 470 -710 470
+  make_wire -700 450 -1080 450
+  make_wire -320 450 -320 470
+  make_wire -320 470 -330 470
+  make_wire -320 450 -700 450
+  make_wire 60 450 60 470
+  make_wire 60 470 50 470
+  make_wire 60 450 -320 450
+  make_wire 440 450 440 470
+  make_wire 440 470 430 470
+  make_wire 440 450 60 450
+  make_wire 820 450 820 470
+  make_wire 820 470 810 470
+  make_wire 820 450 440 450
+  make_wire 1200 450 1200 470
+  make_wire 1200 470 1190 470
+  make_wire 1200 450 820 450
+  make_wire 1590 450 1590 470
+  make_wire 1590 470 1570 470
+  make_wire 1590 450 1200 450
+  make_wire 1590 450 1610 450
+}
+

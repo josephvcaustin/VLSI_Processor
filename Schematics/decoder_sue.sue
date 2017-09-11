@@ -1,0 +1,81 @@
+# SUE version MMI_SUE5.6.26
+
+proc SCHEMATIC_decoder_sue {} {
+  make 3NOR -orient R90X -origin {-670 910}
+  make 3NOR -orient R90X -origin {-590 910}
+  make 3NOR -orient R90X -origin {-510 910}
+  make 3NOR -orient R90X -origin {-430 910}
+  make 3NOR -orient R90X -origin {-750 910}
+  make 3NOR -orient R90X -origin {-830 910}
+  make 3NOR -orient R90X -origin {-350 910}
+  make 3NOR -orient R90X -origin {-270 910}
+  make output -orient R90 -name d0 -origin {-180 920}
+  make output -orient R90 -name d1 -origin {-260 920}
+  make output -orient R90 -name d2 -origin {-340 920}
+  make output -orient R90 -name d3 -origin {-420 920}
+  make output -orient R90 -name d4 -origin {-500 920}
+  make output -orient R90 -name d5 -origin {-580 920}
+  make output -orient R90 -name d6 -origin {-660 920}
+  make output -orient R90 -name d7 -origin {-740 920}
+  make input -name i0 -origin {-940 690}
+  make input -name i1 -origin {-940 750}
+  make input -name i2 -origin {-940 810}
+  make inv -origin {-840 690}
+  make inv -origin {-840 750}
+  make inv -origin {-840 810}
+  make_wire -920 690 -940 690
+  make_wire -940 750 -920 750
+  make_wire -940 660 -940 690
+  make_wire -940 810 -940 780
+  make_wire -780 830 -780 690
+  make_wire -780 690 -790 690
+  make_wire -940 720 -940 750
+  make_wire -700 830 -700 660
+  make_wire -540 830 -540 660
+  make_wire -540 660 -700 660
+  make_wire -460 830 -460 690
+  make_wire -380 830 -380 660
+  make_wire -380 660 -540 660
+  make_wire -300 830 -300 690
+  make_wire -300 690 -460 690
+  make_wire -220 830 -220 660
+  make_wire -220 660 -380 660
+  make_wire -760 830 -760 750
+  make_wire -760 750 -790 750
+  make_wire -680 830 -680 750
+  make_wire -680 750 -760 750
+  make_wire -600 830 -600 720
+  make_wire -520 830 -520 720
+  make_wire -520 720 -600 720
+  make_wire -440 830 -440 750
+  make_wire -440 750 -680 750
+  make_wire -360 830 -360 750
+  make_wire -360 750 -440 750
+  make_wire -280 830 -280 720
+  make_wire -280 720 -520 720
+  make_wire -200 830 -200 720
+  make_wire -200 720 -280 720
+  make_wire -740 830 -740 810
+  make_wire -660 830 -660 810
+  make_wire -580 830 -580 810
+  make_wire -500 830 -500 810
+  make_wire -500 810 -580 810
+  make_wire -420 830 -420 780
+  make_wire -340 830 -340 780
+  make_wire -340 780 -420 780
+  make_wire -260 830 -260 780
+  make_wire -260 780 -340 780
+  make_wire -180 780 -260 780
+  make_wire -180 830 -180 780
+  make_wire -740 810 -660 810
+  make_wire -940 780 -420 780
+  make_wire -940 810 -920 810
+  make_wire -790 810 -740 810
+  make_wire -940 720 -600 720
+  make_wire -940 660 -700 660
+  make_wire -660 810 -580 810
+  make_wire -620 830 -620 690
+  make_wire -620 690 -460 690
+  make_wire -620 690 -780 690
+}
+

@@ -1,0 +1,111 @@
+| units: 30.0  tech: scmos  format: MIT
+A A input
+A B_im input
+A B_reg input
+A Ci input
+A Im_sel input
+A Subtract input
+A Co output
+A S output
+| begin FA 1030 640
+| device FA.nmos 430 370
+n FA.net_2 FA.net_9 FA.net_10 1 3
+| device FA.nmos_1 250 450
+n A GND FA.net_9 1 3
+| device FA.nmos_2 430 450
+n net_2 GND FA.net_9 1 3
+| device FA.nmos_3 610 450
+n Ci GND FA.net_9 1 3
+| device FA.nmos_4 810 370
+n Ci FA.net_12 FA.net_10 1 3
+| device FA.nmos_5 810 450
+n net_2 FA.net_8 FA.net_12 1 3
+| device FA.nmos_6 810 530
+n A GND FA.net_8 1 3
+| device FA.nmos_7 -250 370
+n Ci FA.net_5 FA.net_2 1 3
+| device FA.nmos_8 -320 450
+n A GND FA.net_5 1 3
+| device FA.nmos_9 -150 450
+n net_2 GND FA.net_5 1 3
+| device FA.nmos_10 40 370
+n net_2 FA.net_4 FA.net_2 1 3
+| device FA.nmos_11 40 450
+n A GND FA.net_4 1 3
+| device FA.pmos 250 210
+p A VDD FA.net_11 1 6
+| device FA.pmos_1 430 210
+p net_2 VDD FA.net_11 1 6
+| device FA.pmos_2 610 210
+p Ci VDD FA.net_11 1 6
+| device FA.pmos_3 430 290
+p FA.net_2 FA.net_11 FA.net_10 1 6
+| device FA.pmos_4 810 210
+p net_2 FA.net_3 FA.net_1 1 6
+| device FA.pmos_5 810 290
+p Ci FA.net_1 FA.net_10 1 6
+| device FA.pmos_6 810 130
+p A VDD FA.net_3 1 6
+| device FA.pmos_7 -320 210
+p A VDD FA.net_6 1 6
+| device FA.pmos_8 -150 210
+p net_2 VDD FA.net_6 1 6
+| device FA.pmos_9 -250 290
+p Ci FA.net_6 FA.net_2 1 6
+| device FA.pmos_10 40 290
+p net_2 FA.net_7 FA.net_2 1 6
+| device FA.pmos_11 40 210
+p A VDD FA.net_7 1 6
+| begin FA.inv 890 680
+| device FA.inv.nmos 440 -610
+n FA.net_2 GND Co 1 3
+| device FA.inv.pmos 440 -770
+p FA.net_2 VDD Co 1 6
+| end FA.inv
+| begin FA.inv_1 900 330
+| device FA.inv_1.nmos 440 -610
+n FA.net_10 GND S 1 3
+| device FA.inv_1.pmos 440 -770
+p FA.net_10 VDD S 1 6
+| end FA.inv_1
+| end FA
+| begin xor2 1060 500
+| device xor2.pmos -150 210
+p Subtract VDD xor2.net_4 1 12
+| device xor2.pmos_1 -150 290
+p xor2.net_1 xor2.net_4 net_2 1 12
+| device xor2.pmos_2 -320 290
+p net_1 xor2.net_6 net_2 1 12
+| device xor2.pmos_3 -320 210
+p xor2.net_3 VDD xor2.net_6 1 12
+| device xor2.nmos -150 450
+n Subtract GND xor2.net_2 1 6
+| device xor2.nmos_1 -320 450
+n xor2.net_3 GND xor2.net_5 1 6
+| device xor2.nmos_2 -150 370
+n net_1 xor2.net_2 net_2 1 6
+| device xor2.nmos_3 -320 370
+n xor2.net_1 xor2.net_5 net_2 1 6
+| device xor2.pmos_4 -580 210
+p net_1 VDD xor2.net_1 1 12
+| device xor2.nmos_4 -580 430
+n net_1 GND xor2.net_1 1 6
+| device xor2.pmos_5 80 210
+p Subtract VDD xor2.net_3 1 12
+| device xor2.nmos_5 80 430
+n Subtract GND xor2.net_3 1 6
+| end xor2
+| begin mux21 1090 400
+| device mux21.nmos 210 150
+n Im_sel B_reg net_1 1 3
+| device mux21.pmos 210 150
+p mux21.net_1 B_reg net_1 1 3
+| device mux21.nmos_1 210 340
+n mux21.net_1 B_im net_1 1 3
+| device mux21.pmos_1 210 340
+p Im_sel B_im net_1 1 3
+| device mux21.nmos_2 30 290
+n Im_sel GND mux21.net_1 1 1
+| device mux21.pmos_2 30 210
+p Im_sel VDD mux21.net_1 1 2
+| end mux21
